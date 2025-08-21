@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_50b231e1-1307-5811-9314-2c90e70a07da> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ávila-Arcos, María C." ;
+    ns1:hasORCID <http://orcid.org/0000-0003-1691-1696> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ávila-Arcos, María C." ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_206af62b-329f-51af-aacd-18ffe9f90485>,
+        <http://archaeonatural.cloud/poseidon/Activity_65d9ed70-e5fb-50b3-b0c7-862068554aa7>,
+        <http://archaeonatural.cloud/poseidon/Activity_6b97eaf6-8888-5aae-bee6-decf06e1338f>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c24e1dc-e974-507b-ba24-063fe5ec51fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_cc7dc99c-2e82-5c04-97d1-70bb61f59ad1> ;
+    foaf:name "Ávila-Arcos, María C." .
+

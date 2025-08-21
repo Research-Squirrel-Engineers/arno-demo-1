@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Journal_392a8c3c-bbcb-506c-a20b-440df3a19866> a <http://archaeonatural.cloud/ont/Journal>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Nature Ecology &amp; Evolution"@en ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Nature Ecology &amp; Evolution"@en ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_28ab601c-6407-5fc8-b829-b567679f2baa>,
+        <http://archaeonatural.cloud/poseidon/Activity_7b0986cb-861d-5d9a-b191-8b0a3314956b>,
+        <http://archaeonatural.cloud/poseidon/Activity_7e92dee4-6ae2-5739-bc7f-0c2a5fbecf8b>,
+        <http://archaeonatural.cloud/poseidon/Activity_7ee51eb6-41f9-51f3-9edb-1dede60514fb>,
+        <http://archaeonatural.cloud/poseidon/Activity_8b3863eb-10d5-5b17-a669-46f906957284>,
+        <http://archaeonatural.cloud/poseidon/Activity_c39f8689-ef7f-5159-b46d-c49e540d3dcd> .
+

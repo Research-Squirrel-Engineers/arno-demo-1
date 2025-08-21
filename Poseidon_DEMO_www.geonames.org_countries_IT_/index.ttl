@@ -1,0 +1,14 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_DEMO_www.geonames.org_countries_IT_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Poseidon_DEMO - IT"@en ;
+    void:linkPredicate <http://archaeonatural.cloud/ont/closeMatch>,
+        <http://archaeonatural.cloud/ont/hasExternalIdentifier> ;
+    void:objectsTarget <https://www.geonames.org/countries/IT/> ;
+    void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:triples 1 .
+

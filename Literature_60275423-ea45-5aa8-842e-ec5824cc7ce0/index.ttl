@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_60275423-ea45-5aa8-842e-ec5824cc7ce0> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genome of Peştera Muierii skull shows high diversity and low mutational load in pre-glacial Europe"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2021.04.045> ;
+    ns1:hasTitle "Genome of Peştera Muierii skull shows high diversity and low mutational load in pre-glacial Europe"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_12dfddcb-756e-5d59-99b0-b5cf84a74238>,
+        <http://archaeonatural.cloud/poseidon/Person_1a10c3aa-e054-53bc-a919-4be00ec80bb0>,
+        <http://archaeonatural.cloud/poseidon/Person_3cb62881-1277-5d9f-9599-722b0b247481>,
+        <http://archaeonatural.cloud/poseidon/Person_42d55429-9c41-55a2-b162-6ef20e915510>,
+        <http://archaeonatural.cloud/poseidon/Person_4535bee2-a8d4-5966-9568-b32d6fc47c24>,
+        <http://archaeonatural.cloud/poseidon/Person_46fc0cc6-e4b8-5ac5-aa9e-211818ec4dc6>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_8af668b9-df47-53e5-8c51-f55f22f8b3eb>,
+        <http://archaeonatural.cloud/poseidon/Person_8c316222-38dd-56ce-8838-849067cf7ebc>,
+        <http://archaeonatural.cloud/poseidon/Person_b572a857-4ee2-506e-a7fd-ff7a817ba76c>,
+        <http://archaeonatural.cloud/poseidon/Person_f4f9d54a-0909-52e9-b6e8-1d44639003af>,
+        <http://archaeonatural.cloud/poseidon/Person_fd8695a9-bcf5-5acc-bcb8-16c67f56871d>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genome of Peştera Muierii skull shows high diversity and low mutational load in pre-glacial Europe"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_60275423-ea45-5aa8-842e-ec5824cc7ce0> .
+

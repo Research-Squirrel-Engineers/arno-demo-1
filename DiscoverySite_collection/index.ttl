@@ -1,0 +1,19 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/DiscoverySite_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "DiscoverySite Instances Collection"@en ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:member <http://archaeonatural.cloud/poseidon/DiscoverySite_0d896730-17f4-5ef3-88b9-071bea34762e>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_26b1ac84-1d6f-50b8-be4b-6fc8ad9d1ce7>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_318e9f01-4b3c-5500-b876-4c28e8ac3ed1>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_38ec33f6-8517-5880-a4bd-ac111f543edb>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_3b57217b-9515-5756-a516-377657dfaaf3>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_9583f763-4f29-5e6b-aee1-a813e2da2516>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_be89c36b-70e8-5b2d-8045-82679fcaa780>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_c56644c8-8820-5549-9a76-6cdd08c37fb6>,
+        <http://archaeonatural.cloud/poseidon/DiscoverySite_d1d95612-7ee2-5d61-96f2-5db11845f553> .
+

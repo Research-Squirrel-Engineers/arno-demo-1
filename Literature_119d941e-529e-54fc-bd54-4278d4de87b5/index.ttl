@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_119d941e-529e-54fc-bd54-4278d4de87b5> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The Demographic Development of the First Farmers in Anatolia"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2016.07.057> ;
+    ns1:hasTitle "The Demographic Development of the First Farmers in Anatolia"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_09e9d668-a013-516b-a16e-fe4e135a7f87>,
+        <http://archaeonatural.cloud/poseidon/Person_0c5441cd-f841-5ca2-93fb-d332a8ee007a>,
+        <http://archaeonatural.cloud/poseidon/Person_151df609-7edd-5f5c-9dc5-071f2cdb4464>,
+        <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_23cce2b6-273b-5e00-93a2-21464de43e3f>,
+        <http://archaeonatural.cloud/poseidon/Person_330653e8-4f19-5656-a399-7624b33c75ee>,
+        <http://archaeonatural.cloud/poseidon/Person_34b15ad8-84af-5e22-b150-db5240b91f59>,
+        <http://archaeonatural.cloud/poseidon/Person_410ef587-f9cf-59f7-afcc-ff82fea58d8b>,
+        <http://archaeonatural.cloud/poseidon/Person_4929ba5c-85d0-5822-bcf1-31107fce133a>,
+        <http://archaeonatural.cloud/poseidon/Person_4c957b68-aa81-5596-8e6a-b0bbec8e9698>,
+        <http://archaeonatural.cloud/poseidon/Person_50923109-0b40-5e36-9996-33553bc93716>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_5e25eec4-3d34-5d48-a33d-ab92ec00e630>,
+        <http://archaeonatural.cloud/poseidon/Person_6966b117-ece9-5068-a8e1-8854e0739b6e>,
+        <http://archaeonatural.cloud/poseidon/Person_7ca8b3ec-c235-50b3-ab77-5d76e173d902>,
+        <http://archaeonatural.cloud/poseidon/Person_7fe373ab-5dd2-5fae-8c7f-f31eddeb2e84>,
+        <http://archaeonatural.cloud/poseidon/Person_8724d4e8-2cbd-553d-928d-0295f7e505b6>,
+        <http://archaeonatural.cloud/poseidon/Person_8c6f0b07-4914-5bcb-8d05-34b5cdabb5df>,
+        <http://archaeonatural.cloud/poseidon/Person_991611b8-aaaf-5b7c-87d1-8c7bb7c2f2d1>,
+        <http://archaeonatural.cloud/poseidon/Person_a8cfa725-fbda-553b-b44e-41403de48212>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_bab16e1e-9212-5635-bb18-33ec451c98bd>,
+        <http://archaeonatural.cloud/poseidon/Person_c007a548-852e-589e-b834-45e3a409b7c4>,
+        <http://archaeonatural.cloud/poseidon/Person_cf005ebd-1d8d-5b96-8dd4-a0b4cc3f019a>,
+        <http://archaeonatural.cloud/poseidon/Person_ebb31ff1-b2b7-5f4d-bd61-bf83be803b5b>,
+        <http://archaeonatural.cloud/poseidon/Person_f55c21e1-4ff1-58fc-b331-e7a7856d98d5>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The Demographic Development of the First Farmers in Anatolia"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_119d941e-529e-54fc-bd54-4278d4de87b5> .
+

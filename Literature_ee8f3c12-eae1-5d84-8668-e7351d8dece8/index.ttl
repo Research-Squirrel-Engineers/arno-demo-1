@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_ee8f3c12-eae1-5d84-8668-e7351d8dece8> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genetic ancestry changes in Stone to Bronze Age transition in the East European plain"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/sciadv.abd6535> ;
+    ns1:hasTitle "Genetic ancestry changes in Stone to Bronze Age transition in the East European plain"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b559667f-c7fd-592f-82ee-6fd2c6ee64e3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_01366b6b-529f-5485-9644-55b7f0816535>,
+        <http://archaeonatural.cloud/poseidon/Person_09255dc6-9ecb-5d69-a7d9-e6bce76bcee4>,
+        <http://archaeonatural.cloud/poseidon/Person_190f501b-0806-5c1d-b083-5f782108d763>,
+        <http://archaeonatural.cloud/poseidon/Person_44775595-73d0-555e-8606-753902e773a2>,
+        <http://archaeonatural.cloud/poseidon/Person_457af932-21d3-5a8c-a47b-a523cf646cc3>,
+        <http://archaeonatural.cloud/poseidon/Person_4e109e14-6a15-5c8a-9ecf-0881429480d1>,
+        <http://archaeonatural.cloud/poseidon/Person_4e887155-9036-50d7-9ac7-b080bb9f5bc7>,
+        <http://archaeonatural.cloud/poseidon/Person_4e9a1021-4953-5de7-8425-7aa04c48125b>,
+        <http://archaeonatural.cloud/poseidon/Person_5148e6f7-fd10-51bb-9b4d-0264f04a1f29>,
+        <http://archaeonatural.cloud/poseidon/Person_7eb2446d-0fd4-5d52-8fe2-03e7cd734d93>,
+        <http://archaeonatural.cloud/poseidon/Person_84cbee7a-ca8f-5ac2-8de4-69697d596eff>,
+        <http://archaeonatural.cloud/poseidon/Person_aa79ca62-bb22-5f1f-9ad6-f393deb49376>,
+        <http://archaeonatural.cloud/poseidon/Person_b64cd308-fbdb-52c8-ae99-8d23b2b4c50b>,
+        <http://archaeonatural.cloud/poseidon/Person_c0e87caa-ab6e-59c3-87ac-cc1270b3261a>,
+        <http://archaeonatural.cloud/poseidon/Person_cf4734fc-d586-5a58-bed5-d4c32f8f5d4f>,
+        <http://archaeonatural.cloud/poseidon/Person_e0c68b55-6c43-54cf-94cf-a0844511583c>,
+        <http://archaeonatural.cloud/poseidon/Person_e1f2d2c5-71d2-528f-9fb5-3a93957197d1>,
+        <http://archaeonatural.cloud/poseidon/Person_f5664b49-0c83-5cf0-9235-82f753948fae> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genetic ancestry changes in Stone to Bronze Age transition in the East European plain"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_ee8f3c12-eae1-5d84-8668-e7351d8dece8> .
+

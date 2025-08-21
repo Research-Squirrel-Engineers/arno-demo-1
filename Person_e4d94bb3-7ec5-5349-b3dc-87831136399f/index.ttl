@@ -1,0 +1,33 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_e4d94bb3-7ec5-5349-b3dc-87831136399f> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Roberts, Patrick" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-4403-7548> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Roberts, Patrick" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_4d67aad7-d7bf-5f58-9e7d-c4959d2bcf6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_4fe4b7f8-6dba-53da-b462-f3541011ad4f>,
+        <http://archaeonatural.cloud/poseidon/Activity_7b0986cb-861d-5d9a-b191-8b0a3314956b>,
+        <http://archaeonatural.cloud/poseidon/Activity_7dcc68b8-7f2e-568c-b56e-d9e980d966f5>,
+        <http://archaeonatural.cloud/poseidon/Activity_843263c3-759a-551a-81c2-8afd6fd3fea4>,
+        <http://archaeonatural.cloud/poseidon/Activity_9e3db5c1-2dd8-52c7-8dbe-d71f813bcb6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_f13e85b6-f47f-5fe0-adca-98c75f78f7fa> ;
+    foaf:name "Roberts, Patrick" .
+

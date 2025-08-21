@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_e640124e-1502-5f7d-9d3b-07eb8a49367b> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Richards, Martin B." ;
+    ns1:hasORCID <http://orcid.org/0000-0003-3118-0967> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Richards, Martin B." ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_2ef468af-3fbf-5c5e-b372-a6469e08c319>,
+        <http://archaeonatural.cloud/poseidon/Activity_a354f55a-60ad-52ec-8501-4e167912da66>,
+        <http://archaeonatural.cloud/poseidon/Activity_d7935d8e-6cd8-5cea-a6cb-30f500c711c3>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec9f7b17-cf57-5643-8c92-3cca54504116>,
+        <http://archaeonatural.cloud/poseidon/Activity_f623a0b8-4670-5851-813b-bb4c83a33478> ;
+    foaf:name "Richards, Martin B." .
+

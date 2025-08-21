@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_0e5631fd-34e8-552d-9469-26fba394619d> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations"@en ;
+    ns1:hasDOI <https://doi.org/10.1002/ajpa.23312> ;
+    ns1:hasTitle "Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_d2c929f8-f6c3-5f6c-bfd2-6de199eb058b> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_215bc377-7edd-58c9-95c8-176aa61126ba>,
+        <http://archaeonatural.cloud/poseidon/Person_7518bf39-35be-5529-be6b-9d7fb5d7514d>,
+        <http://archaeonatural.cloud/poseidon/Person_a7b563c4-63ba-5319-9d03-16ff437ad4b2> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_0e5631fd-34e8-552d-9469-26fba394619d> .
+

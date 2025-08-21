@@ -1,0 +1,34 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_3c939be1-ab80-56bc-bc46-ecdcf82cd0b3> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Callan, Kimberly" ;
+    ns1:hasORCID <http://orcid.org/0000-0003-3170-8514> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Callan, Kimberly" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_2ef468af-3fbf-5c5e-b372-a6469e08c319>,
+        <http://archaeonatural.cloud/poseidon/Activity_38d1f1b3-9e51-535b-bd5a-b5c5e04964c7>,
+        <http://archaeonatural.cloud/poseidon/Activity_531bf71f-6b80-5b0c-86cf-71bafc6658b1>,
+        <http://archaeonatural.cloud/poseidon/Activity_61303ab4-1ff7-5324-a443-f9ac010ef6d1>,
+        <http://archaeonatural.cloud/poseidon/Activity_98979b89-a2d5-5f70-bb83-011a99b5f38a>,
+        <http://archaeonatural.cloud/poseidon/Activity_eaa7f5bf-f3b4-5b7f-9fdf-7c919f8a8416>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec9f7b17-cf57-5643-8c92-3cca54504116>,
+        <http://archaeonatural.cloud/poseidon/Activity_f543797f-a6d6-5bc1-95ee-044516ef7e15> ;
+    foaf:name "Callan, Kimberly" .
+

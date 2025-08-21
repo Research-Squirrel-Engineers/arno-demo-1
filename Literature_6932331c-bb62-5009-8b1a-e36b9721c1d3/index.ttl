@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_6932331c-bb62-5009-8b1a-e36b9721c1d3> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The Neolithic Transition in the Baltic Was Not Driven by Admixture with Early European Farmers"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2016.12.060> ;
+    ns1:hasTitle "The Neolithic Transition in the Baltic Was Not Driven by Admixture with Early European Farmers"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_02e771db-c061-5738-a1bb-3f9772e18fb3>,
+        <http://archaeonatural.cloud/poseidon/Person_20d7f939-8f32-5c88-b9f7-d5df55ce4704>,
+        <http://archaeonatural.cloud/poseidon/Person_6137828b-153d-5d3d-bccd-48985875b3d8>,
+        <http://archaeonatural.cloud/poseidon/Person_68648d79-0796-5783-897b-ddb922faccb3>,
+        <http://archaeonatural.cloud/poseidon/Person_b77b5ccf-42e8-5986-9a88-f501e2c8be2d>,
+        <http://archaeonatural.cloud/poseidon/Person_bedb9aaf-576a-51a2-86f7-754ea4087a06>,
+        <http://archaeonatural.cloud/poseidon/Person_db054f8a-bc4b-5fd4-bb7e-d6b79bdf354b>,
+        <http://archaeonatural.cloud/poseidon/Person_dc50dbd5-be5a-5261-ba26-31ba66ace25a> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The Neolithic Transition in the Baltic Was Not Driven by Admixture with Early European Farmers"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_6932331c-bb62-5009-8b1a-e36b9721c1d3> .
+

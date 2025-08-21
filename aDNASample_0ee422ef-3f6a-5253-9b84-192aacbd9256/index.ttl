@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/aDNASample_0ee422ef-3f6a-5253-9b84-192aacbd9256> a ns1:aDNASample,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "HGDP00029" ;
+    ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_0ee422ef-3f6a-5253-9b84-192aacbd9256> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_0d896730-17f4-5ef3-88b9-071bea34762e> ;
+    ns1:hasCollectionID "HGDP00029" ;
+    ns1:hasGeneticSex ns1:GeneticSex_Male ;
+    ns1:hasGenotypePloidy ns1:GenotypePloidy_diploid ;
+    ns1:hasID "HGDP00029" ;
+    ns1:hasNote "PASS (genotyping)"@en ;
+    ns1:hasSNPCount 592807 ;
+    ns1:partOfGroup <http://archaeonatural.cloud/poseidon/Group_2a53c2db-6fb7-5a66-b77b-93d30119c3de> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno version 2.1.3 within the Poseidon Community Archive"@en ;
+    skos:prefLabel "HGDP00029" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://github.com/poseidon-framework/community-archive>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_0ee422ef-3f6a-5253-9b84-192aacbd9256> .
+

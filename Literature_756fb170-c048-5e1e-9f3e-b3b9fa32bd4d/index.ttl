@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_756fb170-c048-5e1e-9f3e-b3b9fa32bd4d> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ancient DNA sheds light on the genetic origins of early Iron Age Philistines"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/sciadv.aax0061> ;
+    ns1:hasTitle "Ancient DNA sheds light on the genetic origins of early Iron Age Philistines"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b559667f-c7fd-592f-82ee-6fd2c6ee64e3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_062b8507-0b2b-5143-a644-a992b319bea3>,
+        <http://archaeonatural.cloud/poseidon/Person_1b0f4f45-ec5d-5106-8fe2-8f449144eb87>,
+        <http://archaeonatural.cloud/poseidon/Person_2f2b09e2-86b4-5438-809c-fa8fcf535b7e>,
+        <http://archaeonatural.cloud/poseidon/Person_3d80a8d1-6544-58df-8c47-db6558377f78>,
+        <http://archaeonatural.cloud/poseidon/Person_8f53fde5-918d-554f-94ba-8be1632b2e70>,
+        <http://archaeonatural.cloud/poseidon/Person_ca98da24-73ea-5b0f-bd26-b3d09411e9d0>,
+        <http://archaeonatural.cloud/poseidon/Person_cc51b88d-6d21-538e-b774-d62cd6bd3590>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_fe0810af-4b6d-5fb1-9be7-8950b03fca83> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ancient DNA sheds light on the genetic origins of early Iron Age Philistines"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_756fb170-c048-5e1e-9f3e-b3b9fa32bd4d> .
+

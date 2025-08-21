@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_b258f1d7-d745-581f-aae5-55649506171a> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ringbauer, Harald" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-4884-9682> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ringbauer, Harald" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_309f447e-b575-5d02-90a7-3a2e0b4b4e1c>,
+        <http://archaeonatural.cloud/poseidon/Activity_3f7db20c-ee11-5744-9ed3-cf725973d633>,
+        <http://archaeonatural.cloud/poseidon/Activity_5535da84-01d5-52af-aad4-cba8290f966c>,
+        <http://archaeonatural.cloud/poseidon/Activity_5542166a-b235-5a6c-90e4-635bdea5cd72>,
+        <http://archaeonatural.cloud/poseidon/Activity_6f758b92-3bec-538e-9b04-70bbb4452f4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_7e92dee4-6ae2-5739-bc7f-0c2a5fbecf8b>,
+        <http://archaeonatural.cloud/poseidon/Activity_9e3db5c1-2dd8-52c7-8dbe-d71f813bcb6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_c39f8689-ef7f-5159-b46d-c49e540d3dcd>,
+        <http://archaeonatural.cloud/poseidon/Activity_eaa7f5bf-f3b4-5b7f-9fdf-7c919f8a8416>,
+        <http://archaeonatural.cloud/poseidon/Activity_eab36f72-21c3-501c-8bf7-0a09605d3df5>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec9f7b17-cf57-5643-8c92-3cca54504116>,
+        <http://archaeonatural.cloud/poseidon/Activity_edc720ee-9aa2-5f70-bf85-80a5b758005a>,
+        <http://archaeonatural.cloud/poseidon/Activity_f0a25bcf-a569-5ed1-9fce-6e373dc5ac55>,
+        <http://archaeonatural.cloud/poseidon/Activity_f8f7da9b-6c33-5102-99e9-41375fdfd4d4> ;
+    foaf:name "Ringbauer, Harald" .
+

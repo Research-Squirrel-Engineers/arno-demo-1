@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_935b5073-1e58-5dd5-b77d-fe209cc7dfec> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Archaeogenetics reveals fine-scale genetic continuity and patterns of kinship and health in medieval Finland"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.isci.2025.113086> ;
+    ns1:hasTitle "Archaeogenetics reveals fine-scale genetic continuity and patterns of kinship and health in medieval Finland"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_9fa651f7-9ca1-58ad-adf9-69c9630dfd95> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_32625ea6-945d-580a-92b6-458214f7795b>,
+        <http://archaeonatural.cloud/poseidon/Person_3d94470c-e7aa-5913-bf7d-440e2453dc86>,
+        <http://archaeonatural.cloud/poseidon/Person_5634faf6-a5ee-5a46-886b-a0ba7c4d5f50>,
+        <http://archaeonatural.cloud/poseidon/Person_61f45fb1-1f2a-5c0c-a657-322075a22e96>,
+        <http://archaeonatural.cloud/poseidon/Person_6f5c5531-8aea-5c64-a264-289d62f78d63>,
+        <http://archaeonatural.cloud/poseidon/Person_763b5006-a6cc-579d-b302-b8a84b368d9f>,
+        <http://archaeonatural.cloud/poseidon/Person_a8e7c355-e653-523a-a09a-5961226d1546>,
+        <http://archaeonatural.cloud/poseidon/Person_df5aaea9-44d8-5bb2-9ba9-247f7d08efaf>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_f3eb41e1-57f9-5cd8-b34a-218e1223a5bc> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Archaeogenetics reveals fine-scale genetic continuity and patterns of kinship and health in medieval Finland"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_935b5073-1e58-5dd5-b77d-fe209cc7dfec> .
+

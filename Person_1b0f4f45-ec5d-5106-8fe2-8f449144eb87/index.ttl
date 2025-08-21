@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_1b0f4f45-ec5d-5106-8fe2-8f449144eb87> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Mittnik, Alissa" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-6963-4824> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Mittnik, Alissa" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_120e5bb9-142d-5ee4-ad90-733d421583be>,
+        <http://archaeonatural.cloud/poseidon/Activity_50b76f61-e4cb-5241-a0a9-b148d3162ad8>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88>,
+        <http://archaeonatural.cloud/poseidon/Activity_756fb170-c048-5e1e-9f3e-b3b9fa32bd4d>,
+        <http://archaeonatural.cloud/poseidon/Activity_79163565-0b47-5ff8-af44-2393f9332f4b>,
+        <http://archaeonatural.cloud/poseidon/Activity_7ee51eb6-41f9-51f3-9edb-1dede60514fb>,
+        <http://archaeonatural.cloud/poseidon/Activity_979d86f0-700e-5f4f-be72-f393b0affc4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_b227583e-5173-5830-acb0-8c467fbbc828>,
+        <http://archaeonatural.cloud/poseidon/Activity_d038d51e-5fca-578c-890e-4b07864de856>,
+        <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24>,
+        <http://archaeonatural.cloud/poseidon/Activity_e43fef91-ad8e-5c1d-9f57-0016db3405fc> ;
+    foaf:name "Mittnik, Alissa" .
+

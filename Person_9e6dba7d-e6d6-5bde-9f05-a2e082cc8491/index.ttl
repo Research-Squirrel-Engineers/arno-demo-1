@@ -1,0 +1,32 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_9e6dba7d-e6d6-5bde-9f05-a2e082cc8491> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Seguin-Orlando, Andaine" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-8265-3229> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Seguin-Orlando, Andaine" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_4b029076-1c33-5df8-a225-e3fb8f538505>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c24e1dc-e974-507b-ba24-063fe5ec51fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_97ede6f4-a5e7-5f8d-b2e5-19807c76ed84>,
+        <http://archaeonatural.cloud/poseidon/Activity_9e288745-43ed-59a0-8815-3fffa1e062da>,
+        <http://archaeonatural.cloud/poseidon/Activity_ac3b6b66-d0ba-5e3d-9e83-da91efaeebdc>,
+        <http://archaeonatural.cloud/poseidon/Activity_d110079c-7cc1-5b0c-9875-1bc571fa9acd> ;
+    foaf:name "Seguin-Orlando, Andaine" .
+

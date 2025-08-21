@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_e58d0519-2eb5-5cba-8689-7e41f6f57450> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ancient DNA reveals monozygotic newborn twins from the Upper Palaeolithic"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/s42003-020-01372-8> ;
+    ns1:hasTitle "Ancient DNA reveals monozygotic newborn twins from the Upper Palaeolithic"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_adb6b8fd-0fdd-5673-9295-782de3a969bc> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_064b632c-c235-5753-9642-f9c50d3788f0>,
+        <http://archaeonatural.cloud/poseidon/Person_068775c9-6c43-5cff-a57e-fa75c5c60d35>,
+        <http://archaeonatural.cloud/poseidon/Person_10443aa4-4fd3-5e83-92e0-bd51f7dfea0a>,
+        <http://archaeonatural.cloud/poseidon/Person_10b6af9b-1795-51c6-8831-dce12302473d>,
+        <http://archaeonatural.cloud/poseidon/Person_24fd06ab-52c9-5f42-8243-c27c6b3d540d>,
+        <http://archaeonatural.cloud/poseidon/Person_3d0d621d-799e-55f9-956a-7b6dfdc8a1fd>,
+        <http://archaeonatural.cloud/poseidon/Person_3f323dd1-7efa-53a7-bd40-ccff20a53edf>,
+        <http://archaeonatural.cloud/poseidon/Person_610bafdb-2201-57f3-80a6-57f3925a5b50>,
+        <http://archaeonatural.cloud/poseidon/Person_65ec7be4-4edf-532b-a43a-305e0b564aec>,
+        <http://archaeonatural.cloud/poseidon/Person_9a71bea1-13b1-5e19-902f-563cffd54815>,
+        <http://archaeonatural.cloud/poseidon/Person_a0dbb753-2b87-5ba4-977a-5a5e58046552>,
+        <http://archaeonatural.cloud/poseidon/Person_ba03d8cf-d0a3-5cf8-ae6a-439baeeed72b>,
+        <http://archaeonatural.cloud/poseidon/Person_d9a172b9-a6c5-52d4-a188-50383f9a67e7>,
+        <http://archaeonatural.cloud/poseidon/Person_dc50dbd5-be5a-5261-ba26-31ba66ace25a>,
+        <http://archaeonatural.cloud/poseidon/Person_e163cfe3-3e9a-5e6e-9603-01d3cb88e744>,
+        <http://archaeonatural.cloud/poseidon/Person_fefdf2be-9c3f-5d61-9949-76f70546f647> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ancient DNA reveals monozygotic newborn twins from the Upper Palaeolithic"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_e58d0519-2eb5-5cba-8689-7e41f6f57450> .
+

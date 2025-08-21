@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_1676d351-7e56-5cf2-bd6a-18b58de777bb> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Paleogenomic Evidence for Multi-generational Mixing between Neolithic Farmers and Mesolithic Hunter-Gatherers in the Lower Danube Basin"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2017.05.023> ;
+    ns1:hasTitle "Paleogenomic Evidence for Multi-generational Mixing between Neolithic Farmers and Mesolithic Hunter-Gatherers in the Lower Danube Basin"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_02e771db-c061-5738-a1bb-3f9772e18fb3>,
+        <http://archaeonatural.cloud/poseidon/Person_0f49b31f-9363-5754-a91c-5f966b919238>,
+        <http://archaeonatural.cloud/poseidon/Person_20d7f939-8f32-5c88-b9f7-d5df55ce4704>,
+        <http://archaeonatural.cloud/poseidon/Person_47ce73f3-e366-5b6b-b196-5335a7ab28ff>,
+        <http://archaeonatural.cloud/poseidon/Person_56509f8a-fc85-5966-bf56-e50ec099cb34>,
+        <http://archaeonatural.cloud/poseidon/Person_6703782d-4515-556f-9820-d77f8490bbab>,
+        <http://archaeonatural.cloud/poseidon/Person_7264b67d-ff67-524c-811e-e30be00e0818>,
+        <http://archaeonatural.cloud/poseidon/Person_74767467-4b3f-5ba7-b75f-30b148303517>,
+        <http://archaeonatural.cloud/poseidon/Person_82a7c243-fdaa-5c07-a67f-fdc80a10d07d>,
+        <http://archaeonatural.cloud/poseidon/Person_900a50cf-dfa4-53c9-b74b-21c75e8650ba>,
+        <http://archaeonatural.cloud/poseidon/Person_a92477b0-2688-57b3-adb8-b98943d308d4>,
+        <http://archaeonatural.cloud/poseidon/Person_aa4455ba-e25c-5840-915c-40d94359e747>,
+        <http://archaeonatural.cloud/poseidon/Person_b6a3769a-0424-5f61-aa71-1aead7fb78d5>,
+        <http://archaeonatural.cloud/poseidon/Person_bedb9aaf-576a-51a2-86f7-754ea4087a06>,
+        <http://archaeonatural.cloud/poseidon/Person_bfa94609-1c3e-5f23-b447-89dbaa7aec2e>,
+        <http://archaeonatural.cloud/poseidon/Person_dc50dbd5-be5a-5261-ba26-31ba66ace25a>,
+        <http://archaeonatural.cloud/poseidon/Person_fe1c0f54-cb5d-5619-9f00-ee8fcf7c7159> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Paleogenomic Evidence for Multi-generational Mixing between Neolithic Farmers and Mesolithic Hunter-Gatherers in the Lower Danube Basin"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1676d351-7e56-5cf2-bd6a-18b58de777bb> .
+

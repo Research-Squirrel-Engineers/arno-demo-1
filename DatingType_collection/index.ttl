@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/DatingType_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "DatingType Instances Collection"@en ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:member <http://archaeonatural.cloud/poseidon/DatingType_53df0e6a-6c88-5b9a-ad80-2cc0abbb93a7>,
+        <http://archaeonatural.cloud/poseidon/DatingType_c3641e2e-782c-5e9b-8a79-17f1a9ffc6ed> .
+

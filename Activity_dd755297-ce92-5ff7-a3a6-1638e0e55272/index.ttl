@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Activity_dd755297-ce92-5ff7-a3a6-1638e0e55272> a <http://www.w3.org/ns/ldp#Resource>,
+        prov:Activity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    prov:endedAtTime "2025-08-21T13:02:22.634447+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2025-08-21T13:02:22.630032+00:00"^^xsd:dateTime ;
+    prov:used <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno> ;
+    prov:wasAssociatedWith <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> .
+

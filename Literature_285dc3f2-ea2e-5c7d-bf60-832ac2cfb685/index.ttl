@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_285dc3f2-ea2e-5c7d-bf60-832ac2cfb685> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Megalithic tombs in western and northern Neolithic Europe were linked to a kindred society"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.1818037116> ;
+    ns1:hasTitle "Megalithic tombs in western and northern Neolithic Europe were linked to a kindred society"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_1415fbec-9678-5ffb-a5f6-82e249d96dc4>,
+        <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_2d7238fc-d807-5ee7-acaf-377c301b6f1f>,
+        <http://archaeonatural.cloud/poseidon/Person_392255c6-d3b5-5805-9369-557569afac6e>,
+        <http://archaeonatural.cloud/poseidon/Person_3a6cc8b2-7ba9-5181-9ee1-345cdbaba97f>,
+        <http://archaeonatural.cloud/poseidon/Person_426afef1-4355-5d07-85cb-97b5035f72c0>,
+        <http://archaeonatural.cloud/poseidon/Person_44e63f9d-dfd9-5093-a79f-9d7077452c40>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_68be5121-8c63-53f7-825b-856d62f682e4>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_b1ed0e80-3cc9-50e5-ab88-5c02fc5b7722>,
+        <http://archaeonatural.cloud/poseidon/Person_bb837910-cf06-57d8-8168-80c281a700e3>,
+        <http://archaeonatural.cloud/poseidon/Person_bbf967d4-fd82-598c-a15a-0836c5de4400>,
+        <http://archaeonatural.cloud/poseidon/Person_c467c703-6ea6-5857-93c8-272b411bbe30>,
+        <http://archaeonatural.cloud/poseidon/Person_e04f6689-ef41-5e12-9d56-2c2eaeabd2dc>,
+        <http://archaeonatural.cloud/poseidon/Person_e6e7dba2-0b1f-5d4a-b3a0-b55a28f11115>,
+        <http://archaeonatural.cloud/poseidon/Person_ec96b239-fdda-5d7b-89ac-f3a5adc388a2>,
+        <http://archaeonatural.cloud/poseidon/Person_f47ca7c1-d9e7-55ab-a06f-9d9f0cd49e4e> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Megalithic tombs in western and northern Neolithic Europe were linked to a kindred society"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_285dc3f2-ea2e-5c7d-bf60-832ac2cfb685> .
+

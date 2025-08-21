@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_f096ab54-aa7b-50e8-9992-c29e378fa0ce> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Harper, Thomas K." ;
+    ns1:hasORCID <http://orcid.org/0000-0002-4969-1653> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Harper, Thomas K." ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_01c98866-34a1-5866-9c36-8509ade26b88>,
+        <http://archaeonatural.cloud/poseidon/Activity_120e5bb9-142d-5ee4-ad90-733d421583be>,
+        <http://archaeonatural.cloud/poseidon/Activity_382f873a-01e9-5e3a-8ca3-83b61a777bf9>,
+        <http://archaeonatural.cloud/poseidon/Activity_4d67aad7-d7bf-5f58-9e7d-c4959d2bcf6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_61303ab4-1ff7-5324-a443-f9ac010ef6d1>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_98979b89-a2d5-5f70-bb83-011a99b5f38a>,
+        <http://archaeonatural.cloud/poseidon/Activity_aaaebb9c-2940-5022-b3f8-52da19545a29>,
+        <http://archaeonatural.cloud/poseidon/Activity_bf8b4338-6afe-5156-8053-1dbe2179f57a>,
+        <http://archaeonatural.cloud/poseidon/Activity_e76c1819-e03d-5f99-b8d5-68ac8ce04950>,
+        <http://archaeonatural.cloud/poseidon/Activity_ed94f554-262a-54a9-8e73-caf3bcbeb071> ;
+    foaf:name "Harper, Thomas K." .
+

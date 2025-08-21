@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_7dcc68b8-7f2e-568c-b56e-d9e980d966f5> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Origin and Health Status of First-Generation Africans from Early Colonial Mexico"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2020.04.002> ;
+    ns1:hasTitle "Origin and Health Status of First-Generation Africans from Early Colonial Mexico"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_024234ad-6345-5368-8ec9-f0a838a4a803>,
+        <http://archaeonatural.cloud/poseidon/Person_0a679cd2-cbfc-56a3-8598-617bf34429bf>,
+        <http://archaeonatural.cloud/poseidon/Person_0d9976f5-17bf-5e5d-8a4f-887f595fae1b>,
+        <http://archaeonatural.cloud/poseidon/Person_1bb9b989-10db-5d40-85c0-30363079784d>,
+        <http://archaeonatural.cloud/poseidon/Person_1d4ac476-00e5-58ba-a15e-a0bfdfdb427d>,
+        <http://archaeonatural.cloud/poseidon/Person_52a378b6-36a4-5a55-99a0-bd9bc1721a37>,
+        <http://archaeonatural.cloud/poseidon/Person_610e5e7e-b0eb-5976-9ce4-0463de256172>,
+        <http://archaeonatural.cloud/poseidon/Person_7103c91d-644e-5310-8a80-96de98afd07f>,
+        <http://archaeonatural.cloud/poseidon/Person_7689165e-9cdf-553a-ab58-017b6cc5720b>,
+        <http://archaeonatural.cloud/poseidon/Person_8e645712-e576-5a34-bdc1-0b14a65e1a0b>,
+        <http://archaeonatural.cloud/poseidon/Person_96230e9a-1b80-542f-8b68-0ed1c1cd4787>,
+        <http://archaeonatural.cloud/poseidon/Person_97290c2f-b76f-5cbc-9353-8d081a913fb7>,
+        <http://archaeonatural.cloud/poseidon/Person_976fd38f-b640-5d28-b550-cc980805d70c>,
+        <http://archaeonatural.cloud/poseidon/Person_e4d94bb3-7ec5-5349-b3dc-87831136399f>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_e8bae644-9438-5929-86fe-aeb4fd703eab>,
+        <http://archaeonatural.cloud/poseidon/Person_f3eb41e1-57f9-5cd8-b34a-218e1223a5bc>,
+        <http://archaeonatural.cloud/poseidon/Person_f6dbfad5-6a6f-5def-8573-296f3db1347c> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Origin and Health Status of First-Generation Africans from Early Colonial Mexico"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_7dcc68b8-7f2e-568c-b56e-d9e980d966f5> .
+

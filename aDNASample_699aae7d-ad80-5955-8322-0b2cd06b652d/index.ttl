@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/aDNASample_699aae7d-ad80-5955-8322-0b2cd06b652d> a ns1:aDNASample,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Inuk.SG" ;
+    ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_719fcc5e-bb6d-5dd7-b766-50dab259e3c8> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_c56644c8-8820-5549-9a76-6cdd08c37fb6> ;
+    ns1:fromGeneticSourceAccession <http://archaeonatural.cloud/poseidon/GeneticSourceAccession_54533710-4ac9-5020-9c05-48a5ed384378> ;
+    ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
+    ns1:hasCollectionID "Inuk" ;
+    ns1:hasGeneticSex ns1:GeneticSex_Male ;
+    ns1:hasGenotypePloidy ns1:GenotypePloidy_haploid ;
+    ns1:hasID "Inuk.SG" ;
+    ns1:hasNote "PASS (literature)"@en ;
+    ns1:hasSNPCount 1101700 ;
+    ns1:measuredSNPCoverage 14.14 ;
+    ns1:ofSourceTissue <http://archaeonatural.cloud/poseidon/SourceTissue_6748d932-e780-599a-a2e8-8cdea5831e53> ;
+    ns1:partOfGroup <http://archaeonatural.cloud/poseidon/Group_b4dbba5e-e984-54b7-a97f-318c4453d351> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2010_RasmussenNature/2010_RasmussenNature.janno version 2.1.1 within the Poseidon Community Archive"@en ;
+    skos:prefLabel "Inuk.SG" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://github.com/poseidon-framework/community-archive>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2010_RasmussenNature/2010_RasmussenNature.janno> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_699aae7d-ad80-5955-8322-0b2cd06b652d> .
+

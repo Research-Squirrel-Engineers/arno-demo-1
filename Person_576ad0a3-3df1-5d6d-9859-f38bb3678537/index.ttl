@@ -1,0 +1,33 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_576ad0a3-3df1-5d6d-9859-f38bb3678537> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Hajdu, Tamás" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-3604-1125> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Hajdu, Tamás" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_120e5bb9-142d-5ee4-ad90-733d421583be>,
+        <http://archaeonatural.cloud/poseidon/Activity_1d03d8ae-e1f5-5b29-840e-3abb1ccb9bf2>,
+        <http://archaeonatural.cloud/poseidon/Activity_437b7039-60c3-5696-b7b6-b6e504fde8b9>,
+        <http://archaeonatural.cloud/poseidon/Activity_5535da84-01d5-52af-aad4-cba8290f966c>,
+        <http://archaeonatural.cloud/poseidon/Activity_979d86f0-700e-5f4f-be72-f393b0affc4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec9f7b17-cf57-5643-8c92-3cca54504116>,
+        <http://archaeonatural.cloud/poseidon/Activity_f543797f-a6d6-5bc1-95ee-044516ef7e15> ;
+    foaf:name "Hajdu, Tamás" .
+

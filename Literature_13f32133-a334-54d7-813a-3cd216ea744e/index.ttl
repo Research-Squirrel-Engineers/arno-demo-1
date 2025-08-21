@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_13f32133-a334-54d7-813a-3cd216ea744e> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Neolithic and Bronze Age migration to Ireland and establishment of the insular Atlantic genome"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.1518445113> ;
+    ns1:hasTitle "Neolithic and Bronze Age migration to Ireland and establishment of the insular Atlantic genome"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_3fa88271-b1c8-578a-8564-9b83d2c7c7f1>,
+        <http://archaeonatural.cloud/poseidon/Person_4aa87e29-7358-55b1-9a77-19dafe7f62f9>,
+        <http://archaeonatural.cloud/poseidon/Person_6e4967cc-4891-53a7-8ced-9e4545c17743>,
+        <http://archaeonatural.cloud/poseidon/Person_7315f2f5-8735-5c34-b633-a3efcf59bfc1>,
+        <http://archaeonatural.cloud/poseidon/Person_87b9d20f-c1fe-5975-a839-8662a8fb84af>,
+        <http://archaeonatural.cloud/poseidon/Person_a46a44b2-0b09-5fbd-a717-5d86df6624ea>,
+        <http://archaeonatural.cloud/poseidon/Person_b77b5ccf-42e8-5986-9a88-f501e2c8be2d> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Neolithic and Bronze Age migration to Ireland and establishment of the insular Atlantic genome"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_13f32133-a334-54d7-813a-3cd216ea744e> .
+

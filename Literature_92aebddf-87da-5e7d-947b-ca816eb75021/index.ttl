@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_92aebddf-87da-5e7d-947b-ca816eb75021> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Long-term genetic stability and a high-altitude East Asian origin for the peoples of the high valleys of the Himalayan arc"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.1520844113> ;
+    ns1:hasTitle "Long-term genetic stability and a high-altitude East Asian origin for the peoples of the high valleys of the Himalayan arc"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_06564129-d5cc-5fd4-9f75-345d0f5705ae>,
+        <http://archaeonatural.cloud/poseidon/Person_1eda4c83-6b1b-5127-a9d4-ffd9b1e68acc>,
+        <http://archaeonatural.cloud/poseidon/Person_2c0716f5-e483-5e90-94e7-5353c34f02f4>,
+        <http://archaeonatural.cloud/poseidon/Person_3cb62881-1277-5d9f-9599-722b0b247481>,
+        <http://archaeonatural.cloud/poseidon/Person_3d80a8d1-6544-58df-8c47-db6558377f78>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_68be5121-8c63-53f7-825b-856d62f682e4>,
+        <http://archaeonatural.cloud/poseidon/Person_9896ce1c-b2f7-5506-81c1-d82a079a39d2>,
+        <http://archaeonatural.cloud/poseidon/Person_9e5ab6e9-102d-57ba-8335-858b0bed7020>,
+        <http://archaeonatural.cloud/poseidon/Person_e13c0858-df55-5a52-80fc-98f53600c9e8>,
+        <http://archaeonatural.cloud/poseidon/Person_ecacc662-d2f0-50f4-8317-9e0ffdc29936>,
+        <http://archaeonatural.cloud/poseidon/Person_f2d81ccd-c8a5-5703-b8bf-1b7881641571> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Long-term genetic stability and a high-altitude East Asian origin for the peoples of the high valleys of the Himalayan arc"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_92aebddf-87da-5e7d-947b-ca816eb75021> .
+

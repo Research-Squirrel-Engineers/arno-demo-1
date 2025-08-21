@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_5a1cda7a-bc07-5c32-99c8-b59c85009ecd> a <http://archaeonatural.cloud/ont/Person>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Comas, David" ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Comas, David" ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_2cff6c1a-e8f4-5e78-a432-3237a9e74d55>,
+        <http://archaeonatural.cloud/poseidon/Activity_9e2b03f8-acb3-5a65-8a79-4cf6272bc67f>,
+        <http://archaeonatural.cloud/poseidon/Activity_df48973e-1550-50f4-a710-93a444c57a7d>,
+        <http://archaeonatural.cloud/poseidon/Activity_e43fef91-ad8e-5c1d-9f57-0016db3405fc>,
+        <http://archaeonatural.cloud/poseidon/Activity_f623a0b8-4670-5851-813b-bb4c83a33478> ;
+    foaf:name "Comas, David" .
+

@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_a6be492e-30cc-569a-b5ef-e24beb05752c> a <http://archaeonatural.cloud/ont/Person>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Stoneking, Mark" ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Stoneking, Mark" ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_04914a12-ff41-53e1-988a-3d2d103b2efc>,
+        <http://archaeonatural.cloud/poseidon/Activity_1a834427-613f-54e8-b03a-22f7d5a9b17d>,
+        <http://archaeonatural.cloud/poseidon/Activity_371abf5f-07c0-59a3-bb2d-51ab18fc748a>,
+        <http://archaeonatural.cloud/poseidon/Activity_67a249db-bef0-5fd7-b07c-fb8a10e79ab2>,
+        <http://archaeonatural.cloud/poseidon/Activity_f187c56e-6988-5229-92b9-8132224ae6fd> ;
+    foaf:name "Stoneking, Mark" .
+

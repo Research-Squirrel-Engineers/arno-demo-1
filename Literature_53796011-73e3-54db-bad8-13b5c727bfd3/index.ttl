@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_53796011-73e3-54db-bad8-13b5c727bfd3> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "A high-coverage Neandertal genome from Chagyrskaya Cave"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.2004944117> ;
+    ns1:hasTitle "A high-coverage Neandertal genome from Chagyrskaya Cave"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0705128d-6570-5f49-b54e-ef0215f4ac33>,
+        <http://archaeonatural.cloud/poseidon/Person_17d00255-34ea-501f-a6af-fa5510655e16>,
+        <http://archaeonatural.cloud/poseidon/Person_306bdf22-c8cb-55cc-9f56-d91048f62b4f>,
+        <http://archaeonatural.cloud/poseidon/Person_33758b9c-691a-55dd-a57d-536f52dddb67>,
+        <http://archaeonatural.cloud/poseidon/Person_3af7c1e9-d36c-5ef2-bd93-68d0434093e4>,
+        <http://archaeonatural.cloud/poseidon/Person_420e539b-54fe-5ca6-9096-0453d0f41e11>,
+        <http://archaeonatural.cloud/poseidon/Person_59a378c5-9f62-5b63-966a-18071501d030>,
+        <http://archaeonatural.cloud/poseidon/Person_5cd6e349-fe19-58e8-bdf1-cbf6a2a3d746>,
+        <http://archaeonatural.cloud/poseidon/Person_679a075c-5632-589d-9c49-c85db9cdc616>,
+        <http://archaeonatural.cloud/poseidon/Person_8002955d-0ad1-5a1f-9ef5-dddb8f5d9bd8>,
+        <http://archaeonatural.cloud/poseidon/Person_8142f5ff-43be-516a-896c-5df5660bc064>,
+        <http://archaeonatural.cloud/poseidon/Person_8ecea154-6210-5af5-a5f2-f42ac50c1255>,
+        <http://archaeonatural.cloud/poseidon/Person_b8f161d1-b65a-5953-9bd3-9b0bcb7770ab>,
+        <http://archaeonatural.cloud/poseidon/Person_c070de6d-04d1-52f9-83bd-320778d881d8>,
+        <http://archaeonatural.cloud/poseidon/Person_d6970d01-bbf4-51bb-baf6-32984b27203c>,
+        <http://archaeonatural.cloud/poseidon/Person_e3ee792c-440f-5cf3-9321-44dc5e6c35b6>,
+        <http://archaeonatural.cloud/poseidon/Person_e4176870-fc2f-5767-9d07-3efabeecaa4d>,
+        <http://archaeonatural.cloud/poseidon/Person_ebdbce35-3f63-522a-958e-439775541979> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "A high-coverage Neandertal genome from Chagyrskaya Cave"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_53796011-73e3-54db-bad8-13b5c727bfd3> .
+

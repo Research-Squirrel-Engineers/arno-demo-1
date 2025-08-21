@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_0fc3bf7c-7fa7-572e-83c0-f2d6f3f88ddf> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Archaeogenomic distinctiveness of the Isthmo-Colombian area"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cell.2021.02.040> ;
+    ns1:hasTitle "Archaeogenomic distinctiveness of the Isthmo-Colombian area"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_5d88daac-3d5a-5832-a354-bfbb530a2d81> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0c976966-d58a-54ef-b9b8-8057900c7db2>,
+        <http://archaeonatural.cloud/poseidon/Person_100be665-8f69-56f3-ab46-c2bcd3128759>,
+        <http://archaeonatural.cloud/poseidon/Person_111c6416-7d87-5264-b384-e3a9ebd053dc>,
+        <http://archaeonatural.cloud/poseidon/Person_2477b165-e49d-53ef-aa81-9d9a93e4d70c>,
+        <http://archaeonatural.cloud/poseidon/Person_254a0cdb-7acd-59c7-b7cf-126722701d9a>,
+        <http://archaeonatural.cloud/poseidon/Person_29c73a76-4e72-56ce-ab56-173eb7154f21>,
+        <http://archaeonatural.cloud/poseidon/Person_2b5a8469-7901-5257-ae22-75e8f81b15ea>,
+        <http://archaeonatural.cloud/poseidon/Person_3160dc8e-f0b2-5329-a363-fabe2655b701>,
+        <http://archaeonatural.cloud/poseidon/Person_3c268ef9-1882-546f-98a3-797f715ab3a9>,
+        <http://archaeonatural.cloud/poseidon/Person_40230ea3-f593-55a9-a10a-90d995ae3a4d>,
+        <http://archaeonatural.cloud/poseidon/Person_45dbbd5c-edf3-5ffd-b88f-b45b660ef32d>,
+        <http://archaeonatural.cloud/poseidon/Person_465d1c82-000a-5b57-a0c8-b4a9d302dfda>,
+        <http://archaeonatural.cloud/poseidon/Person_49693f71-16b5-54c3-839c-3169ecea4370>,
+        <http://archaeonatural.cloud/poseidon/Person_4e109e14-6a15-5c8a-9ecf-0881429480d1>,
+        <http://archaeonatural.cloud/poseidon/Person_4e887155-9036-50d7-9ac7-b080bb9f5bc7>,
+        <http://archaeonatural.cloud/poseidon/Person_563a5aa8-760e-57e8-b77f-18ef16563534>,
+        <http://archaeonatural.cloud/poseidon/Person_5d93d858-2eaf-5555-84eb-9b1a078209fd>,
+        <http://archaeonatural.cloud/poseidon/Person_6239c6c0-9ca9-57b4-aa4a-21218f7c41cd>,
+        <http://archaeonatural.cloud/poseidon/Person_65796ec8-5f47-5601-8ed7-92cbbce61c94>,
+        <http://archaeonatural.cloud/poseidon/Person_6909778d-ae80-5421-a58c-b00fc5bc9810>,
+        <http://archaeonatural.cloud/poseidon/Person_861bb831-eeb0-50cd-b6bb-5ba60850e3c0>,
+        <http://archaeonatural.cloud/poseidon/Person_88eadada-e54d-5ea7-8ad7-a8f8cd6d9c49>,
+        <http://archaeonatural.cloud/poseidon/Person_8962399e-d806-5c90-b9f6-fe766eaffe90>,
+        <http://archaeonatural.cloud/poseidon/Person_8d7e22af-101d-54d6-882e-c42343fd1498>,
+        <http://archaeonatural.cloud/poseidon/Person_96b8c3c8-773e-53e4-a475-9ffb935456eb>,
+        <http://archaeonatural.cloud/poseidon/Person_9b4ae64b-f1a2-595f-a3a4-856acfafa00e>,
+        <http://archaeonatural.cloud/poseidon/Person_a0c68bc5-d3e1-5810-9acb-880947b4fdbd>,
+        <http://archaeonatural.cloud/poseidon/Person_a4e3b11c-7fb5-5c2f-9a0b-2b96d07b3029>,
+        <http://archaeonatural.cloud/poseidon/Person_a4f0b31c-0983-5085-a728-9abcf52b4492>,
+        <http://archaeonatural.cloud/poseidon/Person_a51c2a68-3001-5d77-87b6-92652b639bc9>,
+        <http://archaeonatural.cloud/poseidon/Person_acbf5d78-f8da-5856-a001-c3a43dc26f19>,
+        <http://archaeonatural.cloud/poseidon/Person_b6def454-e0e1-5fbd-91da-8fa316e2ebd1>,
+        <http://archaeonatural.cloud/poseidon/Person_c1309c46-2991-5d0f-ae95-7f48003f7916>,
+        <http://archaeonatural.cloud/poseidon/Person_c4e6ed10-bd21-5958-b9b3-0f422da08b8e>,
+        <http://archaeonatural.cloud/poseidon/Person_d5fd1109-395a-56bc-9aa6-666e45499360>,
+        <http://archaeonatural.cloud/poseidon/Person_e608a67b-8838-5727-8f4b-d25259e052ff>,
+        <http://archaeonatural.cloud/poseidon/Person_f14e5dfb-3fcd-5d51-acd6-1114f1263761>,
+        <http://archaeonatural.cloud/poseidon/Person_f979368f-f47b-5dbf-aca6-4933601f0369> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Archaeogenomic distinctiveness of the Isthmo-Colombian area"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_0fc3bf7c-7fa7-572e-83c0-f2d6f3f88ddf> .
+

@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_b0d946dc-2e01-55b7-8996-4357b6842d65> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Schiffels, Stephan" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-1017-9150> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Schiffels, Stephan" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_226b0dab-6537-5572-b5a3-f387faa882d3>,
+        <http://archaeonatural.cloud/poseidon/Activity_2718113e-ce81-5646-84b7-d50f56eab407>,
+        <http://archaeonatural.cloud/poseidon/Activity_2ef468af-3fbf-5c5e-b372-a6469e08c319>,
+        <http://archaeonatural.cloud/poseidon/Activity_38d1f1b3-9e51-535b-bd5a-b5c5e04964c7>,
+        <http://archaeonatural.cloud/poseidon/Activity_3f7db20c-ee11-5744-9ed3-cf725973d633>,
+        <http://archaeonatural.cloud/poseidon/Activity_47e78faf-23dd-5ed6-8694-0e5ea5dcb8c2>,
+        <http://archaeonatural.cloud/poseidon/Activity_5187135e-c4a5-52f0-8255-1a444212d006>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c24e1dc-e974-507b-ba24-063fe5ec51fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88>,
+        <http://archaeonatural.cloud/poseidon/Activity_6f33e1fb-6e9a-57b3-85b2-bd66163769b2>,
+        <http://archaeonatural.cloud/poseidon/Activity_6f758b92-3bec-538e-9b04-70bbb4452f4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_724fd1c7-7f1a-5ce1-a23a-fce7b536dbc8>,
+        <http://archaeonatural.cloud/poseidon/Activity_80a82579-4476-5800-8357-1ffef558b829>,
+        <http://archaeonatural.cloud/poseidon/Activity_822773a5-9253-52df-aed4-181664e282b0>,
+        <http://archaeonatural.cloud/poseidon/Activity_843263c3-759a-551a-81c2-8afd6fd3fea4>,
+        <http://archaeonatural.cloud/poseidon/Activity_8b3863eb-10d5-5b17-a669-46f906957284>,
+        <http://archaeonatural.cloud/poseidon/Activity_a0596a84-38de-512d-985f-5dced408224b>,
+        <http://archaeonatural.cloud/poseidon/Activity_aabf7297-954d-59a2-ad88-e62ecfe7ab3d>,
+        <http://archaeonatural.cloud/poseidon/Activity_b227583e-5173-5830-acb0-8c467fbbc828>,
+        <http://archaeonatural.cloud/poseidon/Activity_d038d51e-5fca-578c-890e-4b07864de856>,
+        <http://archaeonatural.cloud/poseidon/Activity_e76c1819-e03d-5f99-b8d5-68ac8ce04950> ;
+    foaf:name "Schiffels, Stephan" .
+

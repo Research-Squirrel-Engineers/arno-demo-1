@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_2cff6c1a-e8f4-5e78-a432-3237a9e74d55> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genomic analysis of Andamanese provides insights into ancient human migration into Asia and adaptation"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/ng.3621> ;
+    ns1:hasTitle "Genomic analysis of Andamanese provides insights into ancient human migration into Asia and adaptation"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_88d3105d-2d9b-5eab-8a90-05c127fee3ef> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_12234c45-9b08-5071-8879-b9d37a38ea5d>,
+        <http://archaeonatural.cloud/poseidon/Person_5a1cda7a-bc07-5c32-99c8-b59c85009ecd>,
+        <http://archaeonatural.cloud/poseidon/Person_5c4e8ea3-f1e6-5304-963b-90adec2ff2ac>,
+        <http://archaeonatural.cloud/poseidon/Person_93e71997-e236-5ea1-9836-cb4b158b5529>,
+        <http://archaeonatural.cloud/poseidon/Person_960e1d53-80f3-5941-87a3-92c0dfb5604d>,
+        <http://archaeonatural.cloud/poseidon/Person_b0ce6a8d-4399-5f70-bb8c-959bf4fb780e>,
+        <http://archaeonatural.cloud/poseidon/Person_c0b3207a-9ed1-51aa-961b-b0965c7987a0>,
+        <http://archaeonatural.cloud/poseidon/Person_dca5a72f-a6bb-50c7-b46f-3a5fca6fd419>,
+        <http://archaeonatural.cloud/poseidon/Person_e4b01184-f909-5f53-bf19-278cd333a25c>,
+        <http://archaeonatural.cloud/poseidon/Person_e8e1db4e-4f9e-5ba3-aa29-8eb75696d251>,
+        <http://archaeonatural.cloud/poseidon/Person_fadb1ce2-1e15-5903-b8f0-a5badbca4673> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genomic analysis of Andamanese provides insights into ancient human migration into Asia and adaptation"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_2cff6c1a-e8f4-5e78-a432-3237a9e74d55> .
+

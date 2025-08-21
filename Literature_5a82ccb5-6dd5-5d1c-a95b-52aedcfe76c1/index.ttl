@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_5a82ccb5-6dd5-5d1c-a95b-52aedcfe76c1> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Interactions between earliest Linearbandkeramik farmers and central European hunter gatherers at the dawn of European Neolithization"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/s41598-019-56029-2> ;
+    ns1:hasTitle "Interactions between earliest Linearbandkeramik farmers and central European hunter gatherers at the dawn of European Neolithization"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_a7f4815e-15b2-52d4-b9bb-047f1283c76d> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_064b632c-c235-5753-9642-f9c50d3788f0>,
+        <http://archaeonatural.cloud/poseidon/Person_24fd06ab-52c9-5f42-8243-c27c6b3d540d>,
+        <http://archaeonatural.cloud/poseidon/Person_3a6ae596-e8f6-542f-b482-04bfdf5b274d>,
+        <http://archaeonatural.cloud/poseidon/Person_3b768ed2-256b-5d2c-875f-46f807f2d807>,
+        <http://archaeonatural.cloud/poseidon/Person_4788efa4-145e-5d6e-b3ba-9ae6081e9153>,
+        <http://archaeonatural.cloud/poseidon/Person_800fff40-42cf-5343-af12-f7ac788e06c4>,
+        <http://archaeonatural.cloud/poseidon/Person_95fddb06-439d-52a1-bd6a-66cbb3ce6a9a>,
+        <http://archaeonatural.cloud/poseidon/Person_a936cebd-ade8-5965-b0d2-b7b2422ade2c>,
+        <http://archaeonatural.cloud/poseidon/Person_b5eedb0b-f1b8-5540-8a8e-dedf74dc0148>,
+        <http://archaeonatural.cloud/poseidon/Person_e163cfe3-3e9a-5e6e-9603-01d3cb88e744>,
+        <http://archaeonatural.cloud/poseidon/Person_e3914afc-3987-59bb-9aec-9d778694fd0b> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Interactions between earliest Linearbandkeramik farmers and central European hunter gatherers at the dawn of European Neolithization"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_5a82ccb5-6dd5-5d1c-a95b-52aedcfe76c1> .
+

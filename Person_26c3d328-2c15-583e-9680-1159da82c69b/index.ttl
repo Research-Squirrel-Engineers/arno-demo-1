@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_26c3d328-2c15-583e-9680-1159da82c69b> a <http://archaeonatural.cloud/ont/Person>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Nickel, Birgit" ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Nickel, Birgit" ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1435875d-921f-5887-b434-0b7448e15691>,
+        <http://archaeonatural.cloud/poseidon/Activity_2cc43460-140f-5c06-a9a8-b420d6fabc28>,
+        <http://archaeonatural.cloud/poseidon/Activity_371abf5f-07c0-59a3-bb2d-51ab18fc748a>,
+        <http://archaeonatural.cloud/poseidon/Activity_5187135e-c4a5-52f0-8255-1a444212d006>,
+        <http://archaeonatural.cloud/poseidon/Activity_5d73ae03-8479-5950-8854-14d76086d376>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88>,
+        <http://archaeonatural.cloud/poseidon/Activity_f50644e4-fade-507a-adeb-6e2d660753aa> ;
+    foaf:name "Nickel, Birgit" .
+

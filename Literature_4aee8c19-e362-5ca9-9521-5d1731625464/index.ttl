@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_4aee8c19-e362-5ca9-9521-5d1731625464> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The genome of the offspring of a Neanderthal mother and a Denisovan father"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/s41586-018-0455-x> ;
+    ns1:hasTitle "The genome of the offspring of a Neanderthal mother and a Denisovan father"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_68989e5e-d4cd-5525-8f6a-3f35e0d99df3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_082da058-3957-52bb-a8e8-3ff4581683a9>,
+        <http://archaeonatural.cloud/poseidon/Person_17d00255-34ea-501f-a6af-fa5510655e16>,
+        <http://archaeonatural.cloud/poseidon/Person_306bdf22-c8cb-55cc-9f56-d91048f62b4f>,
+        <http://archaeonatural.cloud/poseidon/Person_33758b9c-691a-55dd-a57d-536f52dddb67>,
+        <http://archaeonatural.cloud/poseidon/Person_3af7c1e9-d36c-5ef2-bd93-68d0434093e4>,
+        <http://archaeonatural.cloud/poseidon/Person_59a378c5-9f62-5b63-966a-18071501d030>,
+        <http://archaeonatural.cloud/poseidon/Person_5cd6e349-fe19-58e8-bdf1-cbf6a2a3d746>,
+        <http://archaeonatural.cloud/poseidon/Person_679a075c-5632-589d-9c49-c85db9cdc616>,
+        <http://archaeonatural.cloud/poseidon/Person_8142f5ff-43be-516a-896c-5df5660bc064>,
+        <http://archaeonatural.cloud/poseidon/Person_8982ecb5-810c-5a2c-8ce3-df8ce455d09c>,
+        <http://archaeonatural.cloud/poseidon/Person_8ecea154-6210-5af5-a5f2-f42ac50c1255>,
+        <http://archaeonatural.cloud/poseidon/Person_9384f592-da7e-584e-92c4-4e5a8cf27eaa>,
+        <http://archaeonatural.cloud/poseidon/Person_99931171-4b8e-5c14-aa9c-a7be6afaf8ef>,
+        <http://archaeonatural.cloud/poseidon/Person_ade9b628-4491-51fd-b611-8686be37da09>,
+        <http://archaeonatural.cloud/poseidon/Person_b235b6c8-e48f-53e8-a565-18ee82f75a3c>,
+        <http://archaeonatural.cloud/poseidon/Person_ebdbce35-3f63-522a-958e-439775541979>,
+        <http://archaeonatural.cloud/poseidon/Person_ef260327-02f5-5986-a21a-db0cbae8e6f0>,
+        <http://archaeonatural.cloud/poseidon/Person_f3e3a1b6-6c04-5658-a147-4870bd1fee10>,
+        <http://archaeonatural.cloud/poseidon/Person_fda18306-c4e3-5b6f-ac36-12a74974e2a0> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The genome of the offspring of a Neanderthal mother and a Denisovan father"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_4aee8c19-e362-5ca9-9521-5d1731625464> .
+

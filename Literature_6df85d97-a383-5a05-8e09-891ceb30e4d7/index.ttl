@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_6df85d97-a383-5a05-8e09-891ceb30e4d7> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "A Genetic History of the Near East from an aDNA Time Course Sampling Eight Points in the Past 4,000 Years"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.ajhg.2020.05.008> ;
+    ns1:hasTitle "A Genetic History of the Near East from an aDNA Time Course Sampling Eight Points in the Past 4,000 Years"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_443a7e77-8106-5ef6-9d7d-def96a3cf845> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_190f501b-0806-5c1d-b083-5f782108d763>,
+        <http://archaeonatural.cloud/poseidon/Person_285022b4-5024-5a1c-b0fc-9e0fc7e2d85e>,
+        <http://archaeonatural.cloud/poseidon/Person_29d6f407-7b86-53a3-b120-2ceb1c3a19b2>,
+        <http://archaeonatural.cloud/poseidon/Person_30b0e7ad-e295-5e38-a12a-130fe3c38ea6>,
+        <http://archaeonatural.cloud/poseidon/Person_6541f15e-325a-5bb5-82f7-a4796b2c9fdc>,
+        <http://archaeonatural.cloud/poseidon/Person_67b0a0b1-f85b-5d2b-bb29-00998947b00b>,
+        <http://archaeonatural.cloud/poseidon/Person_765d717c-ef8d-56ae-80e4-798e463870be>,
+        <http://archaeonatural.cloud/poseidon/Person_825ac4f2-ce88-5e49-8772-d6c10ce7c22f>,
+        <http://archaeonatural.cloud/poseidon/Person_b98d2694-73ab-53f6-9b75-bb29ee8e09d6>,
+        <http://archaeonatural.cloud/poseidon/Person_e1f2d2c5-71d2-528f-9fb5-3a93957197d1>,
+        <http://archaeonatural.cloud/poseidon/Person_e76248cb-be0d-50d9-9ad7-40217b0fd660>,
+        <http://archaeonatural.cloud/poseidon/Person_fcfa699b-17e8-5a5a-9b17-09e2770de196> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "A Genetic History of the Near East from an aDNA Time Course Sampling Eight Points in the Past 4,000 Years"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_6df85d97-a383-5a05-8e09-891ceb30e4d7> .
+

@@ -1,0 +1,14 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_DEMO_archaeonatural.cloud_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Poseidon_DEMO - archaeonatural.cloud"@en ;
+    void:linkPredicate rdf:first ;
+    void:objectsTarget <http://archaeonatural.cloud/> ;
+    void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:triples 2 .
+

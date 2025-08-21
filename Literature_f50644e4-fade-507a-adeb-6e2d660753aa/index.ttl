@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_f50644e4-fade-507a-adeb-6e2d660753aa> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "40,000-Year-Old Individual from Asia Provides Insight into Early Population Structure in Eurasia"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2017.09.030> ;
+    ns1:hasTitle "40,000-Year-Old Individual from Asia Provides Insight into Early Population Structure in Eurasia"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_045aea0b-aca5-5400-a360-14e185362476>,
+        <http://archaeonatural.cloud/poseidon/Person_17d00255-34ea-501f-a6af-fa5510655e16>,
+        <http://archaeonatural.cloud/poseidon/Person_26c3d328-2c15-583e-9680-1159da82c69b>,
+        <http://archaeonatural.cloud/poseidon/Person_33758b9c-691a-55dd-a57d-536f52dddb67>,
+        <http://archaeonatural.cloud/poseidon/Person_59a378c5-9f62-5b63-966a-18071501d030>,
+        <http://archaeonatural.cloud/poseidon/Person_60100ddd-4ef4-5b9f-855a-578ca60d13cd>,
+        <http://archaeonatural.cloud/poseidon/Person_9efeb785-fee5-50ff-b5c0-81d9511983b1>,
+        <http://archaeonatural.cloud/poseidon/Person_aa99d6ff-d341-573d-a6f6-0ae874776e86>,
+        <http://archaeonatural.cloud/poseidon/Person_b8a8ddfd-ea65-5d3b-beb5-a335ecf1c86f>,
+        <http://archaeonatural.cloud/poseidon/Person_c7eb9842-8151-5747-97b4-e929a12efff6>,
+        <http://archaeonatural.cloud/poseidon/Person_d494253e-9d16-509b-b113-3627da174c2a> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "40,000-Year-Old Individual from Asia Provides Insight into Early Population Structure in Eurasia"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_f50644e4-fade-507a-adeb-6e2d660753aa> .
+

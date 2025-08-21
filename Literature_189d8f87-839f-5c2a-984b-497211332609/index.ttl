@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_189d8f87-839f-5c2a-984b-497211332609> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Variable kinship patterns in Neolithic Anatolia revealed by ancient genomes"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2021.03.050> ;
+    ns1:hasTitle "Variable kinship patterns in Neolithic Anatolia revealed by ancient genomes"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_044dfe59-c7c9-5b61-be3d-73074c972210>,
+        <http://archaeonatural.cloud/poseidon/Person_0a60865e-acc9-5721-a981-32a912e5d202>,
+        <http://archaeonatural.cloud/poseidon/Person_151df609-7edd-5f5c-9dc5-071f2cdb4464>,
+        <http://archaeonatural.cloud/poseidon/Person_16d48a2d-6ebb-5647-a74e-49e3bace69d1>,
+        <http://archaeonatural.cloud/poseidon/Person_191683f8-6c42-5ff0-9652-5dcf9e851588>,
+        <http://archaeonatural.cloud/poseidon/Person_1a4081da-0aca-5cd1-8cdf-786b7085c133>,
+        <http://archaeonatural.cloud/poseidon/Person_1e99096b-2a8c-5745-aae8-fd04f9d3d836>,
+        <http://archaeonatural.cloud/poseidon/Person_1f4b7ca8-7042-5a51-aab0-259df8e6dc10>,
+        <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_25055769-bced-5d38-92cf-66724824b560>,
+        <http://archaeonatural.cloud/poseidon/Person_2cab965e-c681-5967-88ca-abc52036d94c>,
+        <http://archaeonatural.cloud/poseidon/Person_2cc7885f-194d-51db-922d-25786649f2e9>,
+        <http://archaeonatural.cloud/poseidon/Person_35b0b2c1-2e81-58d3-bf99-1adf5270249c>,
+        <http://archaeonatural.cloud/poseidon/Person_3e0b80ca-c2f1-5c26-8d77-7cea3f562f36>,
+        <http://archaeonatural.cloud/poseidon/Person_3eadbf52-dc85-5b21-87fb-b77d93a9b501>,
+        <http://archaeonatural.cloud/poseidon/Person_410ef587-f9cf-59f7-afcc-ff82fea58d8b>,
+        <http://archaeonatural.cloud/poseidon/Person_459232c4-400b-5765-8eca-bad6981217d2>,
+        <http://archaeonatural.cloud/poseidon/Person_46fd4c41-880d-573a-8cfa-07b6f9002b89>,
+        <http://archaeonatural.cloud/poseidon/Person_4929ba5c-85d0-5822-bcf1-31107fce133a>,
+        <http://archaeonatural.cloud/poseidon/Person_4e899f14-8b0f-56b8-ae1b-2599f7967351>,
+        <http://archaeonatural.cloud/poseidon/Person_50923109-0b40-5e36-9996-33553bc93716>,
+        <http://archaeonatural.cloud/poseidon/Person_54db6d91-bccc-52a9-bae7-40aa96b74872>,
+        <http://archaeonatural.cloud/poseidon/Person_55d3501d-bacc-5593-8e12-c0daf7dd9bb6>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_64a956c6-1627-5a89-91da-777d7324a827>,
+        <http://archaeonatural.cloud/poseidon/Person_6cb8fd3e-feaa-543b-877d-1caa00b31242>,
+        <http://archaeonatural.cloud/poseidon/Person_6cbecab3-2353-5139-aec0-d8b70419d6ff>,
+        <http://archaeonatural.cloud/poseidon/Person_7a70a851-ddba-59d9-811d-ac67fb4bed08>,
+        <http://archaeonatural.cloud/poseidon/Person_7ca8b3ec-c235-50b3-ab77-5d76e173d902>,
+        <http://archaeonatural.cloud/poseidon/Person_7e9af105-e735-5bd5-af4c-318a3b60ff2c>,
+        <http://archaeonatural.cloud/poseidon/Person_7f92b067-7b72-5da0-bb57-4e028897784e>,
+        <http://archaeonatural.cloud/poseidon/Person_7fe373ab-5dd2-5fae-8c7f-f31eddeb2e84>,
+        <http://archaeonatural.cloud/poseidon/Person_8169440a-e1e7-527f-90de-6aec1ef26233>,
+        <http://archaeonatural.cloud/poseidon/Person_837be13a-2241-5dfe-a65b-41540e8cbb9a>,
+        <http://archaeonatural.cloud/poseidon/Person_8724d4e8-2cbd-553d-928d-0295f7e505b6>,
+        <http://archaeonatural.cloud/poseidon/Person_8c316222-38dd-56ce-8838-849067cf7ebc>,
+        <http://archaeonatural.cloud/poseidon/Person_8c6f0b07-4914-5bcb-8d05-34b5cdabb5df>,
+        <http://archaeonatural.cloud/poseidon/Person_a5a4b202-8fd1-572b-959d-9c4aabde2999>,
+        <http://archaeonatural.cloud/poseidon/Person_af33bb0e-20ec-5736-8025-238892bad703>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_bab16e1e-9212-5635-bb18-33ec451c98bd>,
+        <http://archaeonatural.cloud/poseidon/Person_bc15c8dd-697d-520d-977a-7cb31e7ee807>,
+        <http://archaeonatural.cloud/poseidon/Person_bd38f550-efc7-5f99-a06f-144ad691079b>,
+        <http://archaeonatural.cloud/poseidon/Person_bf809f15-749f-506f-b4bc-d1552a99da00>,
+        <http://archaeonatural.cloud/poseidon/Person_c007a548-852e-589e-b834-45e3a409b7c4>,
+        <http://archaeonatural.cloud/poseidon/Person_c4696b02-4027-5028-b8df-3f525e5c2f46>,
+        <http://archaeonatural.cloud/poseidon/Person_d18eac46-8911-597f-8723-24d8bec0bc61>,
+        <http://archaeonatural.cloud/poseidon/Person_d4aca529-9ae9-5568-8914-cc6ff6a291b6>,
+        <http://archaeonatural.cloud/poseidon/Person_dd34cf88-1ae8-5be7-bdf1-1d51b07b7a8d>,
+        <http://archaeonatural.cloud/poseidon/Person_dea15050-1487-5ba3-8e8d-92c0c6c67abe>,
+        <http://archaeonatural.cloud/poseidon/Person_e7b10288-f452-5e26-b269-6bf9d874a144>,
+        <http://archaeonatural.cloud/poseidon/Person_e9ae10e4-598b-5690-af30-09f195401d25>,
+        <http://archaeonatural.cloud/poseidon/Person_ed1a33a1-0888-5faf-9a56-dccb76995545>,
+        <http://archaeonatural.cloud/poseidon/Person_f55c21e1-4ff1-58fc-b331-e7a7856d98d5>,
+        <http://archaeonatural.cloud/poseidon/Person_f98ad27e-a274-5cf2-b874-d39c0f69ecc6>,
+        <http://archaeonatural.cloud/poseidon/Person_fc88d9eb-c7e3-50d9-b9d2-1003413fc9f1>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Variable kinship patterns in Neolithic Anatolia revealed by ancient genomes"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_189d8f87-839f-5c2a-984b-497211332609> .
+

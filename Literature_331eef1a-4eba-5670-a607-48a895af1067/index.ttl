@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_331eef1a-4eba-5670-a607-48a895af1067> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ancient DNA Reconstructs the Genetic Legacies of Precontact Puerto Rico Communities"@en ;
+    ns1:hasDOI <https://doi.org/10.1093/molbev/msz267> ;
+    ns1:hasTitle "Ancient DNA Reconstructs the Genetic Legacies of Precontact Puerto Rico Communities"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e8fda636-f8d4-5a21-9543-7f8913ed2a61> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0c8b4a13-a7df-5f79-a985-7aded1c579f3>,
+        <http://archaeonatural.cloud/poseidon/Person_1a17a5c8-d373-501d-9c2a-fc03f0dc1049>,
+        <http://archaeonatural.cloud/poseidon/Person_2780a546-4e85-532f-a3fe-0d4e0773a0b1>,
+        <http://archaeonatural.cloud/poseidon/Person_3e7f941b-7747-5f99-b0a5-4e0b9aeaa8f8>,
+        <http://archaeonatural.cloud/poseidon/Person_5ba8247a-00ab-5025-8091-9c26e1060356>,
+        <http://archaeonatural.cloud/poseidon/Person_66378dfd-6910-5a07-aaad-9e8c89ff1837>,
+        <http://archaeonatural.cloud/poseidon/Person_674584e4-4911-5669-a83e-11223f7e38f4>,
+        <http://archaeonatural.cloud/poseidon/Person_6e848716-1e9a-5a93-99e1-2a89606e9dc1>,
+        <http://archaeonatural.cloud/poseidon/Person_7e5225bc-82de-5530-9b38-ff2b8c105b9a>,
+        <http://archaeonatural.cloud/poseidon/Person_f9841ff3-70f2-50ce-8b78-2807ae9c4b1b> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ancient DNA Reconstructs the Genetic Legacies of Precontact Puerto Rico Communities"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_331eef1a-4eba-5670-a607-48a895af1067> .
+

@@ -1,0 +1,30 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Location_40f94cd3-d986-5f33-8295-257cde7db861> a ns1:Place,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Aweil"@en ;
+    ns1:closeMatch <http://sws.geonames.org/11550582/>,
+        <http://www.wikidata.org/entity/Q791685> ;
+    ns1:hasExternalIdentifier <http://sws.geonames.org/11550582/>,
+        <http://www.wikidata.org/entity/Q791685> ;
+    ns1:inCountry <http://archaeonatural.cloud/poseidon/Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno version 2.1.1 within the Poseidon Community Archive"@en ;
+    skos:prefLabel "Aweil"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://github.com/poseidon-framework/community-archive>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8> .
+

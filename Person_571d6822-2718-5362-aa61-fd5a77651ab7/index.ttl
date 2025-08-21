@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_571d6822-2718-5362-aa61-fd5a77651ab7> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Robbeets, Martine" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-2860-0230> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Robbeets, Martine" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1824ba30-3a05-5fb0-a8af-12cb4ba212fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_38d1f1b3-9e51-535b-bd5a-b5c5e04964c7>,
+        <http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9>,
+        <http://archaeonatural.cloud/poseidon/Activity_8b3863eb-10d5-5b17-a669-46f906957284>,
+        <http://archaeonatural.cloud/poseidon/Activity_dcb6eec2-03ac-53f2-a785-647806ffb05b> ;
+    foaf:name "Robbeets, Martine" .
+

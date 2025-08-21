@@ -1,0 +1,82 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_1df039ce-d2c9-540e-9a24-99058850d03a> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Early human dispersals within the Americas"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/science.aav2621> ;
+    ns1:hasTitle "Early human dispersals within the Americas"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e76ee763-0226-5d00-8b2d-46a0df49d7ea> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_00c76ad2-2d40-5d9c-892e-c48f31d4be98>,
+        <http://archaeonatural.cloud/poseidon/Person_0c8b4a13-a7df-5f79-a985-7aded1c579f3>,
+        <http://archaeonatural.cloud/poseidon/Person_13ca29e4-1a18-5f39-87f5-8db1e17937b2>,
+        <http://archaeonatural.cloud/poseidon/Person_154c9aea-1ab8-5e66-a7a6-44f382431fc6>,
+        <http://archaeonatural.cloud/poseidon/Person_1555f3f5-45b7-56a8-8339-994ad6a42441>,
+        <http://archaeonatural.cloud/poseidon/Person_190bbe6b-09be-5a74-bca2-2a7c1f38282f>,
+        <http://archaeonatural.cloud/poseidon/Person_210e2242-4eee-5f9a-af6e-dc033a378bf8>,
+        <http://archaeonatural.cloud/poseidon/Person_23648c46-4dcd-58bf-a21f-d066025a116d>,
+        <http://archaeonatural.cloud/poseidon/Person_23798656-573b-5670-8f5b-3d7f4063365d>,
+        <http://archaeonatural.cloud/poseidon/Person_2c123aaf-6dbe-5652-a345-58498e8d9673>,
+        <http://archaeonatural.cloud/poseidon/Person_2f2fc2e1-9568-52f3-b50f-d6e45c0c7f0f>,
+        <http://archaeonatural.cloud/poseidon/Person_33e5b5d2-3549-5814-a454-44a416a0ad21>,
+        <http://archaeonatural.cloud/poseidon/Person_353c9420-1c93-5941-ab8c-8fb334e0a861>,
+        <http://archaeonatural.cloud/poseidon/Person_3a9db0f0-1996-536e-9b05-c76a1b213118>,
+        <http://archaeonatural.cloud/poseidon/Person_3b367971-ef03-5a6d-8162-2846eac08c1b>,
+        <http://archaeonatural.cloud/poseidon/Person_3daf86d0-d2f4-50f6-9be0-23706fefdd52>,
+        <http://archaeonatural.cloud/poseidon/Person_3edcdf62-ac6e-5256-9b63-774e4185abe2>,
+        <http://archaeonatural.cloud/poseidon/Person_42ffa654-34cf-502b-99aa-5e98d4f5f22e>,
+        <http://archaeonatural.cloud/poseidon/Person_4aaa2b48-1a42-52bc-8746-60f03565b55c>,
+        <http://archaeonatural.cloud/poseidon/Person_4e2b25c3-65ec-54c1-8438-dfe137a6755d>,
+        <http://archaeonatural.cloud/poseidon/Person_5bef8b5f-d8d1-556b-b764-53c6e7d12779>,
+        <http://archaeonatural.cloud/poseidon/Person_5cd81aa5-0315-50b9-bf3f-f2dcc07b980c>,
+        <http://archaeonatural.cloud/poseidon/Person_63547b8c-733a-52c2-9083-7268a711317e>,
+        <http://archaeonatural.cloud/poseidon/Person_63696673-0cc8-50ab-8771-16aad84be264>,
+        <http://archaeonatural.cloud/poseidon/Person_643fb803-054b-516f-85f7-cbff736bc49d>,
+        <http://archaeonatural.cloud/poseidon/Person_678891a4-3b33-5d19-b8fd-aab278e8a29b>,
+        <http://archaeonatural.cloud/poseidon/Person_7abf0617-9419-5766-b3db-87c1df5dabc9>,
+        <http://archaeonatural.cloud/poseidon/Person_7add854f-d9bf-5fca-bf24-9ae67c5f1a64>,
+        <http://archaeonatural.cloud/poseidon/Person_7fd0e380-56f6-5323-8a27-da5e0f60a86d>,
+        <http://archaeonatural.cloud/poseidon/Person_82c65ae0-c22a-5f1c-9985-fa42af1cd005>,
+        <http://archaeonatural.cloud/poseidon/Person_890671fe-71e7-56d4-82de-0cb683bff829>,
+        <http://archaeonatural.cloud/poseidon/Person_8fa28cf7-71d8-56f6-a22f-b484066df906>,
+        <http://archaeonatural.cloud/poseidon/Person_94ca6dfe-17d3-5ced-b265-23d73d9967c5>,
+        <http://archaeonatural.cloud/poseidon/Person_99284d76-0ca1-506d-9dce-36a95a9b5894>,
+        <http://archaeonatural.cloud/poseidon/Person_a02b681f-cc1a-59a1-9d15-55676b5bc23c>,
+        <http://archaeonatural.cloud/poseidon/Person_a4f0b31c-0983-5085-a728-9abcf52b4492>,
+        <http://archaeonatural.cloud/poseidon/Person_ab2f5b7f-0264-5179-ae79-537d66af8f6b>,
+        <http://archaeonatural.cloud/poseidon/Person_b0e6044e-afc6-5e60-b824-b2556008a53d>,
+        <http://archaeonatural.cloud/poseidon/Person_b7c6f111-eb43-5dee-873b-e2b0cc455452>,
+        <http://archaeonatural.cloud/poseidon/Person_be33fbfe-5708-5db8-92db-28a52eaa1f71>,
+        <http://archaeonatural.cloud/poseidon/Person_bfcfa87d-c4fb-5ef9-a51c-344a8644a637>,
+        <http://archaeonatural.cloud/poseidon/Person_c5760139-29f4-56a1-b724-ffd11741009f>,
+        <http://archaeonatural.cloud/poseidon/Person_cbcfe697-02a9-56df-b5b9-120bc5f219c7>,
+        <http://archaeonatural.cloud/poseidon/Person_dbb5f089-adfe-594a-8f29-697a0a845bc6>,
+        <http://archaeonatural.cloud/poseidon/Person_dfdf2126-98dd-5c64-91f2-c0d3bc7fd981>,
+        <http://archaeonatural.cloud/poseidon/Person_e885646a-f26a-5a12-a104-06959a2981dd>,
+        <http://archaeonatural.cloud/poseidon/Person_eac00f3c-d655-5387-86e4-8b87def134ec>,
+        <http://archaeonatural.cloud/poseidon/Person_ed095e12-58bc-5ace-bffb-6d1ba7a66de8>,
+        <http://archaeonatural.cloud/poseidon/Person_ee0c4681-b57f-58e0-85a0-bd5ec116139a>,
+        <http://archaeonatural.cloud/poseidon/Person_f38e2b9c-cf86-5943-b640-27d89e6ab443>,
+        <http://archaeonatural.cloud/poseidon/Person_f512db9c-0d00-50f6-b545-b0a533d20926>,
+        <http://archaeonatural.cloud/poseidon/Person_f6654f40-0fec-5dad-9d5b-30c75bba440b>,
+        <http://archaeonatural.cloud/poseidon/Person_f8b28d9a-09d1-51e5-8724-88d975a6f746>,
+        <http://archaeonatural.cloud/poseidon/Person_fd58ae0b-b074-50e9-a999-c8a4b802b173> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Early human dispersals within the Americas"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1df039ce-d2c9-540e-9a24-99058850d03a> .
+

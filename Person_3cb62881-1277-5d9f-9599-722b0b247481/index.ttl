@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_3cb62881-1277-5d9f-9599-722b0b247481> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Edlund, Hanna" ;
+    ns1:hasORCID <http://orcid.org/0000-0003-3784-4285> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Edlund, Hanna" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_43b66259-4ccd-5b8b-925a-06198c4b3b04>,
+        <http://archaeonatural.cloud/poseidon/Activity_60275423-ea45-5aa8-842e-ec5824cc7ce0>,
+        <http://archaeonatural.cloud/poseidon/Activity_924937b0-1080-57bb-a21d-c4b59653452d>,
+        <http://archaeonatural.cloud/poseidon/Activity_92aebddf-87da-5e7d-947b-ca816eb75021>,
+        <http://archaeonatural.cloud/poseidon/Activity_99c3d80a-14ab-5e7b-b983-60b948f4782c> ;
+    foaf:name "Edlund, Hanna" .
+

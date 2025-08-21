@@ -1,0 +1,34 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_02e771db-c061-5738-a1bb-3f9772e18fb3> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Manica, Andrea" ;
+    ns1:hasORCID <http://orcid.org/0000-0003-1895-450X> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Manica, Andrea" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1676d351-7e56-5cf2-bd6a-18b58de777bb>,
+        <http://archaeonatural.cloud/poseidon/Activity_19edb60f-44b3-5001-bb03-1b4bb1e413fd>,
+        <http://archaeonatural.cloud/poseidon/Activity_4b029076-1c33-5df8-a225-e3fb8f538505>,
+        <http://archaeonatural.cloud/poseidon/Activity_5bf0f377-0c5a-5a6f-af7e-378ada826d4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_6932331c-bb62-5009-8b1a-e36b9721c1d3>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c24e1dc-e974-507b-ba24-063fe5ec51fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_b9aa5102-4b0c-592d-9749-7ee327e8a6a3>,
+        <http://archaeonatural.cloud/poseidon/Activity_d110079c-7cc1-5b0c-9875-1bc571fa9acd> ;
+    foaf:name "Manica, Andrea" .
+

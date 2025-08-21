@@ -1,0 +1,33 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Journal_5d88daac-3d5a-5832-a354-bfbb530a2d81> a <http://archaeonatural.cloud/ont/Journal>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Cell"@en ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Cell"@en ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_0fc3bf7c-7fa7-572e-83c0-f2d6f3f88ddf>,
+        <http://archaeonatural.cloud/poseidon/Activity_382f873a-01e9-5e3a-8ca3-83b61a777bf9>,
+        <http://archaeonatural.cloud/poseidon/Activity_4fe4b7f8-6dba-53da-b462-f3541011ad4f>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_63653801-fcbf-55c2-8ebd-f95523f2fbd6>,
+        <http://archaeonatural.cloud/poseidon/Activity_641f3bb7-9927-5630-beb8-1a584b6e4104>,
+        <http://archaeonatural.cloud/poseidon/Activity_6f33e1fb-6e9a-57b3-85b2-bd66163769b2>,
+        <http://archaeonatural.cloud/poseidon/Activity_8127d60c-3b3c-5791-8b26-6649f4ad72f2>,
+        <http://archaeonatural.cloud/poseidon/Activity_cea80293-0b91-5c4c-85fd-711f52e1b682>,
+        <http://archaeonatural.cloud/poseidon/Activity_d00735b7-fe39-57f5-9c20-e05982ef16fb>,
+        <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24> .
+

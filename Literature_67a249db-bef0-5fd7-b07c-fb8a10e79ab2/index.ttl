@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_67a249db-bef0-5fd7-b07c-fb8a10e79ab2> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genomic portrait and relatedness patterns of the Iron Age Log Coffin culture in northwestern Thailand"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/s41467-023-44328-2> ;
+    ns1:hasTitle "Genomic portrait and relatedness patterns of the Iron Age Log Coffin culture in northwestern Thailand"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0fd92c83-f9b8-5527-bac9-93064533ebdd>,
+        <http://archaeonatural.cloud/poseidon/Person_248796a2-a525-5f22-9779-585c15edf879>,
+        <http://archaeonatural.cloud/poseidon/Person_2cbda019-ee82-5aff-94f7-d0ffd498547d>,
+        <http://archaeonatural.cloud/poseidon/Person_310fedb2-b052-58be-9b5d-607177ac3cfd>,
+        <http://archaeonatural.cloud/poseidon/Person_a6be492e-30cc-569a-b5ef-e24beb05752c>,
+        <http://archaeonatural.cloud/poseidon/Person_c4f50c97-0336-5b7e-a389-6348f7869281>,
+        <http://archaeonatural.cloud/poseidon/Person_dc1bb8be-883b-542c-a8e5-b4514b22ab41>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genomic portrait and relatedness patterns of the Iron Age Log Coffin culture in northwestern Thailand"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_67a249db-bef0-5fd7-b07c-fb8a10e79ab2> .
+

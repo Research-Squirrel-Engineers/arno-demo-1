@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_aaaebb9c-2940-5022-b3f8-52da19545a29> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Integration of ancient DNA with transdisciplinary dataset finds strong support for Inca resettlement in the south Peruvian coast"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.2005965117> ;
+    ns1:hasTitle "Integration of ancient DNA with transdisciplinary dataset finds strong support for Inca resettlement in the south Peruvian coast"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_25c17af3-0490-548b-81ba-2915b5129216>,
+        <http://archaeonatural.cloud/poseidon/Person_7426ec36-ea54-553c-8bbd-b9ed9d6c9683>,
+        <http://archaeonatural.cloud/poseidon/Person_901207d1-8d24-518b-b9ac-7e5c9549baa2>,
+        <http://archaeonatural.cloud/poseidon/Person_b46c001f-a5b1-5e7e-b307-31397f589507>,
+        <http://archaeonatural.cloud/poseidon/Person_bfc8bcbf-e54c-562a-aaff-c495d106f045>,
+        <http://archaeonatural.cloud/poseidon/Person_eca701f3-4901-5f4a-b6c4-6c423c11d3c2>,
+        <http://archaeonatural.cloud/poseidon/Person_f096ab54-aa7b-50e8-9992-c29e378fa0ce> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Integration of ancient DNA with transdisciplinary dataset finds strong support for Inca resettlement in the south Peruvian coast"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_aaaebb9c-2940-5022-b3f8-52da19545a29> .
+

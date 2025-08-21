@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_c070de6d-04d1-52f9-83bd-320778d881d8> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Skoglund, Pontus" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-3021-5913> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Skoglund, Pontus" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_01c98866-34a1-5866-9c36-8509ade26b88>,
+        <http://archaeonatural.cloud/poseidon/Activity_1435875d-921f-5887-b434-0b7448e15691>,
+        <http://archaeonatural.cloud/poseidon/Activity_19edb60f-44b3-5001-bb03-1b4bb1e413fd>,
+        <http://archaeonatural.cloud/poseidon/Activity_2cc43460-140f-5c06-a9a8-b420d6fabc28>,
+        <http://archaeonatural.cloud/poseidon/Activity_382f873a-01e9-5e3a-8ca3-83b61a777bf9>,
+        <http://archaeonatural.cloud/poseidon/Activity_4023b704-5f0e-5810-b75f-39ef8a64fb65>,
+        <http://archaeonatural.cloud/poseidon/Activity_53796011-73e3-54db-bad8-13b5c727bfd3>,
+        <http://archaeonatural.cloud/poseidon/Activity_53935378-1b93-5b86-bf21-20f64f9d2775>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88>,
+        <http://archaeonatural.cloud/poseidon/Activity_703977fa-f226-5c78-82cb-6e16265e56ef>,
+        <http://archaeonatural.cloud/poseidon/Activity_798558e0-aa01-5f53-aaf3-cfbdf88f79c4>,
+        <http://archaeonatural.cloud/poseidon/Activity_989d9046-0ff6-5b99-8cb9-f7969106a6ca>,
+        <http://archaeonatural.cloud/poseidon/Activity_ae5e1381-2f93-5ca9-bad6-1bd044d56246>,
+        <http://archaeonatural.cloud/poseidon/Activity_b77f1f5c-bf74-59f1-8318-e8276a5a8c3b>,
+        <http://archaeonatural.cloud/poseidon/Activity_c394f264-df93-5849-a7b9-aa7ede07b154>,
+        <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24>,
+        <http://archaeonatural.cloud/poseidon/Activity_df48973e-1550-50f4-a710-93a444c57a7d>,
+        <http://archaeonatural.cloud/poseidon/Activity_e2b4005c-682b-5c33-ae5f-74be82998798>,
+        <http://archaeonatural.cloud/poseidon/Activity_e76c1819-e03d-5f99-b8d5-68ac8ce04950>,
+        <http://archaeonatural.cloud/poseidon/Activity_f358f229-f541-5825-b2dd-3d7db09d789e> ;
+    foaf:name "Skoglund, Pontus" .
+

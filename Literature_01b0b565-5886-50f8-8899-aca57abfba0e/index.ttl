@@ -1,0 +1,40 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_01b0b565-5886-50f8-8899-aca57abfba0e> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genomic Analyses of Pre-European Conquest Human Remains from the Canary Islands Reveal Close Affinity to Modern North Africans"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2017.09.059> ;
+    ns1:hasTitle "Genomic Analyses of Pre-European Conquest Human Remains from the Canary Islands Reveal Close Affinity to Modern North Africans"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_018d7008-4867-58c4-a353-04c1a975821f>,
+        <http://archaeonatural.cloud/poseidon/Person_151df609-7edd-5f5c-9dc5-071f2cdb4464>,
+        <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_412eeb73-1b91-5891-aae4-80a3751152e4>,
+        <http://archaeonatural.cloud/poseidon/Person_46b5992a-dc4a-51f9-a5c3-7bb3752a7765>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_84e440e4-2c01-52e9-88f0-18d9457ac66d>,
+        <http://archaeonatural.cloud/poseidon/Person_89941fbb-acbd-5781-930d-8d30026ca117>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_b1ed0e80-3cc9-50e5-ab88-5c02fc5b7722>,
+        <http://archaeonatural.cloud/poseidon/Person_ea4793da-38fc-53f5-9808-dc95cd3acbe2>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genomic Analyses of Pre-European Conquest Human Remains from the Canary Islands Reveal Close Affinity to Modern North Africans"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_01b0b565-5886-50f8-8899-aca57abfba0e> .
+

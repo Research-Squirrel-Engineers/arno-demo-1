@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_8e521792-5f86-5493-a435-f756e3dbea32> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Buckley, Hallie" ;
+    ns1:hasORCID <http://orcid.org/0000-0003-1047-4288> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Buckley, Hallie" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_01c98866-34a1-5866-9c36-8509ade26b88>,
+        <http://archaeonatural.cloud/poseidon/Activity_7b0986cb-861d-5d9a-b191-8b0a3314956b>,
+        <http://archaeonatural.cloud/poseidon/Activity_97ede6f4-a5e7-5f8d-b2e5-19807c76ed84>,
+        <http://archaeonatural.cloud/poseidon/Activity_c39f8689-ef7f-5159-b46d-c49e540d3dcd>,
+        <http://archaeonatural.cloud/poseidon/Activity_d82c1ea5-913e-53f6-afcb-567300d80462> ;
+    foaf:name "Buckley, Hallie" .
+

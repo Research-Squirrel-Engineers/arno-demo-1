@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_206af62b-329f-51af-aacd-18ffe9f90485> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Demographic history and genetic structure in pre-Hispanic Central Mexico"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/science.add6142> ;
+    ns1:hasTitle "Demographic history and genetic structure in pre-Hispanic Central Mexico"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e76ee763-0226-5d00-8b2d-46a0df49d7ea> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_10383d3d-1497-5e15-a319-a8d58e628db0>,
+        <http://archaeonatural.cloud/poseidon/Person_1415fbec-9678-5ffb-a5f6-82e249d96dc4>,
+        <http://archaeonatural.cloud/poseidon/Person_18d14d91-9652-5fee-bb5d-7563e80929cf>,
+        <http://archaeonatural.cloud/poseidon/Person_1ca0897a-3e30-5594-977f-85fe6ac439bd>,
+        <http://archaeonatural.cloud/poseidon/Person_2a8a9f0c-7efb-5e2d-8761-048b4ddbad17>,
+        <http://archaeonatural.cloud/poseidon/Person_3694e750-e1ba-58c3-96dc-7d3ceb6fd641>,
+        <http://archaeonatural.cloud/poseidon/Person_4c115e98-0d94-5922-b949-8ae578b9948f>,
+        <http://archaeonatural.cloud/poseidon/Person_50b231e1-1307-5811-9314-2c90e70a07da>,
+        <http://archaeonatural.cloud/poseidon/Person_52d612e8-71ee-5f8b-8520-f5bcacacfb10>,
+        <http://archaeonatural.cloud/poseidon/Person_564c5a42-0a74-51a3-90ae-bfd6f2e2245e>,
+        <http://archaeonatural.cloud/poseidon/Person_573fa042-d900-5911-95eb-0acc097bcb33>,
+        <http://archaeonatural.cloud/poseidon/Person_636a9def-ef1e-5e10-a169-8159e75e0d6d>,
+        <http://archaeonatural.cloud/poseidon/Person_69f65ac8-29bd-5779-8483-7dd939f15f33>,
+        <http://archaeonatural.cloud/poseidon/Person_71f1e525-0f91-5da0-a09a-42c175708010>,
+        <http://archaeonatural.cloud/poseidon/Person_77e507c8-76a3-53ea-ab59-12b2eecea782>,
+        <http://archaeonatural.cloud/poseidon/Person_84e440e4-2c01-52e9-88f0-18d9457ac66d>,
+        <http://archaeonatural.cloud/poseidon/Person_99a24b22-4d60-54c6-8424-76e94239e10e>,
+        <http://archaeonatural.cloud/poseidon/Person_ad83fe83-0c86-5fff-b5a1-fa9354f03428>,
+        <http://archaeonatural.cloud/poseidon/Person_b78ac82b-6ddb-517c-9e42-27d32e3ea671>,
+        <http://archaeonatural.cloud/poseidon/Person_b9259546-2a25-5ad7-9cb2-3e933ff39342>,
+        <http://archaeonatural.cloud/poseidon/Person_cfd92f77-81eb-5359-a8b9-80e2e9051e97>,
+        <http://archaeonatural.cloud/poseidon/Person_dcd484f2-8bca-59be-9325-d070da0c33a1>,
+        <http://archaeonatural.cloud/poseidon/Person_dd9c01bf-a3cb-5d93-a05d-faf142f93dce>,
+        <http://archaeonatural.cloud/poseidon/Person_e0ae37a0-44cf-5e47-baa1-d334f9832674>,
+        <http://archaeonatural.cloud/poseidon/Person_e5750fed-85f7-53b5-ac1f-89eb9e6dcf0a>,
+        <http://archaeonatural.cloud/poseidon/Person_ee756cc2-72ad-597b-b2d4-f79d5470e292>,
+        <http://archaeonatural.cloud/poseidon/Person_fd58ae0b-b074-50e9-a999-c8a4b802b173> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Demographic history and genetic structure in pre-Hispanic Central Mexico"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_206af62b-329f-51af-aacd-18ffe9f90485> .
+

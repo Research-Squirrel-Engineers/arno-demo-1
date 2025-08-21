@@ -1,0 +1,180 @@
+<html about="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>Activity_3ed583eb-c924-50a3-82ff-586932767bd9 | Poseidon DEMO</title>");
+      } else {
+        document.write(
+          "<title>Index Page for Poseidon DEMO by the NFDI4Objects Community</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="../epsgdefs.js"></script>
+    <script src="../vowl_result.js"></script>
+    <script src="../poseidon_search.js"></script>
+    <script src="../poseidon_classtree.js"></script>
+    <script src="../proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=1;
+    var baseurl="http://archaeonatural.cloud/poseidon/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>N4O MetaData</b>&nbsp;|&nbsp;Poseidon DEMO&nbsp;|&nbsp;
+        <i>powered by the NFDI4Objects Community</i>
+      </span>
+      <span class="header_pt2">
+        <a href="http://nfdi4objects.net" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png"
+            style="height: 40px !important; margin-right: 10px"
+        /></a>
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png" width="25" height="25"/>Activity_3ed583eb-c924-50a3-82ff-586932767bd9<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for Poseidon DEMO by the NFDI4Objects Community</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The Activity_3ed583eb-c924-50a3-82ff-586932767bd9</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://www.w3.org/ns/prov#Activity" target="_blank" href="http://www.w3.org/ns/prov#Activity">PROV-O Activity <span style="color: #666;">(prov:Activity)</span></a> <a href="../nonns_Activity.html">[x]</a></span></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span> of</td><td class="wrapword"><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" itemref="http://archaeonatural.cloud/poseidon/Activity_collection" property="http://www.w3.org/2000/01/rdf-schema#member"  about="http://archaeonatural.cloud/poseidon/Activity_collection" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Activity_collection/index.html">Activity Instances Collection <span style="color: #666;">(poseidon:Activity_collection)</span></a></span></td></tr><tr class="odd"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasGeneratedBy">was generated by <span style="color: #666;">(prov:wasGeneratedBy)</span></a> </span> of</td><td class="wrapword"><details><summary>39 values</summary><ul><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Literature_3ed583eb-c924-50a3-82ff-586932767bd9" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Literature_3ed583eb-c924-50a3-82ff-586932767bd9" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Literature_3ed583eb-c924-50a3-82ff-586932767bd9/index.html">Ancient genomes from northern China suggest links between subsistence changes and human migration <span style="color: #666;">(poseidon:Literature_3ed583eb-c924-50a3-82ff-586932767bd9)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_758682fc-ac8f-569a-9a38-f042400d74d3" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_758682fc-ac8f-569a-9a38-f042400d74d3" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_758682fc-ac8f-569a-9a38-f042400d74d3/index.html">Cao, Yanpeng <span style="color: #666;">(poseidon:Person_758682fc-ac8f-569a-9a38-f042400d74d3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_82adca20-754c-5150-a6dd-13a4c4bd22d3" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_82adca20-754c-5150-a6dd-13a4c4bd22d3" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_82adca20-754c-5150-a6dd-13a4c4bd22d3/index.html">Cui, Yinqiu <span style="color: #666;">(poseidon:Person_82adca20-754c-5150-a6dd-13a4c4bd22d3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_a2fa15c3-d2fd-5b99-ac9e-c80ccf328739" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_a2fa15c3-d2fd-5b99-ac9e-c80ccf328739" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_a2fa15c3-d2fd-5b99-ac9e-c80ccf328739/index.html">Dong, Guanghui <span style="color: #666;">(poseidon:Person_a2fa15c3-d2fd-5b99-ac9e-c80ccf328739)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_568191eb-b6b5-51d9-98d2-181f4837fc70" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_568191eb-b6b5-51d9-98d2-181f4837fc70" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_568191eb-b6b5-51d9-98d2-181f4837fc70/index.html">Fan, Shengying <span style="color: #666;">(poseidon:Person_568191eb-b6b5-51d9-98d2-181f4837fc70)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_c83cbf0d-03a2-501e-9b11-8812d1d7d763" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_c83cbf0d-03a2-501e-9b11-8812d1d7d763" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_c83cbf0d-03a2-501e-9b11-8812d1d7d763/index.html">Fang, Yanming <span style="color: #666;">(poseidon:Person_c83cbf0d-03a2-501e-9b11-8812d1d7d763)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_c8e050f9-a0fe-56aa-9b42-131583d03080" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_c8e050f9-a0fe-56aa-9b42-131583d03080" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_c8e050f9-a0fe-56aa-9b42-131583d03080/index.html">Feng, Chunyan <span style="color: #666;">(poseidon:Person_c8e050f9-a0fe-56aa-9b42-131583d03080)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_eea6b84e-92a2-501e-916c-299a031ae8ef" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_eea6b84e-92a2-501e-916c-299a031ae8ef" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_eea6b84e-92a2-501e-916c-299a031ae8ef/index.html">Gao, Shizhu <span style="color: #666;">(poseidon:Person_eea6b84e-92a2-501e-916c-299a031ae8ef)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_c0e4aecc-4193-596f-b84a-5d6adea57718" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_c0e4aecc-4193-596f-b84a-5d6adea57718" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_c0e4aecc-4193-596f-b84a-5d6adea57718/index.html">Han, Tao <span style="color: #666;">(poseidon:Person_c0e4aecc-4193-596f-b84a-5d6adea57718)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_979cd810-cb59-5bf6-996c-82491066e08e" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_979cd810-cb59-5bf6-996c-82491066e08e" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_979cd810-cb59-5bf6-996c-82491066e08e/index.html">Hudson, Mark J. <span style="color: #666;">(poseidon:Person_979cd810-cb59-5bf6-996c-82491066e08e)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_3d80a8d1-6544-58df-8c47-db6558377f78" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_3d80a8d1-6544-58df-8c47-db6558377f78" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_3d80a8d1-6544-58df-8c47-db6558377f78/index.html">Jeong, Choongwon <span style="color: #666;">(poseidon:Person_3d80a8d1-6544-58df-8c47-db6558377f78)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d/index.html">Krause, Johannes <span style="color: #666;">(poseidon:Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_0a13d060-0f22-5cb3-aef2-a4aa912c8dae" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_0a13d060-0f22-5cb3-aef2-a4aa912c8dae" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_0a13d060-0f22-5cb3-aef2-a4aa912c8dae/index.html">Li, Ruo <span style="color: #666;">(poseidon:Person_0a13d060-0f22-5cb3-aef2-a4aa912c8dae)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_989d000c-c1b9-5be1-9d9c-fb872e86d78d" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_989d000c-c1b9-5be1-9d9c-fb872e86d78d" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_989d000c-c1b9-5be1-9d9c-fb872e86d78d/index.html">Li, Tao <span style="color: #666;">(poseidon:Person_989d000c-c1b9-5be1-9d9c-fb872e86d78d)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_f1d477f0-076d-522a-b5b6-3a410bfe2530" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_f1d477f0-076d-522a-b5b6-3a410bfe2530" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_f1d477f0-076d-522a-b5b6-3a410bfe2530/index.html">Li, Tianjiao <span style="color: #666;">(poseidon:Person_f1d477f0-076d-522a-b5b6-3a410bfe2530)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_3da60a6c-f3eb-51ba-95e6-73fa7f6a0797" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_3da60a6c-f3eb-51ba-95e6-73fa7f6a0797" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_3da60a6c-f3eb-51ba-95e6-73fa7f6a0797/index.html">Li, Wei <span style="color: #666;">(poseidon:Person_3da60a6c-f3eb-51ba-95e6-73fa7f6a0797)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_1a0f181b-9c76-54bf-96f9-ebb81d576c4a" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_1a0f181b-9c76-54bf-96f9-ebb81d576c4a" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_1a0f181b-9c76-54bf-96f9-ebb81d576c4a/index.html">Liang, Fawei <span style="color: #666;">(poseidon:Person_1a0f181b-9c76-54bf-96f9-ebb81d576c4a)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_f2a22205-e478-5731-b83c-69420da87cc3" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_f2a22205-e478-5731-b83c-69420da87cc3" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_f2a22205-e478-5731-b83c-69420da87cc3/index.html">Liu, Chen <span style="color: #666;">(poseidon:Person_f2a22205-e478-5731-b83c-69420da87cc3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b/index.html">Nature Communications <span style="color: #666;">(poseidon:Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_741333a7-8a7a-52e7-9304-3c17862ba8ec" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_741333a7-8a7a-52e7-9304-3c17862ba8ec" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_741333a7-8a7a-52e7-9304-3c17862ba8ec/index.html">Ning, Chao <span style="color: #666;">(poseidon:Person_741333a7-8a7a-52e7-9304-3c17862ba8ec)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_571d6822-2718-5362-aa61-fd5a77651ab7" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_571d6822-2718-5362-aa61-fd5a77651ab7" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_571d6822-2718-5362-aa61-fd5a77651ab7/index.html">Robbeets, Martine <span style="color: #666;">(poseidon:Person_571d6822-2718-5362-aa61-fd5a77651ab7)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_5d2079ca-1c2d-5f9e-a251-d92ece7bb0b2" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_5d2079ca-1c2d-5f9e-a251-d92ece7bb0b2" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_5d2079ca-1c2d-5f9e-a251-d92ece7bb0b2/index.html">Sun, Lei <span style="color: #666;">(poseidon:Person_5d2079ca-1c2d-5f9e-a251-d92ece7bb0b2)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_b703b948-f742-5340-97a3-7ba4c7f28666" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_b703b948-f742-5340-97a3-7ba4c7f28666" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_b703b948-f742-5340-97a3-7ba4c7f28666/index.html">Sun, Zhouyong <span style="color: #666;">(poseidon:Person_b703b948-f742-5340-97a3-7ba4c7f28666)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_5e24f36c-966b-54a1-880f-4fe44b641640" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_5e24f36c-966b-54a1-880f-4fe44b641640" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_5e24f36c-966b-54a1-880f-4fe44b641640/index.html">Wang, Chuan-Chao <span style="color: #666;">(poseidon:Person_5e24f36c-966b-54a1-880f-4fe44b641640)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_cc1bf2a1-cb3c-56f5-ac3b-b49213c65ac8" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_cc1bf2a1-cb3c-56f5-ac3b-b49213c65ac8" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_cc1bf2a1-cb3c-56f5-ac3b-b49213c65ac8/index.html">Wang, Ke <span style="color: #666;">(poseidon:Person_cc1bf2a1-cb3c-56f5-ac3b-b49213c65ac8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_576b0404-6ace-5c31-8953-aa3bff987be8" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_576b0404-6ace-5c31-8953-aa3bff987be8" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_576b0404-6ace-5c31-8953-aa3bff987be8/index.html">Wei, Jian <span style="color: #666;">(poseidon:Person_576b0404-6ace-5c31-8953-aa3bff987be8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_c1cca94f-bcdd-543c-ae94-8761a2945bec" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_c1cca94f-bcdd-543c-ae94-8761a2945bec" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_c1cca94f-bcdd-543c-ae94-8761a2945bec/index.html">Wei, Xingtao <span style="color: #666;">(poseidon:Person_c1cca94f-bcdd-543c-ae94-8761a2945bec)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_b478979c-baef-5fd9-9051-3c172acd7e78" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_b478979c-baef-5fd9-9051-3c172acd7e78" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_b478979c-baef-5fd9-9051-3c172acd7e78/index.html">Wu, Sihao <span style="color: #666;">(poseidon:Person_b478979c-baef-5fd9-9051-3c172acd7e78)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_a80a88ea-4316-5031-8b2e-9d5f8840f5f9" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_a80a88ea-4316-5031-8b2e-9d5f8840f5f9" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_a80a88ea-4316-5031-8b2e-9d5f8840f5f9/index.html">Wu, Xiaohong <span style="color: #666;">(poseidon:Person_a80a88ea-4316-5031-8b2e-9d5f8840f5f9)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_9cd4396b-4418-5321-b795-fd87379b34d7" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_9cd4396b-4418-5321-b795-fd87379b34d7" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_9cd4396b-4418-5321-b795-fd87379b34d7/index.html">Wu, Xiyan <span style="color: #666;">(poseidon:Person_9cd4396b-4418-5321-b795-fd87379b34d7)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_51a8b6de-5aed-5e94-b26b-1171d64c2313" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_51a8b6de-5aed-5e94-b26b-1171d64c2313" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_51a8b6de-5aed-5e94-b26b-1171d64c2313/index.html">Xiong, Zenglong <span style="color: #666;">(poseidon:Person_51a8b6de-5aed-5e94-b26b-1171d64c2313)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_2889b159-4b8c-51cb-a03b-455c65df4efe" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_2889b159-4b8c-51cb-a03b-455c65df4efe" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_2889b159-4b8c-51cb-a03b-455c65df4efe/index.html">Ye, Maolin <span style="color: #666;">(poseidon:Person_2889b159-4b8c-51cb-a03b-455c65df4efe)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_608e9092-9082-561e-8e84-de82108c56d1" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_608e9092-9082-561e-8e84-de82108c56d1" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_608e9092-9082-561e-8e84-de82108c56d1/index.html">Zhang, Fan <span style="color: #666;">(poseidon:Person_608e9092-9082-561e-8e84-de82108c56d1)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_adcf8dfd-70dd-59de-bd59-c7d92e42bbeb" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_adcf8dfd-70dd-59de-bd59-c7d92e42bbeb" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_adcf8dfd-70dd-59de-bd59-c7d92e42bbeb/index.html">Zhang, Hai <span style="color: #666;">(poseidon:Person_adcf8dfd-70dd-59de-bd59-c7d92e42bbeb)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_30d0f6ab-bdc9-5dd2-90f0-36440682172a" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_30d0f6ab-bdc9-5dd2-90f0-36440682172a" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_30d0f6ab-bdc9-5dd2-90f0-36440682172a/index.html">Zhang, Quanchao <span style="color: #666;">(poseidon:Person_30d0f6ab-bdc9-5dd2-90f0-36440682172a)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_9dfd8b55-d0e6-5c2f-87c6-c41ab3abc9c7" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_9dfd8b55-d0e6-5c2f-87c6-c41ab3abc9c7" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_9dfd8b55-d0e6-5c2f-87c6-c41ab3abc9c7/index.html">Zhou, Hui <span style="color: #666;">(poseidon:Person_9dfd8b55-d0e6-5c2f-87c6-c41ab3abc9c7)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_d401cc5e-009c-574d-af9d-b34fc963fe53" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_d401cc5e-009c-574d-af9d-b34fc963fe53" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_d401cc5e-009c-574d-af9d-b34fc963fe53/index.html">Zhou, Yawei <span style="color: #666;">(poseidon:Person_d401cc5e-009c-574d-af9d-b34fc963fe53)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_4a9911ef-72d3-5bb4-b0f6-9a8f81db9eb3" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_4a9911ef-72d3-5bb4-b0f6-9a8f81db9eb3" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_4a9911ef-72d3-5bb4-b0f6-9a8f81db9eb3/index.html">Zhu, Hong <span style="color: #666;">(poseidon:Person_4a9911ef-72d3-5bb4-b0f6-9a8f81db9eb3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" itemref="http://archaeonatural.cloud/poseidon/Person_8116771a-9e11-5f72-a078-eef4bb6b345e" property="http://www.w3.org/ns/prov#wasGeneratedBy"  about="http://archaeonatural.cloud/poseidon/Person_8116771a-9e11-5f72-a078-eef4bb6b345e" resource="http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9" href="../Person_8116771a-9e11-5f72-a078-eef4bb6b345e/index.html">Zhu, Yonggang <span style="color: #666;">(poseidon:Person_8116771a-9e11-5f72-a078-eef4bb6b345e)</span></a></span></li></ul></details></td></tr></tbody></table></div><h5>Metadata</h5><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://rdfs.org/ns/void#inDataset">inDataset <span style="color: #666;">(void:inDataset)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://rdfs.org/ns/void#inDataset" property="http://rdfs.org/ns/void#inDataset" resource="http://archaeonatural.cloud/poseidon/Poseidon_DEMO" href="../Poseidon_DEMO/index.html">Poseidon_DEMO <span style="color: #666;">(poseidon:Poseidon_DEMO)</span></a> <span style="font-weight:bold">[5307 <a href="http://archaeonatural.cloud/ont/NoInformation" target="_blank">www:NoInformation</a>]</span></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#endedAtTime">ended at time <span style="color: #666;">(prov:endedAtTime)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/ns/prov#endedAtTime" property="http://www.w3.org/ns/prov#endedAtTime" content="2025-08-21T13:02:20.691617+00:00" datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-21T13:02:20.691617+00:00 <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#dateTime">xmls:dateTime</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#startedAtTime">started at time <span style="color: #666;">(prov:startedAtTime)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/ns/prov#startedAtTime" property="http://www.w3.org/ns/prov#startedAtTime" content="2025-08-21T13:02:20.666929+00:00" datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-21T13:02:20.666929+00:00 <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#dateTime">xmls:dateTime</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#used">used <span style="color: #666;">(prov:used)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/ns/prov#used" property="http://www.w3.org/ns/prov#used" resource="https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv" target="_blank" href="https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv">PoseidonBib.csv <span style="color: #666;">(PoseidonBib.csv)</span></a> <a href="../nonns_PoseidonBib.csv.html">[x]</a></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasAssociatedWith">was associated with <span style="color: #666;">(prov:wasAssociatedWith)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/ns/prov#wasAssociatedWith" property="http://www.w3.org/ns/prov#wasAssociatedWith" resource="http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD" target="_blank" href="http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD">Poseidon_LOD.py <span style="color: #666;">(www:SoftwareSourceCode_Poseidon_LOD)</span></a> <a href="../nonns_SoftwareSourceCode_Poseidon_LOD.html">[x]</a></span></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;">
+    	<b>published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> by the NFDI4Objects Community (2026)</b>
+    	<br>
+    	<i>Service responsible: Department of Scientific IT at LEIZA</i>
+    	&nbsp;| <a href="https://www.leiza.de/impressum">Impressum / Legal Notice</a>
+       	&nbsp;| <a href="https://www.leiza.de/datenschutz">Datenschutz / Privacy Policy</a>
+    </center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

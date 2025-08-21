@@ -1,0 +1,84 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Krause, Johannes" ;
+    ns1:hasORCID <http://orcid.org/0000-0001-9144-3920> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Krause, Johannes" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_120e5bb9-142d-5ee4-ad90-733d421583be>,
+        <http://archaeonatural.cloud/poseidon/Activity_1435875d-921f-5887-b434-0b7448e15691>,
+        <http://archaeonatural.cloud/poseidon/Activity_1824ba30-3a05-5fb0-a8af-12cb4ba212fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_1a56c3da-5bce-58fa-9bf0-f14d01dc439d>,
+        <http://archaeonatural.cloud/poseidon/Activity_226b0dab-6537-5572-b5a3-f387faa882d3>,
+        <http://archaeonatural.cloud/poseidon/Activity_2718113e-ce81-5646-84b7-d50f56eab407>,
+        <http://archaeonatural.cloud/poseidon/Activity_2ef468af-3fbf-5c5e-b372-a6469e08c319>,
+        <http://archaeonatural.cloud/poseidon/Activity_347edf36-4001-5e6f-aa8c-6f88c9157a39>,
+        <http://archaeonatural.cloud/poseidon/Activity_382f873a-01e9-5e3a-8ca3-83b61a777bf9>,
+        <http://archaeonatural.cloud/poseidon/Activity_38d1f1b3-9e51-535b-bd5a-b5c5e04964c7>,
+        <http://archaeonatural.cloud/poseidon/Activity_3ed583eb-c924-50a3-82ff-586932767bd9>,
+        <http://archaeonatural.cloud/poseidon/Activity_3f7db20c-ee11-5744-9ed3-cf725973d633>,
+        <http://archaeonatural.cloud/poseidon/Activity_437b7039-60c3-5696-b7b6-b6e504fde8b9>,
+        <http://archaeonatural.cloud/poseidon/Activity_47e78faf-23dd-5ed6-8694-0e5ea5dcb8c2>,
+        <http://archaeonatural.cloud/poseidon/Activity_4fe4b7f8-6dba-53da-b462-f3541011ad4f>,
+        <http://archaeonatural.cloud/poseidon/Activity_50b76f61-e4cb-5241-a0a9-b148d3162ad8>,
+        <http://archaeonatural.cloud/poseidon/Activity_5187135e-c4a5-52f0-8255-1a444212d006>,
+        <http://archaeonatural.cloud/poseidon/Activity_5535da84-01d5-52af-aad4-cba8290f966c>,
+        <http://archaeonatural.cloud/poseidon/Activity_5542166a-b235-5a6c-90e4-635bdea5cd72>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_63653801-fcbf-55c2-8ebd-f95523f2fbd6>,
+        <http://archaeonatural.cloud/poseidon/Activity_67a249db-bef0-5fd7-b07c-fb8a10e79ab2>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88>,
+        <http://archaeonatural.cloud/poseidon/Activity_6f33e1fb-6e9a-57b3-85b2-bd66163769b2>,
+        <http://archaeonatural.cloud/poseidon/Activity_73b78b04-8cfb-52a3-a06f-b725657d56db>,
+        <http://archaeonatural.cloud/poseidon/Activity_756fb170-c048-5e1e-9f3e-b3b9fa32bd4d>,
+        <http://archaeonatural.cloud/poseidon/Activity_78169107-8be0-50e6-9d49-69c6c0247bc6>,
+        <http://archaeonatural.cloud/poseidon/Activity_79163565-0b47-5ff8-af44-2393f9332f4b>,
+        <http://archaeonatural.cloud/poseidon/Activity_798558e0-aa01-5f53-aaf3-cfbdf88f79c4>,
+        <http://archaeonatural.cloud/poseidon/Activity_7b0986cb-861d-5d9a-b191-8b0a3314956b>,
+        <http://archaeonatural.cloud/poseidon/Activity_7dcc68b8-7f2e-568c-b56e-d9e980d966f5>,
+        <http://archaeonatural.cloud/poseidon/Activity_7e92dee4-6ae2-5739-bc7f-0c2a5fbecf8b>,
+        <http://archaeonatural.cloud/poseidon/Activity_80a82579-4476-5800-8357-1ffef558b829>,
+        <http://archaeonatural.cloud/poseidon/Activity_822773a5-9253-52df-aed4-181664e282b0>,
+        <http://archaeonatural.cloud/poseidon/Activity_843263c3-759a-551a-81c2-8afd6fd3fea4>,
+        <http://archaeonatural.cloud/poseidon/Activity_8a20963e-73e3-5d9b-aebb-7a6db8e5a6dc>,
+        <http://archaeonatural.cloud/poseidon/Activity_8b3863eb-10d5-5b17-a669-46f906957284>,
+        <http://archaeonatural.cloud/poseidon/Activity_900195d0-72d1-5e47-b7a4-a0f28f816fd7>,
+        <http://archaeonatural.cloud/poseidon/Activity_935b5073-1e58-5dd5-b77d-fe209cc7dfec>,
+        <http://archaeonatural.cloud/poseidon/Activity_979d86f0-700e-5f4f-be72-f393b0affc4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_9e3db5c1-2dd8-52c7-8dbe-d71f813bcb6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_a0596a84-38de-512d-985f-5dced408224b>,
+        <http://archaeonatural.cloud/poseidon/Activity_aabf7297-954d-59a2-ad88-e62ecfe7ab3d>,
+        <http://archaeonatural.cloud/poseidon/Activity_b227583e-5173-5830-acb0-8c467fbbc828>,
+        <http://archaeonatural.cloud/poseidon/Activity_b2bee800-1de2-5ef7-8b61-da30ab6addf5>,
+        <http://archaeonatural.cloud/poseidon/Activity_c39f8689-ef7f-5159-b46d-c49e540d3dcd>,
+        <http://archaeonatural.cloud/poseidon/Activity_d038d51e-5fca-578c-890e-4b07864de856>,
+        <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24>,
+        <http://archaeonatural.cloud/poseidon/Activity_dcb6eec2-03ac-53f2-a785-647806ffb05b>,
+        <http://archaeonatural.cloud/poseidon/Activity_e43fef91-ad8e-5c1d-9f57-0016db3405fc>,
+        <http://archaeonatural.cloud/poseidon/Activity_e76c1819-e03d-5f99-b8d5-68ac8ce04950>,
+        <http://archaeonatural.cloud/poseidon/Activity_eab36f72-21c3-501c-8bf7-0a09605d3df5>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec28bdbb-e4a1-561e-b11b-fdbf09f6ae4a>,
+        <http://archaeonatural.cloud/poseidon/Activity_f060bbe4-ed61-52b9-bc23-0eb9b66a3b68>,
+        <http://archaeonatural.cloud/poseidon/Activity_f0a25bcf-a569-5ed1-9fce-6e373dc5ac55>,
+        <http://archaeonatural.cloud/poseidon/Activity_f13e85b6-f47f-5fe0-adca-98c75f78f7fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_f415e954-3807-50a9-b852-ca949d1f4393>,
+        <http://archaeonatural.cloud/poseidon/Activity_f623a0b8-4670-5851-813b-bb4c83a33478> ;
+    foaf:name "Krause, Johannes" .
+

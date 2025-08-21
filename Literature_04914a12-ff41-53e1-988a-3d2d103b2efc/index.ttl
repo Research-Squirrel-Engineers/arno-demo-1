@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_04914a12-ff41-53e1-988a-3d2d103b2efc> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Two ancient human genomes reveal Polynesian ancestry among the indigenous Botocudos of Brazil"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cub.2014.09.078> ;
+    ns1:hasTitle "Two ancient human genomes reveal Polynesian ancestry among the indigenous Botocudos of Brazil"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_c5b72770-bbc8-5198-90fb-2475d26ce47e> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_00c76ad2-2d40-5d9c-892e-c48f31d4be98>,
+        <http://archaeonatural.cloud/poseidon/Person_01475ec2-5a2a-5ae5-b85a-d80a20a65337>,
+        <http://archaeonatural.cloud/poseidon/Person_021bc2f0-d328-5d1b-ae4f-fff4c23f70cb>,
+        <http://archaeonatural.cloud/poseidon/Person_09a1b4ed-8fd0-5942-b750-f2a60159f774>,
+        <http://archaeonatural.cloud/poseidon/Person_0a9c89c5-e2f0-525e-ad10-80092584c641>,
+        <http://archaeonatural.cloud/poseidon/Person_12a9befc-47ce-5c3b-92a4-3f7cf5ef56cb>,
+        <http://archaeonatural.cloud/poseidon/Person_13ca29e4-1a18-5f39-87f5-8db1e17937b2>,
+        <http://archaeonatural.cloud/poseidon/Person_357962fb-2bbd-5df1-add5-1a0671ce2ce3>,
+        <http://archaeonatural.cloud/poseidon/Person_35fa3fc0-7ae8-5109-9ed7-ab282abaf01f>,
+        <http://archaeonatural.cloud/poseidon/Person_4e2b25c3-65ec-54c1-8438-dfe137a6755d>,
+        <http://archaeonatural.cloud/poseidon/Person_50b0a261-ea72-59f2-84d3-4c26895818da>,
+        <http://archaeonatural.cloud/poseidon/Person_5987f208-8a15-5fb9-8727-7251ebcff591>,
+        <http://archaeonatural.cloud/poseidon/Person_5a82cc4c-1259-52ea-ad0d-a0bc0ef9c663>,
+        <http://archaeonatural.cloud/poseidon/Person_5b13aee1-299f-5f51-9a7f-31d360a2701e>,
+        <http://archaeonatural.cloud/poseidon/Person_5cf3824c-39cc-5c43-bca1-d76a833f204e>,
+        <http://archaeonatural.cloud/poseidon/Person_5e050a61-542c-5f69-82a1-18e144e32c51>,
+        <http://archaeonatural.cloud/poseidon/Person_631104d3-e76d-5520-92b4-37b059eed570>,
+        <http://archaeonatural.cloud/poseidon/Person_6ddcff08-a4d9-57fe-b704-325ab56107c7>,
+        <http://archaeonatural.cloud/poseidon/Person_7541dc20-cf44-5e86-adae-a03f2456111e>,
+        <http://archaeonatural.cloud/poseidon/Person_7fd0e380-56f6-5323-8a27-da5e0f60a86d>,
+        <http://archaeonatural.cloud/poseidon/Person_94a68703-80e6-5c6b-9e96-c228e5b838b9>,
+        <http://archaeonatural.cloud/poseidon/Person_a6be492e-30cc-569a-b5ef-e24beb05752c>,
+        <http://archaeonatural.cloud/poseidon/Person_a936cebd-ade8-5965-b0d2-b7b2422ade2c>,
+        <http://archaeonatural.cloud/poseidon/Person_a994fd98-fc17-5162-8385-3ef9c2e05074>,
+        <http://archaeonatural.cloud/poseidon/Person_aecd9615-161c-58cc-8f24-bfa101207807>,
+        <http://archaeonatural.cloud/poseidon/Person_b7c6f111-eb43-5dee-873b-e2b0cc455452>,
+        <http://archaeonatural.cloud/poseidon/Person_bca88f6d-6cbb-5819-b692-1dbb722b95dd>,
+        <http://archaeonatural.cloud/poseidon/Person_c5760139-29f4-56a1-b724-ffd11741009f>,
+        <http://archaeonatural.cloud/poseidon/Person_c7baaccb-e0fd-532e-b127-f05c92b5478a>,
+        <http://archaeonatural.cloud/poseidon/Person_cde58b68-511d-5d17-9674-548232b36a83>,
+        <http://archaeonatural.cloud/poseidon/Person_d5eeccf0-2fc3-50b1-ad71-5f076f663b80>,
+        <http://archaeonatural.cloud/poseidon/Person_d925e30a-b771-5733-a987-7f156a5e896f>,
+        <http://archaeonatural.cloud/poseidon/Person_db15ea09-7dc1-58b8-88ae-9a6a093ea90c>,
+        <http://archaeonatural.cloud/poseidon/Person_e48d56d5-74d4-52a1-8b44-1dfc84a0aea3>,
+        <http://archaeonatural.cloud/poseidon/Person_e7986e8f-5cfa-5903-946e-2d2ca76af6d9>,
+        <http://archaeonatural.cloud/poseidon/Person_e9302c29-b8f8-58d0-bae1-e2992952197b>,
+        <http://archaeonatural.cloud/poseidon/Person_ed095e12-58bc-5ace-bffb-6d1ba7a66de8>,
+        <http://archaeonatural.cloud/poseidon/Person_ee0c4681-b57f-58e0-85a0-bd5ec116139a>,
+        <http://archaeonatural.cloud/poseidon/Person_f512db9c-0d00-50f6-b545-b0a533d20926>,
+        <http://archaeonatural.cloud/poseidon/Person_fbccf893-00da-54e4-9ef2-dab3421c6018> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Two ancient human genomes reveal Polynesian ancestry among the indigenous Botocudos of Brazil"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_04914a12-ff41-53e1-988a-3d2d103b2efc> .
+

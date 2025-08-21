@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_703977fa-f226-5c78-82cb-6e16265e56ef> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ancient genomes link early farmers from Atapuerca in Spain to modern-day Basques"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.1509851112> ;
+    ns1:hasTitle "Ancient genomes link early farmers from Atapuerca in Spain to modern-day Basques"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_018d7008-4867-58c4-a353-04c1a975821f>,
+        <http://archaeonatural.cloud/poseidon/Person_045c6990-5727-53f9-b6dd-5e6eac88847a>,
+        <http://archaeonatural.cloud/poseidon/Person_0bf076aa-9492-5575-a295-1c75ca9a5882>,
+        <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_495e7051-6ea0-5fec-bd18-e1d1edec50a1>,
+        <http://archaeonatural.cloud/poseidon/Person_4a9d572e-cb2f-5985-9e22-ba1c875efded>,
+        <http://archaeonatural.cloud/poseidon/Person_59489a4d-23ed-53b3-8f78-a3ccb0d98ff1>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_5b9798fe-b8f5-5916-8e78-e92c509d086c>,
+        <http://archaeonatural.cloud/poseidon/Person_68be5121-8c63-53f7-825b-856d62f682e4>,
+        <http://archaeonatural.cloud/poseidon/Person_752d2166-7e27-587a-89df-19f57db616b1>,
+        <http://archaeonatural.cloud/poseidon/Person_84e440e4-2c01-52e9-88f0-18d9457ac66d>,
+        <http://archaeonatural.cloud/poseidon/Person_8c1080fc-25ee-57c4-8f2a-1ee977bc145f>,
+        <http://archaeonatural.cloud/poseidon/Person_94029e31-82f3-5370-bd9f-db031cb06e19>,
+        <http://archaeonatural.cloud/poseidon/Person_9936418c-d7db-5422-8a94-e9b75d1d4c75>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_c070de6d-04d1-52f9-83bd-320778d881d8>,
+        <http://archaeonatural.cloud/poseidon/Person_e04f6689-ef41-5e12-9d56-2c2eaeabd2dc>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ancient genomes link early farmers from Atapuerca in Spain to modern-day Basques"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_703977fa-f226-5c78-82cb-6e16265e56ef> .
+

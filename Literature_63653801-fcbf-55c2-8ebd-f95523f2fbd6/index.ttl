@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_63653801-fcbf-55c2-8ebd-f95523f2fbd6> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Genomic History of Neolithic to Bronze Age Anatolia, Northern Levant, and Southern Caucasus"@en ;
+    ns1:hasDOI <https://doi.org/10.1016/j.cell.2020.04.044> ;
+    ns1:hasTitle "Genomic History of Neolithic to Bronze Age Anatolia, Northern Levant, and Southern Caucasus"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_5d88daac-3d5a-5832-a354-bfbb530a2d81> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_1e99f0d5-10d7-52bc-8ed4-437c862ca233>,
+        <http://archaeonatural.cloud/poseidon/Person_3d80a8d1-6544-58df-8c47-db6558377f78>,
+        <http://archaeonatural.cloud/poseidon/Person_4022c740-8617-5c85-a2e9-b845d378e7ad>,
+        <http://archaeonatural.cloud/poseidon/Person_569fa99c-54b5-5af2-91e5-9232eb9b1e3a>,
+        <http://archaeonatural.cloud/poseidon/Person_64a956c6-1627-5a89-91da-777d7324a827>,
+        <http://archaeonatural.cloud/poseidon/Person_6a94d5b2-f98e-5c6f-a028-aef764c8daea>,
+        <http://archaeonatural.cloud/poseidon/Person_7329fdda-a371-5bbc-a1d3-bb6d4d1452a1>,
+        <http://archaeonatural.cloud/poseidon/Person_7a64b15f-626c-552f-b4b5-cd0af82915ca>,
+        <http://archaeonatural.cloud/poseidon/Person_8f53fde5-918d-554f-94ba-8be1632b2e70>,
+        <http://archaeonatural.cloud/poseidon/Person_907905f8-b9ec-5887-a864-1549e792e766>,
+        <http://archaeonatural.cloud/poseidon/Person_9448c877-246e-5903-aee2-2d812ff6ceeb>,
+        <http://archaeonatural.cloud/poseidon/Person_96370ca2-9b7e-5a7a-88a2-261a7a266474>,
+        <http://archaeonatural.cloud/poseidon/Person_9e5ab6e9-102d-57ba-8335-858b0bed7020>,
+        <http://archaeonatural.cloud/poseidon/Person_a12e164b-d252-5a91-b9bb-83cacff034c4>,
+        <http://archaeonatural.cloud/poseidon/Person_a1938114-eafd-5129-ae84-1d38af5f0065>,
+        <http://archaeonatural.cloud/poseidon/Person_ad442ab9-5801-5d8b-8989-98e0144b95f1>,
+        <http://archaeonatural.cloud/poseidon/Person_bc2bfd23-1876-5845-8e7e-6dc8a58bdeaf>,
+        <http://archaeonatural.cloud/poseidon/Person_bdd94abc-6ed6-58f6-a4c7-d6cebbae1fc8>,
+        <http://archaeonatural.cloud/poseidon/Person_be9db2f3-4c51-5df9-ad0c-ef1cc88878b6>,
+        <http://archaeonatural.cloud/poseidon/Person_c4f50c97-0336-5b7e-a389-6348f7869281>,
+        <http://archaeonatural.cloud/poseidon/Person_c7437f38-f60b-5c08-af5b-7628b1f160ec>,
+        <http://archaeonatural.cloud/poseidon/Person_cea876cc-3a9f-57a2-a9eb-7c6ad9dc744e>,
+        <http://archaeonatural.cloud/poseidon/Person_d95ce23a-975e-569b-b6e7-f57f82f0ea27>,
+        <http://archaeonatural.cloud/poseidon/Person_ddf18e85-7676-5cf3-a055-fdf39aaee786>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_e88b1663-4767-5e86-b7d4-02b2e3820cfa>,
+        <http://archaeonatural.cloud/poseidon/Person_f55b70cd-075d-5011-bc46-fda5e1c467f1>,
+        <http://archaeonatural.cloud/poseidon/Person_fe0810af-4b6d-5fb1-9be7-8950b03fca83>,
+        <http://archaeonatural.cloud/poseidon/Person_fe88d2bf-2f76-58d3-930a-03d1e8b14c5a> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Genomic History of Neolithic to Bronze Age Anatolia, Northern Levant, and Southern Caucasus"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_63653801-fcbf-55c2-8ebd-f95523f2fbd6> .
+

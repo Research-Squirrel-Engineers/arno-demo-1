@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_c69607d9-0336-595a-9a86-672e51c3d53c> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The Neolithic Pitted Ware culture foragers were culturally but not genetically influenced by the Battle Axe culture herders"@en ;
+    ns1:hasDOI <https://doi.org/10.1002/ajpa.24079> ;
+    ns1:hasTitle "The Neolithic Pitted Ware culture foragers were culturally but not genetically influenced by the Battle Axe culture herders"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_d2c929f8-f6c3-5f6c-bfd2-6de199eb058b> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_2304faa4-81b7-5873-9bd5-915818cd1b33>,
+        <http://archaeonatural.cloud/poseidon/Person_59cd6c83-a7af-57fc-92c9-7f474fe04cfb>,
+        <http://archaeonatural.cloud/poseidon/Person_68be5121-8c63-53f7-825b-856d62f682e4>,
+        <http://archaeonatural.cloud/poseidon/Person_839d3b72-0d01-5d83-af08-15199b8f51f8>,
+        <http://archaeonatural.cloud/poseidon/Person_8c316222-38dd-56ce-8838-849067cf7ebc>,
+        <http://archaeonatural.cloud/poseidon/Person_b0896fa5-3a1c-5c98-99aa-84dc99ce55a9>,
+        <http://archaeonatural.cloud/poseidon/Person_e04f6689-ef41-5e12-9d56-2c2eaeabd2dc>,
+        <http://archaeonatural.cloud/poseidon/Person_ff69bfcb-edb9-568d-8382-142a860b3985> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The Neolithic Pitted Ware culture foragers were culturally but not genetically influenced by the Battle Axe culture herders"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_c69607d9-0336-595a-9a86-672e51c3d53c> .
+

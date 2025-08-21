@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_58671bbe-f012-5d33-a7af-c2b061117af4> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Bustamante, Carlos D." ;
+    ns1:hasORCID <http://orcid.org/0000-0002-4187-7920> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Bustamante, Carlos D." ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_19edb60f-44b3-5001-bb03-1b4bb1e413fd>,
+        <http://archaeonatural.cloud/poseidon/Activity_1a834427-613f-54e8-b03a-22f7d5a9b17d>,
+        <http://archaeonatural.cloud/poseidon/Activity_531bf71f-6b80-5b0c-86cf-71bafc6658b1>,
+        <http://archaeonatural.cloud/poseidon/Activity_55c903be-21ca-540b-b9e9-b2911ff4871d>,
+        <http://archaeonatural.cloud/poseidon/Activity_65d9ed70-e5fb-50b3-b0c7-862068554aa7>,
+        <http://archaeonatural.cloud/poseidon/Activity_6b97eaf6-8888-5aae-bee6-decf06e1338f>,
+        <http://archaeonatural.cloud/poseidon/Activity_6c24e1dc-e974-507b-ba24-063fe5ec51fa>,
+        <http://archaeonatural.cloud/poseidon/Activity_9ffd0c3a-735e-5078-980d-9b0e548a254d>,
+        <http://archaeonatural.cloud/poseidon/Activity_afd07ce5-4b00-5938-b249-c713f8630fb2>,
+        <http://archaeonatural.cloud/poseidon/Activity_cc7dc99c-2e82-5c04-97d1-70bb61f59ad1>,
+        <http://archaeonatural.cloud/poseidon/Activity_d470d6d2-57f2-5252-9b39-e47b924d9c96> ;
+    foaf:name "Bustamante, Carlos D." .
+

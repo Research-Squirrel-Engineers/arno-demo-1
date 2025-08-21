@@ -1,0 +1,204 @@
+<html about="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>2012_MeyerScience.janno | Poseidon DEMO</title>");
+      } else {
+        document.write(
+          "<title>Index Page for Poseidon DEMO by the NFDI4Objects Community</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="epsgdefs.js"></script>
+    <script src="vowl_result.js"></script>
+    <script src="poseidon_search.js"></script>
+    <script src="poseidon_classtree.js"></script>
+    <script src="proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=0;
+    var baseurl="http://archaeonatural.cloud/poseidon/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>N4O MetaData</b>&nbsp;|&nbsp;Poseidon DEMO&nbsp;|&nbsp;
+        <i>powered by the NFDI4Objects Community</i>
+      </span>
+      <span class="header_pt2">
+        <a href="http://nfdi4objects.net" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png"
+            style="height: 40px !important; margin-right: 10px"
+        /></a>
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png" width="25" height="25"/>2012_MeyerScience.janno<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for Poseidon DEMO by the NFDI4Objects Community</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The 2012_MeyerScience.janno</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="https://unpkg.com/leaflet.markercluster@1.0.6/dist/leaflet.markercluster-src.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport.js"></script>
+<script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dwilhelm89/LeafletSlider@master/dist/leaflet.SliderControl.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.min.js"></script><script src="https://cdn.jsdelivr.net/gh/albburtsev/Leaflet.geojsonCSS/leaflet.geojsoncss.min.js"></script>
+<script src="epsgdefs.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" rel="stylesheet" />
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" >
+<link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel='stylesheet' />
+<div id="map" style="height:500px;z-index: 0;"></div><script>
+var rangesByAttribute={}
+var overlayMaps={}
+var baselayers={"OpenStreetMap (OSM)": {"url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", "default": true, "type": "tile"}}
+var featurecolls = ["nonns_2012_MeyerScience.janno.geojson"]
+var ajax=true
+var epsg="EPSG:EPSG:4326"
+var dateatt=""
+var map = L.map('map',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([51.505, -0.09], 13);
+var baseMaps = {};
+props={}
+setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,dateatt,ajax)
+</script>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#used">used <span style="color: #666;">(prov:used)</span></a> </span> of</td><td class="wrapword"><details><summary>6 values</summary><ul><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8/index.html">Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8 <span style="color: #666;">(poseidon:Activity_14a0e24c-85d8-55c3-a3db-e756a5a65ec8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c/index.html">Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c <span style="color: #666;">(poseidon:Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66/index.html">Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66 <span style="color: #666;">(poseidon:Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_8963a590-71ce-549a-9fe1-6f87554ed498" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_8963a590-71ce-549a-9fe1-6f87554ed498" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_8963a590-71ce-549a-9fe1-6f87554ed498/index.html">Activity_8963a590-71ce-549a-9fe1-6f87554ed498 <span style="color: #666;">(poseidon:Activity_8963a590-71ce-549a-9fe1-6f87554ed498)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_a3218864-8950-5bd0-adc9-f02a9320d5b8" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_a3218864-8950-5bd0-adc9-f02a9320d5b8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_a3218864-8950-5bd0-adc9-f02a9320d5b8/index.html">Activity_a3218864-8950-5bd0-adc9-f02a9320d5b8 <span style="color: #666;">(poseidon:Activity_a3218864-8950-5bd0-adc9-f02a9320d5b8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#used" itemref="http://archaeonatural.cloud/poseidon/Activity_de55615a-ecad-5add-b719-df86d62fdf3b" property="http://www.w3.org/ns/prov#used"  about="http://archaeonatural.cloud/poseidon/Activity_de55615a-ecad-5add-b719-df86d62fdf3b" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Activity_de55615a-ecad-5add-b719-df86d62fdf3b/index.html">Activity_de55615a-ecad-5add-b719-df86d62fdf3b <span style="color: #666;">(poseidon:Activity_de55615a-ecad-5add-b719-df86d62fdf3b)</span></a></span></li></ul></details></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from <span style="color: #666;">(prov:wasDerivedFrom)</span></a> </span> of</td><td class="wrapword"><details><summary>44 values</summary><ul><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_14a0e24c-85d8-55c3-a3db-e756a5a65ec8/index.html">A_Dinka-4.DG <span style="color: #666;">(poseidon:aDNASample_14a0e24c-85d8-55c3-a3db-e756a5a65ec8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_de55615a-ecad-5add-b719-df86d62fdf3b" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_de55615a-ecad-5add-b719-df86d62fdf3b" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_de55615a-ecad-5add-b719-df86d62fdf3b/index.html">A_French-4.DG <span style="color: #666;">(poseidon:aDNASample_de55615a-ecad-5add-b719-df86d62fdf3b)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c/index.html">A_Ju_hoan_North-5.DG <span style="color: #666;">(poseidon:aDNASample_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_a3218864-8950-5bd0-adc9-f02a9320d5b8" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_a3218864-8950-5bd0-adc9-f02a9320d5b8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_a3218864-8950-5bd0-adc9-f02a9320d5b8/index.html">A_Mbuti-5.DG <span style="color: #666;">(poseidon:aDNASample_a3218864-8950-5bd0-adc9-f02a9320d5b8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_85b95d99-2387-5ada-be58-b1a4d7fe3f66" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_85b95d99-2387-5ada-be58-b1a4d7fe3f66" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_85b95d99-2387-5ada-be58-b1a4d7fe3f66/index.html">A_Sardinian-4.DG <span style="color: #666;">(poseidon:aDNASample_85b95d99-2387-5ada-be58-b1a4d7fe3f66)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/aDNASample_8963a590-71ce-549a-9fe1-6f87554ed498" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/aDNASample_8963a590-71ce-549a-9fe1-6f87554ed498" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="aDNASample_8963a590-71ce-549a-9fe1-6f87554ed498/index.html">A_Yoruba-4.DG <span style="color: #666;">(poseidon:aDNASample_8963a590-71ce-549a-9fe1-6f87554ed498)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Location_40f94cd3-d986-5f33-8295-257cde7db861" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Location_40f94cd3-d986-5f33-8295-257cde7db861" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Location_40f94cd3-d986-5f33-8295-257cde7db861/index.html">Aweil <span style="color: #666;">(poseidon:Location_40f94cd3-d986-5f33-8295-257cde7db861)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_cc236bc2-a6ba-56c9-8d0d-1e38798ea935" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_cc236bc2-a6ba-56c9-8d0d-1e38798ea935" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_cc236bc2-a6ba-56c9-8d0d-1e38798ea935/index.html">Congo <span style="color: #666;">(poseidon:Country_cc236bc2-a6ba-56c9-8d0d-1e38798ea935)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8/index.html">Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8 <span style="color: #666;">(poseidon:Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c/index.html">Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c <span style="color: #666;">(poseidon:Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_85b95d99-2387-5ada-be58-b1a4d7fe3f66" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_85b95d99-2387-5ada-be58-b1a4d7fe3f66" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_85b95d99-2387-5ada-be58-b1a4d7fe3f66/index.html">Dating_85b95d99-2387-5ada-be58-b1a4d7fe3f66 <span style="color: #666;">(poseidon:Dating_85b95d99-2387-5ada-be58-b1a4d7fe3f66)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_8963a590-71ce-549a-9fe1-6f87554ed498" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_8963a590-71ce-549a-9fe1-6f87554ed498" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_8963a590-71ce-549a-9fe1-6f87554ed498/index.html">Dating_8963a590-71ce-549a-9fe1-6f87554ed498 <span style="color: #666;">(poseidon:Dating_8963a590-71ce-549a-9fe1-6f87554ed498)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8/index.html">Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8 <span style="color: #666;">(poseidon:Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Dating_de55615a-ecad-5add-b719-df86d62fdf3b" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Dating_de55615a-ecad-5add-b719-df86d62fdf3b" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Dating_de55615a-ecad-5add-b719-df86d62fdf3b/index.html">Dating_de55615a-ecad-5add-b719-df86d62fdf3b <span style="color: #666;">(poseidon:Dating_de55615a-ecad-5add-b719-df86d62fdf3b)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_86318296-5ae7-5181-969c-fec68e17ea49" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_86318296-5ae7-5181-969c-fec68e17ea49" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_86318296-5ae7-5181-969c-fec68e17ea49/index.html">Dinka.DG <span style="color: #666;">(poseidon:Group_86318296-5ae7-5181-969c-fec68e17ea49)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_b92de2fe-3844-55ad-a106-6cd1b3c9f416" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_b92de2fe-3844-55ad-a106-6cd1b3c9f416" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_b92de2fe-3844-55ad-a106-6cd1b3c9f416/index.html">France <span style="color: #666;">(poseidon:Country_b92de2fe-3844-55ad-a106-6cd1b3c9f416)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_ed636221-3ff6-57c1-950b-0811c2c0aba2" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_ed636221-3ff6-57c1-950b-0811c2c0aba2" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_ed636221-3ff6-57c1-950b-0811c2c0aba2/index.html">Ignore_French(discovery).DG <span style="color: #666;">(poseidon:Group_ed636221-3ff6-57c1-950b-0811c2c0aba2)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_5c96efe5-b29e-5e5d-a735-761087dd331a" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_5c96efe5-b29e-5e5d-a735-761087dd331a" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_5c96efe5-b29e-5e5d-a735-761087dd331a/index.html">Ignore_Ju_hoan_North(discovery).DG <span style="color: #666;">(poseidon:Group_5c96efe5-b29e-5e5d-a735-761087dd331a)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a/index.html">Ignore_Mbuti(discovery).DG <span style="color: #666;">(poseidon:Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_a3c62dde-8f77-592c-a2df-d9b3c5d5b545" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_a3c62dde-8f77-592c-a2df-d9b3c5d5b545" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_a3c62dde-8f77-592c-a2df-d9b3c5d5b545/index.html">Ignore_Sardinian(discovery).DG <span style="color: #666;">(poseidon:Group_a3c62dde-8f77-592c-a2df-d9b3c5d5b545)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Group_4d5f44a9-adee-5eab-bb00-2faa434773d3" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Group_4d5f44a9-adee-5eab-bb00-2faa434773d3" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Group_4d5f44a9-adee-5eab-bb00-2faa434773d3/index.html">Ignore_Yoruba(discovery).DG <span style="color: #666;">(poseidon:Group_4d5f44a9-adee-5eab-bb00-2faa434773d3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_b54071d5-87d3-5686-8835-948712337727" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_b54071d5-87d3-5686-8835-948712337727" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_b54071d5-87d3-5686-8835-948712337727/index.html">Italy <span style="color: #666;">(poseidon:Country_b54071d5-87d3-5686-8835-948712337727)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/DiscoverySite_3b57217b-9515-5756-a516-377657dfaaf3" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/DiscoverySite_3b57217b-9515-5756-a516-377657dfaaf3" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="DiscoverySite_3b57217b-9515-5756-a516-377657dfaaf3/index.html">Longitude: 2.0, Latitude: 46.0 <span style="color: #666;">(poseidon:DiscoverySite_3b57217b-9515-5756-a516-377657dfaaf3)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/DiscoverySite_38ec33f6-8517-5880-a4bd-ac111f543edb" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/DiscoverySite_38ec33f6-8517-5880-a4bd-ac111f543edb" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="DiscoverySite_38ec33f6-8517-5880-a4bd-ac111f543edb/index.html">Longitude: 21.45245, Latitude: -18.93726 <span style="color: #666;">(poseidon:DiscoverySite_38ec33f6-8517-5880-a4bd-ac111f543edb)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/DiscoverySite_9583f763-4f29-5e6b-aee1-a813e2da2516" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/DiscoverySite_9583f763-4f29-5e6b-aee1-a813e2da2516" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="DiscoverySite_9583f763-4f29-5e6b-aee1-a813e2da2516/index.html">Longitude: 27.4, Latitude: 8.78333 <span style="color: #666;">(poseidon:DiscoverySite_9583f763-4f29-5e6b-aee1-a813e2da2516)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/DiscoverySite_318e9f01-4b3c-5500-b876-4c28e8ac3ed1" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/DiscoverySite_318e9f01-4b3c-5500-b876-4c28e8ac3ed1" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="DiscoverySite_318e9f01-4b3c-5500-b876-4c28e8ac3ed1/index.html">Longitude: 29.0, Latitude: 1.0 <span style="color: #666;">(poseidon:DiscoverySite_318e9f01-4b3c-5500-b876-4c28e8ac3ed1)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_29c6e1b6-e3fd-5613-be91-3d6bc2998c46" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_29c6e1b6-e3fd-5613-be91-3d6bc2998c46" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_29c6e1b6-e3fd-5613-be91-3d6bc2998c46/index.html">Namibia <span style="color: #666;">(poseidon:Country_29c6e1b6-e3fd-5613-be91-3d6bc2998c46)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_90fb3b4c-315a-5ad0-849d-dcfce609a408" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_90fb3b4c-315a-5ad0-849d-dcfce609a408" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_90fb3b4c-315a-5ad0-849d-dcfce609a408/index.html">Nigeria <span style="color: #666;">(poseidon:Country_90fb3b4c-315a-5ad0-849d-dcfce609a408)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd/index.html">Shotgun <span style="color: #666;">(poseidon:CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853/index.html">Sudan <span style="color: #666;">(poseidon:Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="http://archaeonatural.cloud/poseidon/DatingType_53df0e6a-6c88-5b9a-ad80-2cc0abbb93a7" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="http://archaeonatural.cloud/poseidon/DatingType_53df0e6a-6c88-5b9a-ad80-2cc0abbb93a7" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="DatingType_53df0e6a-6c88-5b9a-ad80-2cc0abbb93a7/index.html">modern <span style="color: #666;">(poseidon:DatingType_53df0e6a-6c88-5b9a-ad80-2cc0abbb93a7)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b238" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b238" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b238/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b238)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b237" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b237" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b237/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b237)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b240" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b240" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b240/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b240)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b239" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b239" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b239/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b239)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b242" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b242" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b242/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b242)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b241" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b241" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b241/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b241)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b243" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b243" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b243/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b243)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b256" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b256" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b256/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b256)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b255" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b255" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b255/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b255)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b254" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b254" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b254/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b254)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b259" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b259" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b259/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b259)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b258" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b258" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b258/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b258)</span></a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" itemref="n6da0209a2a9b4225b164d1f3995177b5b257" property="http://www.w3.org/ns/prov#wasDerivedFrom"  about="n6da0209a2a9b4225b164d1f3995177b5b257" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno" href="n6da0209a2a9b4225b164d1f3995177b5b257/index.html">unknown value <span style="color: #666;">(poseidon:n6da0209a2a9b4225b164d1f3995177b5b257)</span></a></span></li></ul></details></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;">
+    	<b>published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> by the NFDI4Objects Community (2026)</b>
+    	<br>
+    	<i>Service responsible: Department of Scientific IT at LEIZA</i>
+    	&nbsp;| <a href="https://www.leiza.de/impressum">Impressum / Legal Notice</a>
+       	&nbsp;| <a href="https://www.leiza.de/datenschutz">Datenschutz / Privacy Policy</a>
+    </center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

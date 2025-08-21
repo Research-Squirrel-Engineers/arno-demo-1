@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_4d3b027c-24a2-5650-8095-507bafb3e756> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The genetic prehistory of the Andean highlands 7000 years BP though European contact"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/sciadv.aau4921> ;
+    ns1:hasTitle "The genetic prehistory of the Andean highlands 7000 years BP though European contact"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b559667f-c7fd-592f-82ee-6fd2c6ee64e3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0517b742-8388-57ff-b641-27698c2ce166>,
+        <http://archaeonatural.cloud/poseidon/Person_06564129-d5cc-5fd4-9f75-345d0f5705ae>,
+        <http://archaeonatural.cloud/poseidon/Person_22df603a-4cbb-5549-835c-e562b81be00e>,
+        <http://archaeonatural.cloud/poseidon/Person_319e3d34-99b5-5a0d-b31c-82ad73596b2f>,
+        <http://archaeonatural.cloud/poseidon/Person_66244cbc-208e-59d3-9836-78ef06beab08>,
+        <http://archaeonatural.cloud/poseidon/Person_86ef2615-3283-5334-a99f-94974a55d778>,
+        <http://archaeonatural.cloud/poseidon/Person_9e55b599-dfff-5559-aeb2-4263088ae94f>,
+        <http://archaeonatural.cloud/poseidon/Person_9e5ab6e9-102d-57ba-8335-858b0bed7020>,
+        <http://archaeonatural.cloud/poseidon/Person_a59ac7ec-001c-562f-bf67-53ef1ade0a63>,
+        <http://archaeonatural.cloud/poseidon/Person_b8a12b2f-b26c-5513-b3eb-abc4f6af6e68>,
+        <http://archaeonatural.cloud/poseidon/Person_da571978-70b9-56fd-9f4e-aa8f8fd478c3>,
+        <http://archaeonatural.cloud/poseidon/Person_e36bc18d-25a8-5c4a-9fa7-ab0dc997aeea>,
+        <http://archaeonatural.cloud/poseidon/Person_ebf90ba2-bed7-52cb-88da-d9df9e5ad646>,
+        <http://archaeonatural.cloud/poseidon/Person_ef75a870-d300-53a0-b757-60193ecaac07> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The genetic prehistory of the Andean highlands 7000 years BP though European contact"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_4d3b027c-24a2-5650-8095-507bafb3e756> .
+

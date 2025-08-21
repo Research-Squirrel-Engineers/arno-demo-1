@@ -1,0 +1,31 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_f38e2b9c-cf86-5943-b640-27d89e6ab443> a <http://archaeonatural.cloud/ont/Person>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Vinner, Lasse" ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Vinner, Lasse" ;
+    prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_15c93cac-f252-59ce-8e7b-2b39f64b96ab>,
+        <http://archaeonatural.cloud/poseidon/Activity_1d03d8ae-e1f5-5b29-840e-3abb1ccb9bf2>,
+        <http://archaeonatural.cloud/poseidon/Activity_1df039ce-d2c9-540e-9a24-99058850d03a>,
+        <http://archaeonatural.cloud/poseidon/Activity_4cb133df-0b84-5969-b06b-fb68fdf52797>,
+        <http://archaeonatural.cloud/poseidon/Activity_755ff4d4-5a3f-5419-b692-288849e2e8d4>,
+        <http://archaeonatural.cloud/poseidon/Activity_97ede6f4-a5e7-5f8d-b2e5-19807c76ed84>,
+        <http://archaeonatural.cloud/poseidon/Activity_aa4b759d-8e93-5908-9ba2-904ff7b1bc20> ;
+    foaf:name "Vinner, Lasse" .
+

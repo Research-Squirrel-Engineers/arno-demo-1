@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_1a834427-613f-54e8-b03a-22f7d5a9b17d> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The genetic prehistory of southern Africa"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/ncomms2140> ;
+    ns1:hasTitle "The genetic prehistory of southern Africa"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e972df7e-0af9-5203-95c6-b7ae16a9873b> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_2347672f-6b73-55bf-b09a-b64ab5bcf6e7>,
+        <http://archaeonatural.cloud/poseidon/Person_24a89103-29ce-520f-bb52-399a29dc8bb9>,
+        <http://archaeonatural.cloud/poseidon/Person_31e341fe-c8c4-57b8-9c03-297aacd999ce>,
+        <http://archaeonatural.cloud/poseidon/Person_37cf7644-ae16-5223-9ad8-330cf56072b8>,
+        <http://archaeonatural.cloud/poseidon/Person_58671bbe-f012-5d33-a7af-c2b061117af4>,
+        <http://archaeonatural.cloud/poseidon/Person_5db0f9de-8e87-56ff-9057-b1bd05595c6a>,
+        <http://archaeonatural.cloud/poseidon/Person_617cb3f5-27a5-50ca-88fd-e4521af2ae11>,
+        <http://archaeonatural.cloud/poseidon/Person_73690691-9319-592a-b079-a81d9123412f>,
+        <http://archaeonatural.cloud/poseidon/Person_7689165e-9cdf-553a-ab58-017b6cc5720b>,
+        <http://archaeonatural.cloud/poseidon/Person_814438a5-dde0-595d-85d7-01475e0ddbef>,
+        <http://archaeonatural.cloud/poseidon/Person_8150d7be-110e-5d79-86f9-526913206c2f>,
+        <http://archaeonatural.cloud/poseidon/Person_8f399fc8-7120-53c1-8082-d9c2ea5b8cc0>,
+        <http://archaeonatural.cloud/poseidon/Person_95fddb06-439d-52a1-bd6a-66cbb3ce6a9a>,
+        <http://archaeonatural.cloud/poseidon/Person_99ab4254-ccad-581f-9058-38b8e2919c7c>,
+        <http://archaeonatural.cloud/poseidon/Person_a50a0f7e-d8ff-55d0-a82b-5bbebae7a8a3>,
+        <http://archaeonatural.cloud/poseidon/Person_a58066cc-6fe1-5544-a4bf-cc4910031739>,
+        <http://archaeonatural.cloud/poseidon/Person_a6be492e-30cc-569a-b5ef-e24beb05752c>,
+        <http://archaeonatural.cloud/poseidon/Person_b48a4829-9847-5c46-ac16-d398bbc67412>,
+        <http://archaeonatural.cloud/poseidon/Person_e163cfe3-3e9a-5e6e-9603-01d3cb88e744>,
+        <http://archaeonatural.cloud/poseidon/Person_ea8f3406-3e90-50c6-81a0-9210a4fefb78>,
+        <http://archaeonatural.cloud/poseidon/Person_eae17add-fa9c-5d96-ba7d-e8d29789dc02> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The genetic prehistory of southern Africa"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1a834427-613f-54e8-b03a-22f7d5a9b17d> .
+

@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_9c323a17-65e8-5996-b47b-4b5a5d854bd4> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Ancient genomes reveal long-range influence of the pre-Columbian culture and site of Tiwanaku"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/sciadv.abg7261> ;
+    ns1:hasTitle "Ancient genomes reveal long-range influence of the pre-Columbian culture and site of Tiwanaku"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b559667f-c7fd-592f-82ee-6fd2c6ee64e3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_03ce2eed-d8ee-5678-a792-aab6e356c6ec>,
+        <http://archaeonatural.cloud/poseidon/Person_3eecee28-e884-56f9-a387-d3f61e7ab379>,
+        <http://archaeonatural.cloud/poseidon/Person_41294e3c-6365-5660-9936-b2a9f279d79f>,
+        <http://archaeonatural.cloud/poseidon/Person_5634d8e3-5100-54e8-a066-f69833eac81b>,
+        <http://archaeonatural.cloud/poseidon/Person_57a0ddf1-3486-5cab-8a8b-958409c3a513>,
+        <http://archaeonatural.cloud/poseidon/Person_622dc0fd-2f35-581f-840c-14c3345f23e8>,
+        <http://archaeonatural.cloud/poseidon/Person_8371c7f6-e721-5e23-834e-3c3a31410015>,
+        <http://archaeonatural.cloud/poseidon/Person_8653a1b9-7a45-5354-aaec-4b387159c0fb>,
+        <http://archaeonatural.cloud/poseidon/Person_901207d1-8d24-518b-b9ac-7e5c9549baa2>,
+        <http://archaeonatural.cloud/poseidon/Person_c18b4b73-bde3-51c1-a354-f28aa575322e>,
+        <http://archaeonatural.cloud/poseidon/Person_d4db69e6-3d96-5e56-a595-172a578f489d>,
+        <http://archaeonatural.cloud/poseidon/Person_f1d679d5-f149-571d-a54a-fe51fbc8a679>,
+        <http://archaeonatural.cloud/poseidon/Person_fb88231d-d93b-58ca-8f9d-997d49e5c0e6> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Ancient genomes reveal long-range influence of the pre-Columbian culture and site of Tiwanaku"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_9c323a17-65e8-5996-b47b-4b5a5d854bd4> .
+

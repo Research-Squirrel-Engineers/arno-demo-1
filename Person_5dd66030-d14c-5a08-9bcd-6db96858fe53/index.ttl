@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Person_5dd66030-d14c-5a08-9bcd-6db96858fe53> a ns1:Person,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Michel, Megan" ;
+    ns1:hasORCID <http://orcid.org/0000-0002-5484-7974> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Michel, Megan" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_01c98866-34a1-5866-9c36-8509ade26b88>,
+        <http://archaeonatural.cloud/poseidon/Activity_06738093-15b9-564c-8219-c6b393ee457f>,
+        <http://archaeonatural.cloud/poseidon/Activity_120e5bb9-142d-5ee4-ad90-733d421583be>,
+        <http://archaeonatural.cloud/poseidon/Activity_28ab601c-6407-5fc8-b829-b567679f2baa>,
+        <http://archaeonatural.cloud/poseidon/Activity_2ef468af-3fbf-5c5e-b372-a6469e08c319>,
+        <http://archaeonatural.cloud/poseidon/Activity_382f873a-01e9-5e3a-8ca3-83b61a777bf9>,
+        <http://archaeonatural.cloud/poseidon/Activity_38d1f1b3-9e51-535b-bd5a-b5c5e04964c7>,
+        <http://archaeonatural.cloud/poseidon/Activity_4d67aad7-d7bf-5f58-9e7d-c4959d2bcf6e>,
+        <http://archaeonatural.cloud/poseidon/Activity_531bf71f-6b80-5b0c-86cf-71bafc6658b1>,
+        <http://archaeonatural.cloud/poseidon/Activity_62020350-6a02-5c8a-a445-718a322d192e>,
+        <http://archaeonatural.cloud/poseidon/Activity_641f3bb7-9927-5630-beb8-1a584b6e4104>,
+        <http://archaeonatural.cloud/poseidon/Activity_7ee51eb6-41f9-51f3-9edb-1dede60514fb>,
+        <http://archaeonatural.cloud/poseidon/Activity_8127d60c-3b3c-5791-8b26-6649f4ad72f2>,
+        <http://archaeonatural.cloud/poseidon/Activity_979d86f0-700e-5f4f-be72-f393b0affc4c>,
+        <http://archaeonatural.cloud/poseidon/Activity_98979b89-a2d5-5f70-bb83-011a99b5f38a>,
+        <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24>,
+        <http://archaeonatural.cloud/poseidon/Activity_d82c1ea5-913e-53f6-afcb-567300d80462>,
+        <http://archaeonatural.cloud/poseidon/Activity_ec9f7b17-cf57-5643-8c92-3cca54504116>,
+        <http://archaeonatural.cloud/poseidon/Activity_ed94f554-262a-54a9-8e73-caf3bcbeb071>,
+        <http://archaeonatural.cloud/poseidon/Activity_f0a25bcf-a569-5ed1-9fce-6e373dc5ac55> ;
+    foaf:name "Michel, Megan" .
+

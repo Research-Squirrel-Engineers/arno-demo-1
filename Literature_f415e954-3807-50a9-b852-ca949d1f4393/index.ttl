@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_f415e954-3807-50a9-b852-ca949d1f4393> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The origin and legacy of the Etruscans through a 2000-year archeogenomic time transect"@en ;
+    ns1:hasDOI <https://doi.org/10.1126/sciadv.abi7673> ;
+    ns1:hasTitle "The origin and legacy of the Etruscans through a 2000-year archeogenomic time transect"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b559667f-c7fd-592f-82ee-6fd2c6ee64e3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0291c55c-1181-5896-80aa-d25948e82b3c>,
+        <http://archaeonatural.cloud/poseidon/Person_07aad2f3-1566-5e25-8aac-96c1343d3859>,
+        <http://archaeonatural.cloud/poseidon/Person_0a679cd2-cbfc-56a3-8598-617bf34429bf>,
+        <http://archaeonatural.cloud/poseidon/Person_0ce15e5e-74c3-5a6b-9e09-771c8411e2e8>,
+        <http://archaeonatural.cloud/poseidon/Person_1d5f149f-031e-511c-9623-6f326b0cbdc2>,
+        <http://archaeonatural.cloud/poseidon/Person_225a8314-21c4-5bdc-a0a5-d866d33f8506>,
+        <http://archaeonatural.cloud/poseidon/Person_260f5c3b-3c93-50b6-8a27-63d3b14bd4ea>,
+        <http://archaeonatural.cloud/poseidon/Person_310fedb2-b052-58be-9b5d-607177ac3cfd>,
+        <http://archaeonatural.cloud/poseidon/Person_31acad8c-5be7-5da8-a2fd-bd03e8274785>,
+        <http://archaeonatural.cloud/poseidon/Person_35934616-cde1-5a17-ba36-efeac838b1eb>,
+        <http://archaeonatural.cloud/poseidon/Person_41f55d13-9c2a-5ed0-882d-a2704ccdf820>,
+        <http://archaeonatural.cloud/poseidon/Person_45a6a39c-c8b9-5c95-9eee-194098de61d4>,
+        <http://archaeonatural.cloud/poseidon/Person_4a0f01e2-72a9-58b3-a797-8e50467451aa>,
+        <http://archaeonatural.cloud/poseidon/Person_5157c904-28fb-5c6d-a563-aa9da63af4c3>,
+        <http://archaeonatural.cloud/poseidon/Person_517ae7f6-3842-5aa9-a442-d79c0dbf9898>,
+        <http://archaeonatural.cloud/poseidon/Person_563a5aa8-760e-57e8-b77f-18ef16563534>,
+        <http://archaeonatural.cloud/poseidon/Person_569fa99c-54b5-5af2-91e5-9232eb9b1e3a>,
+        <http://archaeonatural.cloud/poseidon/Person_5cf5df3a-ea57-519a-8b0d-40ea11a0cf78>,
+        <http://archaeonatural.cloud/poseidon/Person_5d93d858-2eaf-5555-84eb-9b1a078209fd>,
+        <http://archaeonatural.cloud/poseidon/Person_80ed04b2-c46b-566a-8502-3a9faebfd426>,
+        <http://archaeonatural.cloud/poseidon/Person_821dcb9d-49d0-5386-b105-02a6e6ff8d10>,
+        <http://archaeonatural.cloud/poseidon/Person_8fc3e650-4ccc-5cb8-b4f5-7e67bb193f15>,
+        <http://archaeonatural.cloud/poseidon/Person_906b8da6-256f-554b-8cc2-9acfa2acb1d4>,
+        <http://archaeonatural.cloud/poseidon/Person_92c7b0c2-1fdd-50e1-b116-3b78e8b59c31>,
+        <http://archaeonatural.cloud/poseidon/Person_97d7d770-e4b5-596b-8270-7fa716be9edc>,
+        <http://archaeonatural.cloud/poseidon/Person_9b9527cb-3701-570e-9dcc-a0017f193286>,
+        <http://archaeonatural.cloud/poseidon/Person_9dea4e90-c9d2-5ec4-99fb-67d6dcf3b459>,
+        <http://archaeonatural.cloud/poseidon/Person_a0c68bc5-d3e1-5810-9acb-880947b4fdbd>,
+        <http://archaeonatural.cloud/poseidon/Person_b565534f-3895-5d82-9a67-d9d2d4f3477c>,
+        <http://archaeonatural.cloud/poseidon/Person_cad85718-512d-5d77-9f0c-38cdf9cad6c7>,
+        <http://archaeonatural.cloud/poseidon/Person_ccf2ef9a-2bf3-5ce6-b9c7-fc2ce743063e>,
+        <http://archaeonatural.cloud/poseidon/Person_d409a3ee-a1b0-5e1c-baa0-534b8be6e8b3>,
+        <http://archaeonatural.cloud/poseidon/Person_d4cd6c3e-c325-5255-ac60-334cce5ef5d5>,
+        <http://archaeonatural.cloud/poseidon/Person_dc1bb8be-883b-542c-a8e5-b4514b22ab41>,
+        <http://archaeonatural.cloud/poseidon/Person_e2d0005a-b967-5cbd-8895-2d616a78a86e>,
+        <http://archaeonatural.cloud/poseidon/Person_e3e16c03-62da-51fa-b6c3-bcbe05dd1ab6>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_eeacbb38-6829-5e25-badf-0853b75f35fb> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The origin and legacy of the Etruscans through a 2000-year archeogenomic time transect"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_f415e954-3807-50a9-b852-ca949d1f4393> .
+

@@ -1,0 +1,92 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_6c31400f-e149-5744-8890-1289a7863c88> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "The genetic history of Ice Age Europe"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/nature17993> ;
+    ns1:hasTitle "The genetic history of Ice Age Europe"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_68989e5e-d4cd-5525-8f6a-3f35e0d99df3> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_064b632c-c235-5753-9642-f9c50d3788f0>,
+        <http://archaeonatural.cloud/poseidon/Person_0cad8cbb-ee3e-5059-bd81-8604d2d5da97>,
+        <http://archaeonatural.cloud/poseidon/Person_0caf80eb-1731-5b68-8f59-d0a3a7fde68f>,
+        <http://archaeonatural.cloud/poseidon/Person_0d909f1f-394e-50b5-9772-f76a302d3935>,
+        <http://archaeonatural.cloud/poseidon/Person_10a46cf3-5c19-51b4-b875-cd6f40e245cd>,
+        <http://archaeonatural.cloud/poseidon/Person_13bf6e78-ab72-5a9e-8111-5040ce982d8c>,
+        <http://archaeonatural.cloud/poseidon/Person_15becfbf-5873-5e04-96c8-35c9997d7920>,
+        <http://archaeonatural.cloud/poseidon/Person_17d00255-34ea-501f-a6af-fa5510655e16>,
+        <http://archaeonatural.cloud/poseidon/Person_1af6a8a6-8397-5d61-a64d-7a348205948c>,
+        <http://archaeonatural.cloud/poseidon/Person_1b0f4f45-ec5d-5106-8fe2-8f449144eb87>,
+        <http://archaeonatural.cloud/poseidon/Person_1d585b9d-26bd-5d67-970f-5ab2e411529f>,
+        <http://archaeonatural.cloud/poseidon/Person_26c3d328-2c15-583e-9680-1159da82c69b>,
+        <http://archaeonatural.cloud/poseidon/Person_2d4f2c4c-e395-5a9d-a897-4f010ac55305>,
+        <http://archaeonatural.cloud/poseidon/Person_306bdf22-c8cb-55cc-9f56-d91048f62b4f>,
+        <http://archaeonatural.cloud/poseidon/Person_31acad8c-5be7-5da8-a2fd-bd03e8274785>,
+        <http://archaeonatural.cloud/poseidon/Person_33758b9c-691a-55dd-a57d-536f52dddb67>,
+        <http://archaeonatural.cloud/poseidon/Person_3543cece-d8e7-5ef1-89bb-e693c1e958fb>,
+        <http://archaeonatural.cloud/poseidon/Person_3a6cc8b2-7ba9-5181-9ee1-345cdbaba97f>,
+        <http://archaeonatural.cloud/poseidon/Person_3af7c1e9-d36c-5ef2-bd93-68d0434093e4>,
+        <http://archaeonatural.cloud/poseidon/Person_40b51d26-07e6-5101-b705-0059fd304ddb>,
+        <http://archaeonatural.cloud/poseidon/Person_4b886130-8b8c-511b-849f-b5e0f16c0025>,
+        <http://archaeonatural.cloud/poseidon/Person_563a5aa8-760e-57e8-b77f-18ef16563534>,
+        <http://archaeonatural.cloud/poseidon/Person_569fa99c-54b5-5af2-91e5-9232eb9b1e3a>,
+        <http://archaeonatural.cloud/poseidon/Person_56dc1319-6726-565c-b27c-68b31f1abf82>,
+        <http://archaeonatural.cloud/poseidon/Person_59a378c5-9f62-5b63-966a-18071501d030>,
+        <http://archaeonatural.cloud/poseidon/Person_5db0f9de-8e87-56ff-9057-b1bd05595c6a>,
+        <http://archaeonatural.cloud/poseidon/Person_607a2262-525c-5b01-8787-c366e304edd3>,
+        <http://archaeonatural.cloud/poseidon/Person_65ec7be4-4edf-532b-a43a-305e0b564aec>,
+        <http://archaeonatural.cloud/poseidon/Person_725936ab-91bc-50d2-8af6-b91a6397dba5>,
+        <http://archaeonatural.cloud/poseidon/Person_800fff40-42cf-5343-af12-f7ac788e06c4>,
+        <http://archaeonatural.cloud/poseidon/Person_86bef649-2839-52a5-b6fd-5a12d36ae401>,
+        <http://archaeonatural.cloud/poseidon/Person_95fddb06-439d-52a1-bd6a-66cbb3ce6a9a>,
+        <http://archaeonatural.cloud/poseidon/Person_97505553-cd2c-5213-95f2-6c7e3dd7673f>,
+        <http://archaeonatural.cloud/poseidon/Person_9b9527cb-3701-570e-9dcc-a0017f193286>,
+        <http://archaeonatural.cloud/poseidon/Person_9e6db725-71d8-5e42-9dd9-de43716a7b60>,
+        <http://archaeonatural.cloud/poseidon/Person_a0c68bc5-d3e1-5810-9acb-880947b4fdbd>,
+        <http://archaeonatural.cloud/poseidon/Person_a3166fe2-d420-5850-90fc-69ecd1728a28>,
+        <http://archaeonatural.cloud/poseidon/Person_ac17bf3a-37ec-5d1b-8577-4aebe5009e66>,
+        <http://archaeonatural.cloud/poseidon/Person_ae3d558c-1f8b-59de-b456-a7848f14fca1>,
+        <http://archaeonatural.cloud/poseidon/Person_b0d946dc-2e01-55b7-8996-4357b6842d65>,
+        <http://archaeonatural.cloud/poseidon/Person_b2153f55-c631-5490-8471-e648dc24b34d>,
+        <http://archaeonatural.cloud/poseidon/Person_b5eedb0b-f1b8-5540-8a8e-dedf74dc0148>,
+        <http://archaeonatural.cloud/poseidon/Person_b62f7267-b5f5-5eec-9e75-8ce94c774155>,
+        <http://archaeonatural.cloud/poseidon/Person_b76396ab-398c-54e8-adc0-59e0641812a2>,
+        <http://archaeonatural.cloud/poseidon/Person_bbb59252-e397-5616-91df-5f32c328dede>,
+        <http://archaeonatural.cloud/poseidon/Person_bdefbf5f-6def-5a76-a3e3-be26068b89fa>,
+        <http://archaeonatural.cloud/poseidon/Person_c070de6d-04d1-52f9-83bd-320778d881d8>,
+        <http://archaeonatural.cloud/poseidon/Person_c33744b2-bde1-546d-aa40-85b11dc98875>,
+        <http://archaeonatural.cloud/poseidon/Person_c3f2ec95-7f08-59e4-81e2-67ec7c3943bd>,
+        <http://archaeonatural.cloud/poseidon/Person_c7eb9842-8151-5747-97b4-e929a12efff6>,
+        <http://archaeonatural.cloud/poseidon/Person_cacdb2d3-a157-5e9e-9cd0-46dc0a960d40>,
+        <http://archaeonatural.cloud/poseidon/Person_d2d786e8-09a0-564e-b9fa-f781726fe172>,
+        <http://archaeonatural.cloud/poseidon/Person_db054f8a-bc4b-5fd4-bb7e-d6b79bdf354b>,
+        <http://archaeonatural.cloud/poseidon/Person_dc1bb8be-883b-542c-a8e5-b4514b22ab41>,
+        <http://archaeonatural.cloud/poseidon/Person_dc50dbd5-be5a-5261-ba26-31ba66ace25a>,
+        <http://archaeonatural.cloud/poseidon/Person_e163cfe3-3e9a-5e6e-9603-01d3cb88e744>,
+        <http://archaeonatural.cloud/poseidon/Person_e23f4ebc-48e0-51e1-9d86-045ce899759f>,
+        <http://archaeonatural.cloud/poseidon/Person_e2af2755-9c99-5f96-9336-45c598b4fb90>,
+        <http://archaeonatural.cloud/poseidon/Person_e7193ce6-0c48-57d0-9214-96583e2a2fde>,
+        <http://archaeonatural.cloud/poseidon/Person_e7c61f5e-14e4-5325-9c71-c20ec59e842d>,
+        <http://archaeonatural.cloud/poseidon/Person_e8d63b26-0ffd-5086-8454-90bd9774a94f>,
+        <http://archaeonatural.cloud/poseidon/Person_f1d679d5-f149-571d-a54a-fe51fbc8a679>,
+        <http://archaeonatural.cloud/poseidon/Person_f3e3a1b6-6c04-5658-a147-4870bd1fee10>,
+        <http://archaeonatural.cloud/poseidon/Person_fefdf2be-9c3f-5d61-9949-76f70546f647> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "The genetic history of Ice Age Europe"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_6c31400f-e149-5744-8890-1289a7863c88> .
+

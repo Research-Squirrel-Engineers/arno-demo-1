@@ -1,0 +1,16 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_DEMO_raw.githubusercontent.com_poseidon-framework_community-archive_master_2012_PattersonGenetics_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Poseidon_DEMO - 2012_PattersonGenetics"@en ;
+    void:linkPredicate prov:used,
+        prov:wasDerivedFrom ;
+    void:objectsTarget <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/> ;
+    void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:triples 92,
+        381 .
+

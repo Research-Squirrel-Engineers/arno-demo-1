@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_6f758b92-3bec-538e-9b04-70bbb4452f4c> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
+    ns1:hasDOI <https://doi.org/10.1038/s41598-021-94932-9> ;
+    ns1:hasTitle "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_a7f4815e-15b2-52d4-b9bb-047f1283c76d> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_4e58fc0f-403b-5ec5-afb3-6217a6f131e0>,
+        <http://archaeonatural.cloud/poseidon/Person_78d973cd-2e60-512f-8dd1-8de7775c74f8>,
+        <http://archaeonatural.cloud/poseidon/Person_b0d946dc-2e01-55b7-8996-4357b6842d65>,
+        <http://archaeonatural.cloud/poseidon/Person_b258f1d7-d745-581f-aae5-55649506171a>,
+        <http://archaeonatural.cloud/poseidon/Person_cf5af883-aa30-5be5-b45b-e4b448e77dd4>,
+        <http://archaeonatural.cloud/poseidon/Person_dc50dbd5-be5a-5261-ba26-31ba66ace25a>,
+        <http://archaeonatural.cloud/poseidon/Person_f7d52b7e-2c67-526d-9551-d72ece1a7be7> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_6f758b92-3bec-538e-9b04-70bbb4452f4c> .
+

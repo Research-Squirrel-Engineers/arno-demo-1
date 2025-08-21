@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/Literature_73b32242-6966-5358-b177-63a39d8ee9d9> a ns1:Literature,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Population genomic analysis of elongated skulls reveals extensive female-biased immigration in Early Medieval Bavaria"@en ;
+    ns1:hasDOI <https://doi.org/10.1073/pnas.1719880115> ;
+    ns1:hasTitle "Population genomic analysis of elongated skulls reveals extensive female-biased immigration in Early Medieval Bavaria"@en ;
+    ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_689a5b8c-bd71-5586-be8d-43cc094b53cf> ;
+    ns1:publishedInYear [ ] ;
+    ns1:writtenBy <http://archaeonatural.cloud/poseidon/Person_0198687a-c648-50e7-ba72-bd44a5d9f74c>,
+        <http://archaeonatural.cloud/poseidon/Person_0229acd1-0127-5ebe-bc7f-217780dfe05c>,
+        <http://archaeonatural.cloud/poseidon/Person_04a4f2f4-135d-5064-bf49-38ec4c7cc825>,
+        <http://archaeonatural.cloud/poseidon/Person_14613d6b-841a-5efd-bbf0-c06c2b136b72>,
+        <http://archaeonatural.cloud/poseidon/Person_231e2a99-129a-5549-a9c8-60935525eb9c>,
+        <http://archaeonatural.cloud/poseidon/Person_266b95a5-7b3f-5a95-8ccb-72158a37154d>,
+        <http://archaeonatural.cloud/poseidon/Person_28b8a948-35a6-5cd8-b5d2-7a1df649c849>,
+        <http://archaeonatural.cloud/poseidon/Person_349718d8-5a14-5e59-a7b2-99de0568b488>,
+        <http://archaeonatural.cloud/poseidon/Person_38d75f0e-6f35-5040-8a2c-084cd67e5580>,
+        <http://archaeonatural.cloud/poseidon/Person_3c432e47-80b4-53b5-9736-77b48aa1c02d>,
+        <http://archaeonatural.cloud/poseidon/Person_41d3f4f3-756d-5ce9-99d5-269c84b829b8>,
+        <http://archaeonatural.cloud/poseidon/Person_465d1c82-000a-5b57-a0c8-b4a9d302dfda>,
+        <http://archaeonatural.cloud/poseidon/Person_601471de-f981-53e3-a1aa-6f02d53b038a>,
+        <http://archaeonatural.cloud/poseidon/Person_63fcf720-66b4-566f-8916-05e84eabe961>,
+        <http://archaeonatural.cloud/poseidon/Person_683222b0-4b9c-5fab-a06e-c764b92b55f2>,
+        <http://archaeonatural.cloud/poseidon/Person_7195f6b1-4bfb-5dae-83a3-a5ec40f91da4>,
+        <http://archaeonatural.cloud/poseidon/Person_8ed78ffe-27ca-5b3e-a703-ec809df75423>,
+        <http://archaeonatural.cloud/poseidon/Person_ac3b31c9-e0e0-5800-a742-6f8205d832d0>,
+        <http://archaeonatural.cloud/poseidon/Person_ae83fcb6-6a76-5e4e-9612-e17ce03647ff>,
+        <http://archaeonatural.cloud/poseidon/Person_f55aad8d-b372-518e-8438-b43ffbba6d77> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
+    skos:prefLabel "Population genomic analysis of elongated skulls reveals extensive female-biased immigration in Early Medieval Bavaria"@en ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_73b32242-6966-5358-b177-63a39d8ee9d9> .
+
