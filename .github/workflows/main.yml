@@ -19,10 +19,10 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
       version: v017
-      rdffilepath: dist/Matrix_v1_test.ttl
+      rdffilepath: poseidon_LOD.ttl
       docpath: docs
-      prefixns: https://w3id.org/n4o-metadata/prov-matrix/
-      prefixnsshort: base
+      prefixns: http://archaeonatural.cloud/poseidon/
+      prefixnsshort: poseidon
       indexpages: true
       createcollections: true
       createVOWL: true
@@ -33,4 +33,4 @@ jobs:
       logourl: https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png
       templatedir: https://github.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/archive/refs/tags/n4omd-v0.0.2.zip
       ogcapifeatures: false
-      datasettitle: N4O TA2 PROV Matrix Tools & Services
+      datasettitle: Poseidon DEMO
