@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "HGDP00023" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_59d38352-5275-5bc4-9b9c-7df5e5475fe1> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_b3e72135-9a5d-56fe-a197-c2cb35844646> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_3865b1a1-ebba-5ca9-b708-fea5c2efe5dd> ;
     ns1:hasCollectionID "HGDP00023" ;
     ns1:hasGeneticSex ns1:GeneticSex_Male ;
     ns1:hasGenotypePloidy ns1:GenotypePloidy_diploid ;

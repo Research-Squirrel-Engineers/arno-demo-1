@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "A_Dinka-4.DG" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_14a0e24c-85d8-55c3-a3db-e756a5a65ec8> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_e37af4d9-f4ea-5d9f-99b9-4765806c145f> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_c9eb8db6-839e-5654-8810-83b6a203301d> ;
     ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
     ns1:hasCollectionID "A_Dinka-4" ;
     ns1:hasGeneticSex ns1:GeneticSex_Male ;

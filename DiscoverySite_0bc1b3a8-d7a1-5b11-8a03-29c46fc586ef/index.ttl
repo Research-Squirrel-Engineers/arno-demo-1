@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://archaeonatural.cloud/poseidon/DiscoverySite_0bc1b3a8-d7a1-5b11-8a03-29c46fc586ef> a ns1:DiscoverySite,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Discovery Site at POINT (21.45245 -18.93726)" ;
+    ns1:atSite [ ] ;
+    ns1:hasRepresentativePoint <http://archaeonatural.cloud/poseidon/Geom_857042c3-5666-5e8c-92a6-3837273ad506> ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    geo:hasGeometry <http://archaeonatural.cloud/poseidon/Geom_857042c3-5666-5e8c-92a6-3837273ad506> ;
+    rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno version 2.1.1 within the Poseidon Community Archive"@en ;
+    skos:prefLabel "Discovery Site at POINT (21.45245 -18.93726)" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://github.com/poseidon-framework/community-archive>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c> .
+

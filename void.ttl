@@ -1588,13 +1588,13 @@ foaf:Person rdfs:label "Person"@en .
     vext:averageSubjectIRILength 77 ;
     vext:datatypes 5 ;
     vext:distinctBlankNodes 343 ;
-    vext:distinctIRIReferences 17182 ;
-    vext:distinctLiterals 5120 ;
-    vext:distinctRDFNodes 22645 ;
+    vext:distinctIRIReferences 17261 ;
+    vext:distinctLiterals 5199 ;
+    vext:distinctRDFNodes 22803 ;
     vext:languages 1 ;
     vext:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-08-22T11:46:57"^^xsd:dateTime ;
+    dcterms:modified "2025-08-22T12:23:34"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -1714,7 +1714,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_externalIdentifierType> ;
     void:classes 121 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
-    void:distinctObjects 11756 ;
+    void:distinctObjects 11835 ;
     void:distinctSubjects 5348 ;
     void:entities 5049 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,

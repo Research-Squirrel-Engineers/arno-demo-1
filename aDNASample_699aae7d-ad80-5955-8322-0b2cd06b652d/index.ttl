@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Inuk.SG" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_719fcc5e-bb6d-5dd7-b766-50dab259e3c8> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_80c77fda-d19d-5f68-94b8-b012a0106f82> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_89419a2e-8a00-5472-843f-8c7bfac91516> ;
     ns1:fromGeneticSourceAccession <http://archaeonatural.cloud/poseidon/GeneticSourceAccession_54533710-4ac9-5020-9c05-48a5ed384378> ;
     ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
     ns1:hasCollectionID "Inuk" ;

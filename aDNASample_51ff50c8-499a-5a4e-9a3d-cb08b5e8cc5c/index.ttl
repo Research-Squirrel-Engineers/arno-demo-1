@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "A_Ju_hoan_North-5.DG" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_51ff50c8-499a-5a4e-9a3d-cb08b5e8cc5c> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_c5d9af78-ea86-5b0b-bc9d-f8bcc19cba3a> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_0bc1b3a8-d7a1-5b11-8a03-29c46fc586ef> ;
     ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
     ns1:hasCollectionID "HGDP01029" ;
     ns1:hasGeneticSex ns1:GeneticSex_Male ;

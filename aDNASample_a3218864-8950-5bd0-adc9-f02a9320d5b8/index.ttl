@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "A_Mbuti-5.DG" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_a3218864-8950-5bd0-adc9-f02a9320d5b8> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_9b3c1136-923d-5d88-a58a-dc5c6355d0c0> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_3870bf49-7806-5da4-b6b9-0e0d32ea2344> ;
     ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
     ns1:hasCollectionID "HGDP00456" ;
     ns1:hasGeneticSex ns1:GeneticSex_Male ;
