@@ -31,6 +31,6 @@ jobs:
       metadatatable: true
       createnonNSPages: true
       logourl: https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png
-      templatedir: https://github.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/archive/refs/tags/n4omd-v0.0.2.zip
+      templatedir: https://github.com/archaeonatural-cloud/unicorn-ontdoc-template-archaeonatural-cloud/archive/refs/tags/arno-0.1.zip
       ogcapifeatures: false
-      datasettitle: Poseidon DEMO
+      datasettitle: Poseidon DEMO Dataset
