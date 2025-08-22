@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Literature Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/Literature_0069ed9b-d6dc-5154-aabf-1507353ce0d5>,
         <http://archaeonatural.cloud/poseidon/Literature_007806ed-d467-5834-9351-a11fc5d512f2>,
         <http://archaeonatural.cloud/poseidon/Literature_007a5f85-ff11-565b-98a8-210a1a8da752>,

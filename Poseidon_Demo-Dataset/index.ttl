@@ -1,0 +1,295 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Poseidon_Demo-Dataset"@en ;
+    ns1:averageLiteralLength 34 ;
+    ns1:averageObjectIRILength 60 ;
+    ns1:averagePropertyIRILength 43 ;
+    ns1:averageSubjectIRILength 77 ;
+    ns1:datatypes 5 ;
+    ns1:distinctBlankNodes 343 ;
+    ns1:distinctIRIReferences 17261 ;
+    ns1:distinctLiterals 5199 ;
+    ns1:distinctRDFNodes 22803 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 1 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2025-08-22T12:34:24"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Poseidon_Demo-Dataset"@en ;
+    vann:preferredNamespacePrefix "poseidon"^^xsd:string ;
+    vann:preferredNamespaceUri "http://archaeonatural.cloud/poseidon/"^^xsd:anyURI ;
+    void:classPartition <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Activity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Actor>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_ActorEntity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Agent>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_BFO_0000001>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_BiologicalSample>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_C14Dating>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_CaptureType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Collection>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Concept>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Contamination>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_ContaminationMeasure>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Country>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_D10_Software_Execution>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_D1_Digital_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_D7_Digital_Machine_Event>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Dataset>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Dating>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_DatingType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_DiscoverySite>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Document>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E11_Modification>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E13_Attribute_Assignment>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E16_Measurement>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E18_Physical_Thing>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E19_Physical_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E1_CRM_Entity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E20_Biological_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E21_Person>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E26_Physical_Feature>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E27_Site>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E28_Conceptual_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E29_Design_or_Procedure>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E2_Temporal_Entity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E31_Document>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E39_Actor>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E4_Period>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E52_Time-Span>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E53_Place>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E55_Type>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E5_Event>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E65_Creation>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E70_Thing>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E71_Human-Made_Thing>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E72_Legal_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E73_Information_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E77_Persistent_Item>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E7_Activity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E89_Propositional_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E90_Symbolic_Object>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_E92_Spacetime_Volume>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Entity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Feature>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_FeatureCollection>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GSSO_000114>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GeneticSex>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GeneticSourceAccession>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GenomicLibrary>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GenotypePloidy>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Geometry>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_GeometryCollection>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Group>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_HaplogroupMeasurement>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Instant>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Interval>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Journal>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_KilnRegion>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_LibraryStrandedness>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Literature>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Location>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_MTHaplogroupMeasurement>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_NoInformation>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Organization>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0000001>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0000025>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0000051>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0000141>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0001241>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0001374>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0001396>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0015031>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PATO_0070044>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Periodical>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Person>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Place>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Point>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_PreparationPipeline>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_ProductionCentre>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_RepositoryLocation>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Resource>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Sample>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Site>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SoftwareAgent>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SoftwareApplication>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SoftwareSourceCode>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SourceTissue>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SourceTissueType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SpatialObject>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_SpatialObjectCollection>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_TemporalEntity>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Thing>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_TimePeriod>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_UBERON_0000479>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_UDGTreatment>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_Unknown>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_YHaplogroupMeasurement>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_aDNASample>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_aDNASampleRelation>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_externalIdentifierType> ;
+    void:classes 121 ;
+    void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
+    void:distinctObjects 11835 ;
+    void:distinctSubjects 5348 ;
+    void:entities 5049 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 78 ;
+    void:propertyPartition <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_actedOnBehalfOf>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_altLabel>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_asWKT>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_atPlace>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_atSite>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_closeMatch>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_comment>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_contributor>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_creator>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_datedBy>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_description>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_domain>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_endedAtTime>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_equivalentClass>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_first>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_foundAtDiscoverySite>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_fromGeneticSourceAccession>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasBeginning>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasCaptureType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasCollectionID>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasDOI>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasDatingError>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasDatingType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasEDTFDateTimeDescription>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasEnd>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasExternalIdentifier>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasExternalIdentifierType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasGeneticSex>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasGenotypePloidy>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasGeometry>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasID>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasLabNumber>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasMedian>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasNote>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasORCID>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasRepresentativePoint>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasSNPCount>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasSourceTissueType>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasTextualValue>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasTitle>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasUncalibratedDate>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasVersion>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_inCountry>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_inJournal>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_inXSDgYear>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_inYear>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_inverseOf>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_label>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_license>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_measuredSNPCoverage>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_measuredYHaplogroup>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_name>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_observedTimePeriod>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_ofSourceTissue>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_oneOf>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_partOfGroup>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_prefLabel>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_publishedInYear>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_publishedSample>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_publisher>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_range>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_rest>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_rights>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_rightsHolder>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_sameAs>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_startedAtTime>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_subClassOf>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_subPropertyOf>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_subject>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_type>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_used>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_versionInfo>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasAssociatedWith>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasAttributedTo>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasDerivedFrom>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasGeneratedBy>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_writtenBy> ;
+    void:triples 94937 ;
+    void:uriSpace "http://archaeonatural.cloud/poseidon/"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://Research-Squirrel-Engineers.github.io/arno-demo-1/> ;
+    foaf:homepage <https://Research-Squirrel-Engineers.github.io/arno-demo-1/> ;
+    foaf:page <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.html> .
+

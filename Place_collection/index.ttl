@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Place Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/Location_40f94cd3-d986-5f33-8295-257cde7db861>,
         <http://archaeonatural.cloud/poseidon/Location_b903a22a-550b-5b25-8b21-556bad0801be>,
         <http://archaeonatural.cloud/poseidon/Location_bc1c762f-ad03-5af4-a319-7c651dac6111> .

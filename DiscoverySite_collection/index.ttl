@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "DiscoverySite Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/DiscoverySite_06eb44c7-4292-5b9d-8067-3e5387eb7e65>,
         <http://archaeonatural.cloud/poseidon/DiscoverySite_0bc1b3a8-d7a1-5b11-8a03-29c46fc586ef>,
         <http://archaeonatural.cloud/poseidon/DiscoverySite_3865b1a1-ebba-5ca9-b708-fea5c2efe5dd>,

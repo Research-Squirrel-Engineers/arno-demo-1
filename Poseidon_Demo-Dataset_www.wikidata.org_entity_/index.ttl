@@ -1,0 +1,14 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_www.wikidata.org_entity_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Poseidon_Demo-Dataset - Wikidata Entities (wde:)"@en ;
+    void:linkPredicate <http://archaeonatural.cloud/ont/closeMatch>,
+        <http://archaeonatural.cloud/ont/hasExternalIdentifier> ;
+    void:objectsTarget <http://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
+    void:triples 9 .
+

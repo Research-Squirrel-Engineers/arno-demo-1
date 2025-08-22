@@ -1,0 +1,27 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeonatural.cloud/ont/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+[] a ns1:DiscoverySite,
+        ns1:Unknown,
+        <http://www.w3.org/ns/ldp#Resource>,
+        prov:Entity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Unknown Discovery Site used for transitive information flow or to represent attribute information" ;
+    ns1:atSite [ ] ;
+    dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
+        <http://orcid.org/0009-0005-1140-3352> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
+    rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno version 2.1.1 within the Poseidon Community Archive"@en ;
+    skos:prefLabel "Unknown Discovery Site used for transitive information flow or to represent attribute information" ;
+    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
+        <https://github.com/poseidon-framework/community-archive>,
+        <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno> ;
+    prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_85b95d99-2387-5ada-be58-b1a4d7fe3f66> .
+

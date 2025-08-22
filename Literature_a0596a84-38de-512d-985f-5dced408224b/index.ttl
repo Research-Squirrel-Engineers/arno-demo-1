@@ -65,7 +65,7 @@
         <http://orcid.org/0009-0005-1140-3352> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Ancient human genome-wide data from a 3000-year interval in the Caucasus corresponds with eco-geographic regions"@en,
         "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
