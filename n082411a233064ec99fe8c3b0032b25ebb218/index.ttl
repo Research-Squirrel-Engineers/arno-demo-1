@@ -1,0 +1,9 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+[] a owl:Class,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
+    owl:oneOf [ ] .
+

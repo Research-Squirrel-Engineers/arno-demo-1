@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+[] a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
+    rdf:first <http://archaeonatural.cloud/ont/UDGTreatment_half> ;
+    rdf:rest [ ] .
+
