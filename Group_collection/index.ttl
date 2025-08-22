@@ -7,17 +7,13 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Group Instances Collection"@en ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    rdfs:member <http://archaeonatural.cloud/poseidon/Group_0ce34b6a-4c1d-5e6f-bd66-1d3a959ce89c>,
-        <http://archaeonatural.cloud/poseidon/Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a>,
+    rdfs:member <http://archaeonatural.cloud/poseidon/Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a>,
         <http://archaeonatural.cloud/poseidon/Group_2a53c2db-6fb7-5a66-b77b-93d30119c3de>,
         <http://archaeonatural.cloud/poseidon/Group_3d843e46-39a8-5227-a24d-48aa821d521a>,
         <http://archaeonatural.cloud/poseidon/Group_4d5f44a9-adee-5eab-bb00-2faa434773d3>,
-        <http://archaeonatural.cloud/poseidon/Group_508cb0d0-cf40-51cc-8d48-9165dd6cb677>,
         <http://archaeonatural.cloud/poseidon/Group_5c96efe5-b29e-5e5d-a735-761087dd331a>,
-        <http://archaeonatural.cloud/poseidon/Group_7db57141-d08b-5e56-af2d-83e2e6afb984>,
         <http://archaeonatural.cloud/poseidon/Group_86318296-5ae7-5181-969c-fec68e17ea49>,
         <http://archaeonatural.cloud/poseidon/Group_895d0aca-d87e-5512-bfe5-437f07dae3a8>,
-        <http://archaeonatural.cloud/poseidon/Group_9d98891f-fc59-5adb-a240-85b06bbc51a3>,
         <http://archaeonatural.cloud/poseidon/Group_a3c62dde-8f77-592c-a2df-d9b3c5d5b545>,
         <http://archaeonatural.cloud/poseidon/Group_aabcbfd9-9628-5d62-8ce4-a7c9c006c3d7>,
         <http://archaeonatural.cloud/poseidon/Group_b4dbba5e-e984-54b7-a97f-318c4453d351>,

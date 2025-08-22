@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: publishedSample"@en ;
     void:property <http://archaeonatural.cloud/ont/publishedSample> ;
-    void:triples 300 .
+    void:triples 150 .
 

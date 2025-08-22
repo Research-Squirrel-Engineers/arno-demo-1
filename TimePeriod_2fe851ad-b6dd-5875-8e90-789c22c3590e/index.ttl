@@ -1,18 +1,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://archaeonatural.cloud/ont/> .
-@prefix ns2: <https://periodo.github.io/edtf-ontology/edtfo.ttl#> .
+@prefix ns1: <https://periodo.github.io/edtf-ontology/edtfo.ttl#> .
+@prefix ns2: <http://archaeonatural.cloud/ont/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://archaeonatural.cloud/poseidon/TimePeriod_2fe851ad-b6dd-5875-8e90-789c22c3590e> a ns1:TimePeriod,
+<http://archaeonatural.cloud/poseidon/TimePeriod_2fe851ad-b6dd-5875-8e90-789c22c3590e> a ns2:TimePeriod,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "-3484.0 - -3104.0" ;
-    ns1:hasMedian [ ] ;
+    ns2:hasMedian [ ] ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -22,10 +22,10 @@
     skos:prefLabel "-3484.0 - -3104.0" ;
     time:hasBeginning [ ] ;
     time:hasEnd [ ] ;
-    prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
+    prov:wasAttributedTo ns2:SoftwareSourceCode_Poseidon_LOD ;
     prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv>,
         <https://github.com/poseidon-framework/community-archive>,
         <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_KellerNatureCommunications/2012_KellerNatureCommunications.janno> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_c47ee47c-698b-5c88-bc49-0e8238ebab1a> ;
-    ns2:hasEDTFDateTimeDescription "-3484.0/-3104.0" .
+    ns1:hasEDTFDateTimeDescription "-3484.0/-3104.0" .
 

@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: hasID"@en ;
     void:property <http://archaeonatural.cloud/ont/hasID> ;
-    void:triples 104 .
+    void:triples 54 .
 

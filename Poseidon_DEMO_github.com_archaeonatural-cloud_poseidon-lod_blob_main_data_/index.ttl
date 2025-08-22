@@ -11,6 +11,6 @@
         prov:wasDerivedFrom ;
     void:objectsTarget <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 315,
-        4719 .
+    void:triples 265,
+        4513 .
 

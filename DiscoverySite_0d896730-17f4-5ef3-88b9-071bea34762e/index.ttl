@@ -52,12 +52,6 @@
         [ ],
         [ ],
         [ ],
-        [ ],
-        [ ],
-        [ ],
-        [ ],
-        [ ],
-        [ ],
         [ ] ;
     ns1:hasRepresentativePoint <http://archaeonatural.cloud/poseidon/Geom_98c50a1b-9d64-5706-9e5f-eee9764f1e1f> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
@@ -74,7 +68,6 @@
         <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_0126f036-5410-51e0-bb7a-bef93bc83078>,
         <http://archaeonatural.cloud/poseidon/Activity_020ae071-9cb5-5396-9972-9059db764506>,
-        <http://archaeonatural.cloud/poseidon/Activity_05001e2a-3413-5e27-80a3-9d6da788c802>,
         <http://archaeonatural.cloud/poseidon/Activity_0ee422ef-3f6a-5253-9b84-192aacbd9256>,
         <http://archaeonatural.cloud/poseidon/Activity_1263f23c-0540-5ffa-92de-142184d49f50>,
         <http://archaeonatural.cloud/poseidon/Activity_224e5f47-07e4-5f90-a670-5916c543bc82>,
@@ -87,7 +80,6 @@
         <http://archaeonatural.cloud/poseidon/Activity_5748c217-80f0-5b35-a899-18e97c9f2194>,
         <http://archaeonatural.cloud/poseidon/Activity_59d38352-5275-5bc4-9b9c-7df5e5475fe1>,
         <http://archaeonatural.cloud/poseidon/Activity_5ad1684f-74b1-5353-bb5a-b2304a33031f>,
-        <http://archaeonatural.cloud/poseidon/Activity_5e7354e3-78c0-5980-8665-5133d5149406>,
         <http://archaeonatural.cloud/poseidon/Activity_635db2b2-4667-5a7a-9b75-26ff9078f0cf>,
         <http://archaeonatural.cloud/poseidon/Activity_63cda582-4f45-5f01-bdbf-346277c1115c>,
         <http://archaeonatural.cloud/poseidon/Activity_73cc029d-7a35-5bcd-897b-8773da22fcee>,
@@ -112,11 +104,7 @@
         <http://archaeonatural.cloud/poseidon/Activity_e55883b7-b259-5015-a470-bd007ee5568a>,
         <http://archaeonatural.cloud/poseidon/Activity_e6bf2a74-1f5f-5e36-8007-88a3b39648f0>,
         <http://archaeonatural.cloud/poseidon/Activity_e6eca237-056d-5e14-b1b6-7ced56087642>,
-        <http://archaeonatural.cloud/poseidon/Activity_eb6bdf0b-9267-5b17-b5e1-3a25db079524>,
         <http://archaeonatural.cloud/poseidon/Activity_f613aa1d-df44-5742-ad13-fd37e03c5cf7>,
-        <http://archaeonatural.cloud/poseidon/Activity_f8842544-dc09-59a6-9c60-9916ab636793>,
-        <http://archaeonatural.cloud/poseidon/Activity_fb3fee44-1f77-5783-b820-6589973da497>,
-        <http://archaeonatural.cloud/poseidon/Activity_fd736c44-6da1-5505-905c-ddf57a495926>,
         <http://archaeonatural.cloud/poseidon/Activity_fda065c2-aec1-54d6-a5f2-f37ed82c50bc>,
         <http://archaeonatural.cloud/poseidon/Activity_fec129a5-e5e1-58cc-849f-ec283a514618>,
         <http://archaeonatural.cloud/poseidon/Activity_ff6b2f42-9dba-5067-b1e0-7b1793a2aac3> .

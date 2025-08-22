@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in Poseidon_DEMO" ;
     ns1:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    ns1:occurrences 10068 .
+    ns1:occurrences 9556 .
 

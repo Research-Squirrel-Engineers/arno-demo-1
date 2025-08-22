@@ -10,5 +10,5 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 9 .
+    void:triples 7 .
 

@@ -7,7 +7,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_archaeonatural.cloud_ont_> a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: Poseidon_DEMO - www:"@en ;
+    rdfs:label "Linkset: Poseidon_DEMO - arno:"@en ;
     void:linkPredicate <http://archaeonatural.cloud/ont/hasGeneticSex>,
         <http://archaeonatural.cloud/ont/hasGenotypePloidy>,
         <http://archaeonatural.cloud/ont/hasSourceTissueType>,
@@ -19,8 +19,8 @@
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
     void:triples 1,
         17,
-        100,
-        315,
-        4719,
-        4920 .
+        50,
+        265,
+        4513,
+        4614 .
 

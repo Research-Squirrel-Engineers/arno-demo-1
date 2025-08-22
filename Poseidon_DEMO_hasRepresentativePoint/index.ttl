@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: hasRepresentativePoint"@en ;
     void:property <http://archaeonatural.cloud/ont/hasRepresentativePoint> ;
-    void:triples 9 .
+    void:triples 7 .
 

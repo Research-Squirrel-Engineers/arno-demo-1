@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: foundAtDiscoverySite"@en ;
     void:property <http://archaeonatural.cloud/ont/foundAtDiscoverySite> ;
-    void:triples 100 .
+    void:triples 50 .
 

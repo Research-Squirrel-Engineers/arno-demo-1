@@ -11,6 +11,6 @@
         prov:wasDerivedFrom ;
     void:objectsTarget <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 92,
-        381 .
+    void:triples 42,
+        175 .
 

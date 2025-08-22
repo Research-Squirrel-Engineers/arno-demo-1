@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: atPlace"@en ;
     void:property <http://archaeonatural.cloud/ont/atPlace> ;
-    void:triples 100 .
+    void:triples 50 .
 

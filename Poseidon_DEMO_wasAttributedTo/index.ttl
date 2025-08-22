@@ -8,5 +8,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: wasAttributedTo"@en ;
     void:property prov:wasAttributedTo ;
-    void:triples 4737 .
+    void:triples 4531 .
 

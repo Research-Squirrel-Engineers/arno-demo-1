@@ -39,7 +39,7 @@
     void:triples 2 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_archaeonatural.cloud_ont_> a void:Linkset ;
-    rdfs:label "Linkset: Poseidon_DEMO - www:"@en ;
+    rdfs:label "Linkset: Poseidon_DEMO - arno:"@en ;
     void:linkPredicate <http://archaeonatural.cloud/ont/hasGeneticSex>,
         <http://archaeonatural.cloud/ont/hasGenotypePloidy>,
         <http://archaeonatural.cloud/ont/hasSourceTissueType>,
@@ -51,17 +51,17 @@
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
     void:triples 1,
         17,
-        100,
-        315,
-        4719,
-        4920 .
+        50,
+        265,
+        4513,
+        4614 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_creativecommons.org_licenses_by_4.0_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - 4.0"@en ;
     void:linkPredicate dcterms:license ;
     void:objectsTarget <https://creativecommons.org/licenses/by/4.0/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 4719 .
+    void:triples 4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_doi.org_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - doi:"@en ;
@@ -188,8 +188,8 @@
         prov:wasDerivedFrom ;
     void:objectsTarget <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 315,
-        4719 .
+    void:triples 265,
+        4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_github.com_poseidon-framework_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - poseidon-framework"@en ;
@@ -197,7 +197,7 @@
         prov:wasDerivedFrom ;
     void:objectsTarget <https://github.com/poseidon-framework/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 4719 .
+    void:triples 4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_orcid.org_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - orcid:"@en ;
@@ -206,7 +206,7 @@
     void:objectsTarget <http://orcid.org/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
     void:triples 982,
-        9438 .
+        9026 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_raw.githubusercontent.com_poseidon-framework_community-archive_master_2010_RasmussenNature_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - 2010_RasmussenNature"@en ;
@@ -241,8 +241,8 @@
         prov:wasDerivedFrom ;
     void:objectsTarget <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 92,
-        381 .
+    void:triples 42,
+        175 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_sws.geonames.org_11550582_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - 11550582"@en ;
@@ -328,7 +328,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 9 .
+    void:triples 7 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_www.w3.org_1999_02_22-rdf-syntax-ns_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - The RDF Concepts Vocabulary (RDF) (rdf:)"@en ;
@@ -363,7 +363,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget prov: ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    void:triples 5034 .
+    void:triples 4778 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_www.wikidata.org_entity_> a void:Linkset ;
     rdfs:label "Linkset: Poseidon_DEMO - Wikidata Entities (wde:)"@en ;
@@ -438,7 +438,7 @@
 <http://archaeonatural.cloud/poseidon/prov_Poseidon_DEMO_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in Poseidon_DEMO" ;
     voaf:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
-    voaf:occurrences 10068 .
+    voaf:occurrences 9556 .
 
 <http://archaeonatural.cloud/poseidon/qb_Poseidon_DEMO_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in Poseidon_DEMO" ;
@@ -515,7 +515,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Activity> a void:Dataset ;
     rdfs:label "Class Partition: Activity"@en ;
     void:class prov:Activity ;
-    void:entities 315 .
+    void:entities 265 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Actor> a void:Dataset ;
     rdfs:label "Class Partition: Actor"@en ;
@@ -591,7 +591,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dating> a void:Dataset ;
     rdfs:label "Class Partition: Dating"@en ;
     void:class <http://archaeonatural.cloud/ont/Dating> ;
-    void:entities 100 .
+    void:entities 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_DatingType> a void:Dataset ;
     rdfs:label "Class Partition: DatingType"@en ;
@@ -602,7 +602,7 @@
     rdfs:label "Class Partition: DiscoverySite"@en ;
     void:class <http://archaeology.link/ontology#DiscoverySite>,
         <http://archaeonatural.cloud/ont/DiscoverySite> ;
-    void:entities 11 .
+    void:entities 9 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Document> a void:Dataset ;
     rdfs:label "Class Partition: Document"@en ;
@@ -731,7 +731,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Entity> a void:Dataset ;
     rdfs:label "Class Partition: Entity"@en ;
     void:class prov:Entity ;
-    void:entities 4719 .
+    void:entities 4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Feature> a void:Dataset ;
     rdfs:label "Class Partition: Feature"@en ;
@@ -776,7 +776,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Group> a void:Dataset ;
     rdfs:label "Class Partition: Group"@en ;
     void:class <http://archaeonatural.cloud/ont/Group> ;
-    void:entities 16 .
+    void:entities 12 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_HaplogroupMeasurement> a void:Dataset ;
     rdfs:label "Class Partition: HaplogroupMeasurement"@en ;
@@ -880,12 +880,12 @@
     void:class <http://archaeology.link/ontology#Place>,
         <http://archaeonatural.cloud/ont/Place>,
         <https://pleiades.stoa.org/places/vocab#Place> ;
-    void:entities 100 .
+    void:entities 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Point> a void:Dataset ;
     rdfs:label "Class Partition: Point"@en ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
-    void:entities 9 .
+    void:entities 7 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_PreparationPipeline> a void:Dataset ;
     rdfs:label "Class Partition: PreparationPipeline"@en ;
@@ -910,7 +910,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Site> a void:Dataset ;
     rdfs:label "Class Partition: Site"@en ;
     void:class <http://archaeonatural.cloud/ont/Site> ;
-    void:entities 100 .
+    void:entities 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_SoftwareAgent> a void:Dataset ;
     rdfs:label "Class Partition: SoftwareAgent"@en ;
@@ -965,7 +965,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Unknown> a void:Dataset ;
     rdfs:label "Class Partition: Unknown"@en ;
     void:class <http://archaeonatural.cloud/ont/Unknown> ;
-    void:entities 199 .
+    void:entities 99 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_YHaplogroupMeasurement> a void:Dataset ;
     rdfs:label "Class Partition: YHaplogroupMeasurement"@en ;
@@ -975,7 +975,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_aDNASample> a void:Dataset ;
     rdfs:label "Class Partition: aDNASample"@en ;
     void:class <http://archaeonatural.cloud/ont/aDNASample> ;
-    void:entities 100 .
+    void:entities 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_aDNASampleRelation> a void:Dataset ;
     rdfs:label "Class Partition: aDNASampleRelation"@en ;
@@ -994,17 +994,17 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_asWKT> a void:Dataset ;
     rdfs:label "Property Partition: asWKT"@en ;
     void:property geo:asWKT ;
-    void:triples 9 .
+    void:triples 7 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_atPlace> a void:Dataset ;
     rdfs:label "Property Partition: atPlace"@en ;
     void:property <http://archaeonatural.cloud/ont/atPlace> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_atSite> a void:Dataset ;
     rdfs:label "Property Partition: atSite"@en ;
     void:property <http://archaeonatural.cloud/ont/atSite> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_closeMatch> a void:Dataset ;
     rdfs:label "Property Partition: closeMatch"@en ;
@@ -1014,7 +1014,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_comment> a void:Dataset ;
     rdfs:label "Property Partition: comment"@en ;
     void:property rdfs:comment ;
-    void:triples 4949 .
+    void:triples 4743 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_contributor> a void:Dataset ;
     rdfs:label "Property Partition: contributor"@en ;
@@ -1026,12 +1026,12 @@
     void:property dc:creator,
         dcterms:creator ;
     void:triples 1,
-        9438 .
+        9026 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_datedBy> a void:Dataset ;
     rdfs:label "Property Partition: datedBy"@en ;
     void:property <http://archaeonatural.cloud/ont/datedBy> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_description> a void:Dataset ;
     rdfs:label "Property Partition: description"@en ;
@@ -1051,7 +1051,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_endedAtTime> a void:Dataset ;
     rdfs:label "Property Partition: endedAtTime"@en ;
     void:property prov:endedAtTime ;
-    void:triples 476 .
+    void:triples 426 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_equivalentClass> a void:Dataset ;
     rdfs:label "Property Partition: equivalentClass"@en ;
@@ -1070,7 +1070,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_foundAtDiscoverySite> a void:Dataset ;
     rdfs:label "Property Partition: foundAtDiscoverySite"@en ;
     void:property <http://archaeonatural.cloud/ont/foundAtDiscoverySite> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_fromGeneticSourceAccession> a void:Dataset ;
     rdfs:label "Property Partition: fromGeneticSourceAccession"@en ;
@@ -1090,7 +1090,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasCollectionID> a void:Dataset ;
     rdfs:label "Property Partition: hasCollectionID"@en ;
     void:property <http://archaeonatural.cloud/ont/hasCollectionID> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasDOI> a void:Dataset ;
     rdfs:label "Property Partition: hasDOI"@en ;
@@ -1105,7 +1105,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasDatingType> a void:Dataset ;
     rdfs:label "Property Partition: hasDatingType"@en ;
     void:property <http://archaeonatural.cloud/ont/hasDatingType> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasEDTFDateTimeDescription> a void:Dataset ;
     rdfs:label "Property Partition: hasEDTFDateTimeDescription"@en ;
@@ -1130,22 +1130,22 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasGeneticSex> a void:Dataset ;
     rdfs:label "Property Partition: hasGeneticSex"@en ;
     void:property <http://archaeonatural.cloud/ont/hasGeneticSex> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasGenotypePloidy> a void:Dataset ;
     rdfs:label "Property Partition: hasGenotypePloidy"@en ;
     void:property <http://archaeonatural.cloud/ont/hasGenotypePloidy> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasGeometry> a void:Dataset ;
     rdfs:label "Property Partition: hasGeometry"@en ;
     void:property geo:hasGeometry ;
-    void:triples 9 .
+    void:triples 7 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasID> a void:Dataset ;
     rdfs:label "Property Partition: hasID"@en ;
     void:property <http://archaeonatural.cloud/ont/hasID> ;
-    void:triples 104 .
+    void:triples 54 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasLabNumber> a void:Dataset ;
     rdfs:label "Property Partition: hasLabNumber"@en ;
@@ -1160,7 +1160,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasNote> a void:Dataset ;
     rdfs:label "Property Partition: hasNote"@en ;
     void:property <http://archaeonatural.cloud/ont/hasNote> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasORCID> a void:Dataset ;
     rdfs:label "Property Partition: hasORCID"@en ;
@@ -1170,12 +1170,12 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasRepresentativePoint> a void:Dataset ;
     rdfs:label "Property Partition: hasRepresentativePoint"@en ;
     void:property <http://archaeonatural.cloud/ont/hasRepresentativePoint> ;
-    void:triples 9 .
+    void:triples 7 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasSNPCount> a void:Dataset ;
     rdfs:label "Property Partition: hasSNPCount"@en ;
     void:property <http://archaeonatural.cloud/ont/hasSNPCount> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_hasSourceTissueType> a void:Dataset ;
     rdfs:label "Property Partition: hasSourceTissueType"@en ;
@@ -1205,7 +1205,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_inCountry> a void:Dataset ;
     rdfs:label "Property Partition: inCountry"@en ;
     void:property <http://archaeonatural.cloud/ont/inCountry> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_inJournal> a void:Dataset ;
     rdfs:label "Property Partition: inJournal"@en ;
@@ -1230,12 +1230,12 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 4893 .
+    void:triples 4737 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_license> a void:Dataset ;
     rdfs:label "Property Partition: license"@en ;
     void:property dcterms:license ;
-    void:triples 4719 .
+    void:triples 4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_measuredSNPCoverage> a void:Dataset ;
     rdfs:label "Property Partition: measuredSNPCoverage"@en ;
@@ -1270,12 +1270,12 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_partOfGroup> a void:Dataset ;
     rdfs:label "Property Partition: partOfGroup"@en ;
     void:property <http://archaeonatural.cloud/ont/partOfGroup> ;
-    void:triples 100 .
+    void:triples 50 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_prefLabel> a void:Dataset ;
     rdfs:label "Property Partition: prefLabel"@en ;
     void:property skos:prefLabel ;
-    void:triples 4654 .
+    void:triples 4498 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_publishedInYear> a void:Dataset ;
     rdfs:label "Property Partition: publishedInYear"@en ;
@@ -1285,7 +1285,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_publishedSample> a void:Dataset ;
     rdfs:label "Property Partition: publishedSample"@en ;
     void:property <http://archaeonatural.cloud/ont/publishedSample> ;
-    void:triples 300 .
+    void:triples 150 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_publisher> a void:Dataset ;
     rdfs:label "Property Partition: publisher"@en ;
@@ -1310,7 +1310,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_rightsHolder> a void:Dataset ;
     rdfs:label "Property Partition: rightsHolder"@en ;
     void:property dcterms:rightsHolder ;
-    void:triples 4719 .
+    void:triples 4513 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_sameAs> a void:Dataset ;
     rdfs:label "Property Partition: sameAs"@en ;
@@ -1320,7 +1320,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_startedAtTime> a void:Dataset ;
     rdfs:label "Property Partition: startedAtTime"@en ;
     void:property prov:startedAtTime ;
-    void:triples 476 .
+    void:triples 426 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_subClassOf> a void:Dataset ;
     rdfs:label "Property Partition: subClassOf"@en ;
@@ -1340,12 +1340,12 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 10509 .
+    void:triples 9945 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_used> a void:Dataset ;
     rdfs:label "Property Partition: used"@en ;
     void:property prov:used ;
-    void:triples 415 .
+    void:triples 315 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_versionInfo> a void:Dataset ;
     rdfs:label "Property Partition: versionInfo"@en ;
@@ -1355,22 +1355,22 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasAssociatedWith> a void:Dataset ;
     rdfs:label "Property Partition: wasAssociatedWith"@en ;
     void:property prov:wasAssociatedWith ;
-    void:triples 315 .
+    void:triples 265 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasAttributedTo> a void:Dataset ;
     rdfs:label "Property Partition: wasAttributedTo"@en ;
     void:property prov:wasAttributedTo ;
-    void:triples 4737 .
+    void:triples 4531 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasDerivedFrom> a void:Dataset ;
     rdfs:label "Property Partition: wasDerivedFrom"@en ;
     void:property prov:wasDerivedFrom ;
-    void:triples 9924 .
+    void:triples 9306 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasGeneratedBy> a void:Dataset ;
     rdfs:label "Property Partition: wasGeneratedBy"@en ;
     void:property prov:wasGeneratedBy ;
-    void:triples 8938 .
+    void:triples 8438 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_writtenBy> a void:Dataset ;
     rdfs:label "Property Partition: writtenBy"@en ;
@@ -1582,19 +1582,19 @@ foaf:Person rdfs:label "Person"@en .
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> a void:Dataset,
         adms:Asset ;
     rdfs:label "Poseidon_DEMO"@en ;
-    vext:averageLiteralLength 34 ;
+    vext:averageLiteralLength 32 ;
     vext:averageObjectIRILength 60 ;
     vext:averagePropertyIRILength 43 ;
-    vext:averageSubjectIRILength 76 ;
+    vext:averageSubjectIRILength 77 ;
     vext:datatypes 5 ;
-    vext:distinctBlankNodes 443 ;
-    vext:distinctIRIReferences 17855 ;
-    vext:distinctLiterals 5277 ;
-    vext:distinctRDFNodes 23575 ;
+    vext:distinctBlankNodes 343 ;
+    vext:distinctIRIReferences 17214 ;
+    vext:distinctLiterals 5152 ;
+    vext:distinctRDFNodes 22709 ;
     vext:languages 1 ;
     vext:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-08-21T13:21:12"^^xsd:dateTime ;
+    dcterms:modified "2025-08-22T08:15:43"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -1714,9 +1714,9 @@ foaf:Person rdfs:label "Person"@en .
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_externalIdentifierType> ;
     void:classes 121 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
-    void:distinctObjects 12171 ;
-    void:distinctSubjects 5606 ;
-    void:entities 5307 ;
+    void:distinctObjects 11788 ;
+    void:distinctSubjects 5348 ;
+    void:entities 5049 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 78 ;
@@ -1797,7 +1797,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasDerivedFrom>,
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_wasGeneratedBy>,
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_writtenBy> ;
-    void:triples 99649 ;
+    void:triples 94841 ;
     void:uriSpace "http://archaeonatural.cloud/poseidon/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,
