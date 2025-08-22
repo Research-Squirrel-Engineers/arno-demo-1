@@ -31,6 +31,6 @@ jobs:
       metadatatable: true
       createnonNSPages: true
       logourl: https://raw.githubusercontent.com/archaeonatural-cloud/unicorn-ontdoc-template-archaeonatural-cloud/main/icons/archaeonatural_icon_blue.png
-      templatedir: https://github.com/archaeonatural-cloud/unicorn-ontdoc-template-archaeonatural-cloud/archive/refs/tags/arno-0.3.zip
+      templatedir: https://github.com/archaeonatural-cloud/unicorn-ontdoc-template-archaeonatural-cloud/archive/refs/tags/arno-0.4.zip
       ogcapifeatures: false
       datasettitle: Poseidon Demo-Dataset
