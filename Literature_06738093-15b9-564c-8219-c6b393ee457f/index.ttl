@@ -10,7 +10,7 @@
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Parallel palaeogenomic transects reveal complex genetic history of early European farmers"@en,
-        "unknown value"@en ;
+        "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
     ns1:hasDOI <https://doi.org/10.1038/nature24476> ;
     ns1:hasTitle "Parallel palaeogenomic transects reveal complex genetic history of early European farmers"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_68989e5e-d4cd-5525-8f6a-3f35e0d99df3> ;
@@ -79,7 +79,7 @@
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Parallel palaeogenomic transects reveal complex genetic history of early European farmers"@en,
-        "unknown value"@en ;
+        "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
     prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
         <https://github.com/poseidon-framework/community-archive> ;

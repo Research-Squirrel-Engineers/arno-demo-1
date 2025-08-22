@@ -12,7 +12,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Iceman.SG" ;
     ns1:datedBy <http://archaeonatural.cloud/poseidon/Dating_e0259aef-78c8-5673-a639-12e4e5deafb6> ;
-    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_26b1ac84-1d6f-50b8-be4b-6fc8ad9d1ce7> ;
+    ns1:foundAtDiscoverySite <http://archaeonatural.cloud/poseidon/DiscoverySite_ddb473d5-2927-5f17-afcb-96cde0e56ac3> ;
     ns1:fromGeneticSourceAccession <http://archaeonatural.cloud/poseidon/GeneticSourceAccession_4f4587fe-d2f9-55f8-a358-b8e47f28d4c6> ;
     ns1:hasCaptureType <http://archaeonatural.cloud/poseidon/CaptureType_9e61bd25-7534-5013-9b95-28150fccabfd> ;
     ns1:hasCollectionID "Iceman" ;

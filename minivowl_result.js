@@ -173,137 +173,410 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 21,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 7,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 26,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 9,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 6,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 20,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
    "source": 15,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 13,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 24,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 29,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 19,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 23,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 14,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 28,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 25,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 16,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
-  },
-  {
-   "source": 17,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
   },
   {
    "source": 18,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 24,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 14,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 29,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 21,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 25,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 28,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 9,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 26,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 23,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
   },
   {
    "source": 22,
-   "target": 12,
-   "valueTo": "wasGeneratedBy",
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 6,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 16,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 20,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 13,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 17,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 7,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 19,
+   "target": 30,
+   "valueTo": "wasDerivedFrom",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
+  },
+  {
+   "source": 15,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 15,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 18,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 18,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 24,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 24,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 14,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 14,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 29,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 29,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 21,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 21,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 25,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 25,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 28,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 28,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 9,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 9,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 26,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 26,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 23,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 23,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 22,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 22,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 6,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 6,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 16,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 16,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 20,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 20,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 13,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 13,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 17,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 17,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 7,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 7,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 19,
+   "target": 32,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 19,
+   "target": 31,
+   "valueTo": "wasAttributedTo",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
+  },
+  {
+   "source": 7,
+   "target": 23,
+   "valueTo": "writtenBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
   },
   {
    "source": 7,
@@ -313,20 +586,6 @@ var minivowlresult={
    "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
   },
   {
-   "source": 7,
-   "target": 23,
-   "valueTo": "writtenBy",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
-  },
-  {
-   "source": 6,
-   "target": 7,
-   "valueTo": "writtenBy",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
-  },
-  {
    "source": 6,
    "target": 23,
    "valueTo": "writtenBy",
@@ -334,508 +593,11 @@ var minivowlresult={
    "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
   },
   {
-   "source": 21,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 7,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 26,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 9,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
    "source": 6,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
+   "target": 7,
+   "valueTo": "writtenBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 20,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 13,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 15,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 24,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 29,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 19,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 23,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 14,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 28,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 25,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 16,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 17,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 18,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 22,
-   "target": 30,
-   "valueTo": "wasDerivedFrom",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasDerivedFrom"
-  },
-  {
-   "source": 21,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 21,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 7,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 7,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 26,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 26,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 9,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 9,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 6,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 6,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 20,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 20,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 13,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 13,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 15,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 15,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 24,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 24,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 29,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 29,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 19,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 19,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 23,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 23,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 14,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 14,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 28,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 28,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 25,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 25,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 16,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 16,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 17,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 17,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 18,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 18,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 22,
-   "target": 31,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 22,
-   "target": 32,
-   "valueTo": "wasAttributedTo",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAttributedTo"
-  },
-  {
-   "source": 21,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 21,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 7,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 7,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 26,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 26,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 9,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 9,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 6,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 6,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 20,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 20,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 13,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 13,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 15,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
+   "uriTo": "http://archaeonatural.cloud/ont/writtenBy"
   },
   {
    "source": 15,
@@ -845,133 +607,7 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
-   "source": 24,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 24,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 29,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 29,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 19,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 19,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 23,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 23,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 14,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 14,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 28,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 28,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 25,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 25,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 16,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 16,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 17,
-   "target": 31,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 17,
-   "target": 23,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/creator"
-  },
-  {
-   "source": 18,
+   "source": 15,
    "target": 31,
    "valueTo": "creator",
    "propertyTo": "class",
@@ -985,7 +621,133 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
-   "source": 22,
+   "source": 18,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 24,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 24,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 14,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 14,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 29,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 29,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 21,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 21,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 25,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 25,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 28,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 28,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 9,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 9,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 26,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 26,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 23,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 23,
    "target": 31,
    "valueTo": "creator",
    "propertyTo": "class",
@@ -999,74 +761,109 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
-   "source": 7,
-   "target": 7,
-   "valueTo": "hasDatingType",
+   "source": 22,
+   "target": 31,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 6,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 6,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 16,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 16,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 20,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 20,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 13,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 13,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 17,
+   "target": 23,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
+  },
+  {
+   "source": 17,
+   "target": 31,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
    "source": 7,
-   "target": 26,
-   "valueTo": "hasDatingType",
+   "target": 23,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
-  },
-  {
-   "source": 15,
-   "target": 7,
-   "valueTo": "hasDatingType",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
-  },
-  {
-   "source": 15,
-   "target": 26,
-   "valueTo": "hasDatingType",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
-  },
-  {
-   "source": 14,
-   "target": 7,
-   "valueTo": "hasDatingType",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
-  },
-  {
-   "source": 14,
-   "target": 26,
-   "valueTo": "hasDatingType",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
    "source": 7,
-   "target": 7,
-   "valueTo": "hasCaptureType",
+   "target": 31,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
-   "source": 7,
-   "target": 29,
-   "valueTo": "hasCaptureType",
+   "source": 19,
+   "target": 23,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
-   "source": 28,
-   "target": 7,
-   "valueTo": "hasCaptureType",
+   "source": 19,
+   "target": 31,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
-  },
-  {
-   "source": 28,
-   "target": 29,
-   "valueTo": "hasCaptureType",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+   "uriTo": "http://purl.org/dc/terms/creator"
   },
   {
    "source": 12,
@@ -1076,32 +873,151 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/ns/prov#used"
   },
   {
-   "source": 7,
-   "target": 21,
-   "valueTo": "partOfGroup",
+   "source": 15,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   },
   {
-   "source": 7,
-   "target": 7,
-   "valueTo": "partOfGroup",
+   "source": 18,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 24,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 14,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 29,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 21,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 25,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   },
   {
    "source": 28,
-   "target": 21,
-   "valueTo": "partOfGroup",
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   },
   {
-   "source": 28,
-   "target": 7,
-   "valueTo": "partOfGroup",
+   "source": 9,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 26,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 23,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 22,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 6,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 16,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 20,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 13,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 17,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 7,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 19,
+   "target": 12,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 12,
+   "target": 32,
+   "valueTo": "wasAssociatedWith",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAssociatedWith"
+  },
+  {
+   "source": 12,
+   "target": 31,
+   "valueTo": "wasAssociatedWith",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasAssociatedWith"
   },
   {
    "source": 4,
@@ -1120,58 +1036,240 @@ var minivowlresult={
   {
    "source": 7,
    "target": 7,
-   "valueTo": "datedBy",
+   "valueTo": "inJournal",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
   },
   {
    "source": 7,
-   "target": 15,
-   "valueTo": "datedBy",
+   "target": 22,
+   "valueTo": "inJournal",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
   },
   {
-   "source": 7,
-   "target": 14,
-   "valueTo": "datedBy",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
-  },
-  {
-   "source": 28,
+   "source": 6,
    "target": 7,
-   "valueTo": "datedBy",
+   "valueTo": "inJournal",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
   },
   {
-   "source": 28,
-   "target": 15,
-   "valueTo": "datedBy",
+   "source": 6,
+   "target": 22,
+   "valueTo": "inJournal",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
   },
   {
-   "source": 28,
-   "target": 14,
-   "valueTo": "datedBy",
+   "source": 7,
+   "target": 13,
+   "valueTo": "inCountry",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
   },
   {
-   "source": 12,
+   "source": 7,
+   "target": 7,
+   "valueTo": "inCountry",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
+  },
+  {
+   "source": 19,
+   "target": 13,
+   "valueTo": "inCountry",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
+  },
+  {
+   "source": 19,
+   "target": 7,
+   "valueTo": "inCountry",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
+  },
+  {
+   "source": 18,
+   "target": 13,
+   "valueTo": "inCountry",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
+  },
+  {
+   "source": 18,
+   "target": 7,
+   "valueTo": "inCountry",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
+  },
+  {
+   "source": 3,
+   "target": 23,
+   "valueTo": "actedOnBehalfOf",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+  },
+  {
+   "source": 3,
    "target": 31,
-   "valueTo": "wasAssociatedWith",
+   "valueTo": "actedOnBehalfOf",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAssociatedWith"
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
   },
   {
-   "source": 12,
-   "target": 32,
-   "valueTo": "wasAssociatedWith",
+   "source": 32,
+   "target": 23,
+   "valueTo": "actedOnBehalfOf",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasAssociatedWith"
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+  },
+  {
+   "source": 32,
+   "target": 31,
+   "valueTo": "actedOnBehalfOf",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+  },
+  {
+   "source": 31,
+   "target": 23,
+   "valueTo": "actedOnBehalfOf",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+  },
+  {
+   "source": 31,
+   "target": 31,
+   "valueTo": "actedOnBehalfOf",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+  },
+  {
+   "source": 16,
+   "target": 7,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 16,
+   "target": 18,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 16,
+   "target": 17,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 7,
+   "target": 18,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 7,
+   "target": 17,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 18,
+   "target": 7,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 18,
+   "target": 18,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 18,
+   "target": 17,
+   "valueTo": "atSite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atSite"
+  },
+  {
+   "source": 13,
+   "target": 13,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 13,
+   "target": 7,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 13,
+   "target": 19,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 7,
+   "target": 13,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 7,
+   "target": 19,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 19,
+   "target": 13,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 19,
+   "target": 7,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
+  },
+  {
+   "source": 19,
+   "target": 19,
+   "valueTo": "hasExternalIdentifier",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
   },
   {
    "source": 7,
@@ -1190,30 +1288,233 @@ var minivowlresult={
   {
    "source": 7,
    "target": 7,
-   "valueTo": "inJournal",
+   "valueTo": "atPlace",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
   },
   {
    "source": 7,
-   "target": 22,
-   "valueTo": "inJournal",
+   "target": 19,
+   "valueTo": "atPlace",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
   },
   {
-   "source": 6,
+   "source": 7,
+   "target": 18,
+   "valueTo": "atPlace",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 18,
    "target": 7,
-   "valueTo": "inJournal",
+   "valueTo": "atPlace",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
   },
   {
-   "source": 6,
-   "target": 22,
-   "valueTo": "inJournal",
+   "source": 18,
+   "target": 19,
+   "valueTo": "atPlace",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inJournal"
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 18,
+   "target": 18,
+   "valueTo": "atPlace",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 17,
+   "target": 7,
+   "valueTo": "atPlace",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 17,
+   "target": 19,
+   "valueTo": "atPlace",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 17,
+   "target": 18,
+   "valueTo": "atPlace",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+  },
+  {
+   "source": 7,
+   "target": 21,
+   "valueTo": "partOfGroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "partOfGroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+  },
+  {
+   "source": 28,
+   "target": 21,
+   "valueTo": "partOfGroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+  },
+  {
+   "source": 28,
+   "target": 7,
+   "valueTo": "partOfGroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/partOfGroup"
+  },
+  {
+   "source": 7,
+   "target": 15,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 7,
+   "target": 14,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 28,
+   "target": 15,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 28,
+   "target": 14,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 28,
+   "target": 7,
+   "valueTo": "datedBy",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/datedBy"
+  },
+  {
+   "source": 7,
+   "target": 16,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 7,
+   "target": 18,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 28,
+   "target": 16,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 28,
+   "target": 7,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 28,
+   "target": 18,
+   "valueTo": "foundAtDiscoverySite",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
+  },
+  {
+   "source": 15,
+   "target": 7,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 15,
+   "target": 26,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 14,
+   "target": 7,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 14,
+   "target": 26,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 7,
+   "target": 26,
+   "valueTo": "hasDatingType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasDatingType"
+  },
+  {
+   "source": 16,
+   "target": 27,
+   "valueTo": "hasRepresentativePoint",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasRepresentativePoint"
+  },
+  {
+   "source": 7,
+   "target": 27,
+   "valueTo": "hasRepresentativePoint",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasRepresentativePoint"
   },
   {
    "source": 7,
@@ -1246,118 +1547,6 @@ var minivowlresult={
   {
    "source": 13,
    "target": 13,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 13,
-   "target": 19,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 13,
-   "target": 7,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 19,
-   "target": 13,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 19,
-   "target": 19,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 19,
-   "target": 7,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 7,
-   "target": 13,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 7,
-   "target": 19,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "hasExternalIdentifier",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasExternalIdentifier"
-  },
-  {
-   "source": 7,
-   "target": 13,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 19,
-   "target": 13,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 19,
-   "target": 7,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 18,
-   "target": 13,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 18,
-   "target": 7,
-   "valueTo": "inCountry",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/inCountry"
-  },
-  {
-   "source": 13,
-   "target": 13,
-   "valueTo": "closeMatch",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
-  },
-  {
-   "source": 13,
-   "target": 19,
    "valueTo": "closeMatch",
    "propertyTo": "class",
    "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
@@ -1370,22 +1559,8 @@ var minivowlresult={
    "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
   },
   {
-   "source": 19,
-   "target": 13,
-   "valueTo": "closeMatch",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
-  },
-  {
-   "source": 19,
+   "source": 13,
    "target": 19,
-   "valueTo": "closeMatch",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
-  },
-  {
-   "source": 19,
-   "target": 7,
    "valueTo": "closeMatch",
    "propertyTo": "class",
    "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
@@ -1399,13 +1574,6 @@ var minivowlresult={
   },
   {
    "source": 7,
-   "target": 19,
-   "valueTo": "closeMatch",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
-  },
-  {
-   "source": 7,
    "target": 7,
    "valueTo": "closeMatch",
    "propertyTo": "class",
@@ -1413,192 +1581,31 @@ var minivowlresult={
   },
   {
    "source": 7,
-   "target": 7,
-   "valueTo": "atPlace",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 7,
    "target": 19,
-   "valueTo": "atPlace",
+   "valueTo": "closeMatch",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
   },
   {
-   "source": 7,
-   "target": 18,
-   "valueTo": "atPlace",
+   "source": 19,
+   "target": 13,
+   "valueTo": "closeMatch",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
   },
   {
-   "source": 17,
+   "source": 19,
    "target": 7,
-   "valueTo": "atPlace",
+   "valueTo": "closeMatch",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
+   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
   },
   {
-   "source": 17,
+   "source": 19,
    "target": 19,
-   "valueTo": "atPlace",
+   "valueTo": "closeMatch",
    "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 17,
-   "target": 18,
-   "valueTo": "atPlace",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 18,
-   "target": 7,
-   "valueTo": "atPlace",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 18,
-   "target": 19,
-   "valueTo": "atPlace",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 18,
-   "target": 18,
-   "valueTo": "atPlace",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atPlace"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 7,
-   "target": 17,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 7,
-   "target": 18,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 18,
-   "target": 7,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 18,
-   "target": 17,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 18,
-   "target": 18,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 16,
-   "target": 7,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 16,
-   "target": 17,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 16,
-   "target": 18,
-   "valueTo": "atSite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/atSite"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 7,
-   "target": 18,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 7,
-   "target": 16,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 28,
-   "target": 7,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 28,
-   "target": 18,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 28,
-   "target": 16,
-   "valueTo": "foundAtDiscoverySite",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/foundAtDiscoverySite"
-  },
-  {
-   "source": 7,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 16,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 7,
-   "target": 20,
-   "valueTo": "fromGeneticSourceAccession",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/fromGeneticSourceAccession"
+   "uriTo": "http://archaeonatural.cloud/ont/closeMatch"
   },
   {
    "source": 7,
@@ -1608,7 +1615,7 @@ var minivowlresult={
    "uriTo": "http://archaeonatural.cloud/ont/fromGeneticSourceAccession"
   },
   {
-   "source": 28,
+   "source": 7,
    "target": 20,
    "valueTo": "fromGeneticSourceAccession",
    "propertyTo": "class",
@@ -1622,46 +1629,95 @@ var minivowlresult={
    "uriTo": "http://archaeonatural.cloud/ont/fromGeneticSourceAccession"
   },
   {
-   "source": 31,
-   "target": 31,
-   "valueTo": "actedOnBehalfOf",
+   "source": 28,
+   "target": 20,
+   "valueTo": "fromGeneticSourceAccession",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/fromGeneticSourceAccession"
   },
   {
-   "source": 31,
-   "target": 23,
-   "valueTo": "actedOnBehalfOf",
+   "source": 7,
+   "target": 7,
+   "valueTo": "ofSourceTissue",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
   },
   {
-   "source": 32,
-   "target": 31,
-   "valueTo": "actedOnBehalfOf",
+   "source": 7,
+   "target": 24,
+   "valueTo": "ofSourceTissue",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
   },
   {
-   "source": 32,
-   "target": 23,
-   "valueTo": "actedOnBehalfOf",
+   "source": 28,
+   "target": 7,
+   "valueTo": "ofSourceTissue",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
   },
   {
-   "source": 3,
-   "target": 31,
-   "valueTo": "actedOnBehalfOf",
+   "source": 28,
+   "target": 24,
+   "valueTo": "ofSourceTissue",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
   },
   {
-   "source": 3,
-   "target": 23,
-   "valueTo": "actedOnBehalfOf",
+   "source": 7,
+   "target": 8,
+   "valueTo": "hasMedian",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#actedOnBehalfOf"
+   "uriTo": "http://archaeonatural.cloud/ont/hasMedian"
+  },
+  {
+   "source": 25,
+   "target": 8,
+   "valueTo": "hasMedian",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasMedian"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "hasCaptureType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+  },
+  {
+   "source": 7,
+   "target": 29,
+   "valueTo": "hasCaptureType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+  },
+  {
+   "source": 28,
+   "target": 7,
+   "valueTo": "hasCaptureType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+  },
+  {
+   "source": 28,
+   "target": 29,
+   "valueTo": "hasCaptureType",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/hasCaptureType"
+  },
+  {
+   "source": 16,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 7,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 7,
@@ -1690,6 +1746,34 @@ var minivowlresult={
    "valueTo": "hasBeginning",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2006/time#hasBeginning"
+  },
+  {
+   "source": 9,
+   "target": 7,
+   "valueTo": "measuredYHaplogroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
+  },
+  {
+   "source": 9,
+   "target": 28,
+   "valueTo": "measuredYHaplogroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
+  },
+  {
+   "source": 7,
+   "target": 7,
+   "valueTo": "measuredYHaplogroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
+  },
+  {
+   "source": 7,
+   "target": 28,
+   "valueTo": "measuredYHaplogroup",
+   "propertyTo": "class",
+   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
   },
   {
    "source": 15,
@@ -1732,90 +1816,6 @@ var minivowlresult={
    "valueTo": "observedTimePeriod",
    "propertyTo": "class",
    "uriTo": "http://archaeonatural.cloud/ont/observedTimePeriod"
-  },
-  {
-   "source": 7,
-   "target": 27,
-   "valueTo": "hasRepresentativePoint",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasRepresentativePoint"
-  },
-  {
-   "source": 16,
-   "target": 27,
-   "valueTo": "hasRepresentativePoint",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasRepresentativePoint"
-  },
-  {
-   "source": 7,
-   "target": 8,
-   "valueTo": "hasMedian",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasMedian"
-  },
-  {
-   "source": 25,
-   "target": 8,
-   "valueTo": "hasMedian",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/hasMedian"
-  },
-  {
-   "source": 7,
-   "target": 24,
-   "valueTo": "ofSourceTissue",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "ofSourceTissue",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
-  },
-  {
-   "source": 28,
-   "target": 24,
-   "valueTo": "ofSourceTissue",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
-  },
-  {
-   "source": 28,
-   "target": 7,
-   "valueTo": "ofSourceTissue",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/ofSourceTissue"
-  },
-  {
-   "source": 7,
-   "target": 7,
-   "valueTo": "measuredYHaplogroup",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
-  },
-  {
-   "source": 7,
-   "target": 28,
-   "valueTo": "measuredYHaplogroup",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
-  },
-  {
-   "source": 9,
-   "target": 7,
-   "valueTo": "measuredYHaplogroup",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
-  },
-  {
-   "source": 9,
-   "target": 28,
-   "valueTo": "measuredYHaplogroup",
-   "propertyTo": "class",
-   "uriTo": "http://archaeonatural.cloud/ont/measuredYHaplogroup"
   }
  ]
 }

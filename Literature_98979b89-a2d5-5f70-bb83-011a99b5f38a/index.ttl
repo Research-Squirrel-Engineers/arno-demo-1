@@ -10,7 +10,7 @@
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "The formation of human populations in South and Central Asia"@en,
-        "unknown value"@en ;
+        "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
     ns1:hasDOI <https://doi.org/10.1126/science.aat7487> ;
     ns1:hasTitle "The formation of human populations in South and Central Asia"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_e76ee763-0226-5d00-8b2d-46a0df49d7ea> ;
@@ -139,7 +139,7 @@
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "The formation of human populations in South and Central Asia"@en,
-        "unknown value"@en ;
+        "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
     prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
         <https://github.com/poseidon-framework/community-archive> ;

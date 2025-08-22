@@ -1230,7 +1230,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 4737 .
+    void:triples 4785 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_license> a void:Dataset ;
     rdfs:label "Property Partition: license"@en ;
@@ -1275,7 +1275,7 @@
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_prefLabel> a void:Dataset ;
     rdfs:label "Property Partition: prefLabel"@en ;
     void:property skos:prefLabel ;
-    void:triples 4498 .
+    void:triples 4546 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_publishedInYear> a void:Dataset ;
     rdfs:label "Property Partition: publishedInYear"@en ;
@@ -1582,19 +1582,19 @@ foaf:Person rdfs:label "Person"@en .
 <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> a void:Dataset,
         adms:Asset ;
     rdfs:label "Poseidon_DEMO_Dataset"@en ;
-    vext:averageLiteralLength 32 ;
+    vext:averageLiteralLength 34 ;
     vext:averageObjectIRILength 60 ;
     vext:averagePropertyIRILength 43 ;
     vext:averageSubjectIRILength 77 ;
     vext:datatypes 5 ;
     vext:distinctBlankNodes 343 ;
-    vext:distinctIRIReferences 17214 ;
-    vext:distinctLiterals 5152 ;
-    vext:distinctRDFNodes 22709 ;
+    vext:distinctIRIReferences 17182 ;
+    vext:distinctLiterals 5120 ;
+    vext:distinctRDFNodes 22645 ;
     vext:languages 1 ;
     vext:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-08-22T09:10:36"^^xsd:dateTime ;
+    dcterms:modified "2025-08-22T11:46:57"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -1714,7 +1714,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_externalIdentifierType> ;
     void:classes 121 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
-    void:distinctObjects 11788 ;
+    void:distinctObjects 11756 ;
     void:distinctSubjects 5348 ;
     void:entities 5049 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
@@ -1797,7 +1797,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_wasDerivedFrom>,
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_wasGeneratedBy>,
         <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_writtenBy> ;
-    void:triples 94841 ;
+    void:triples 94937 ;
     void:uriSpace "http://archaeonatural.cloud/poseidon/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,
