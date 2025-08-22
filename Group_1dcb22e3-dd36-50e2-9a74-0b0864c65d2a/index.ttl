@@ -13,7 +13,7 @@
         <http://orcid.org/0009-0005-1140-3352> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_MeyerScience/2012_MeyerScience.janno version 2.1.1 within the Poseidon Community Archive"@en ;
     skos:prefLabel "Ignore_Mbuti(discovery).DG"@en ;
     prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;

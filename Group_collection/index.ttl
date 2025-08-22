@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Group Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/Group_1dcb22e3-dd36-50e2-9a74-0b0864c65d2a>,
         <http://archaeonatural.cloud/poseidon/Group_2a53c2db-6fb7-5a66-b77b-93d30119c3de>,
         <http://archaeonatural.cloud/poseidon/Group_3d843e46-39a8-5227-a24d-48aa821d521a>,

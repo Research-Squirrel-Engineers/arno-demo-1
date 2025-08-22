@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Country Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/Country_29c6e1b6-e3fd-5613-be91-3d6bc2998c46>,
         <http://archaeonatural.cloud/poseidon/Country_330f075f-c61e-5ce0-b021-fac2a57c8805>,
         <http://archaeonatural.cloud/poseidon/Country_5084b1be-97d5-5247-b4a0-8bfdd2a83853>,

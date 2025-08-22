@@ -14,7 +14,7 @@
         <http://orcid.org/0009-0005-1140-3352> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Reyes, Rebecca" ;
     prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;

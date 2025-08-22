@@ -1,0 +1,181 @@
+<html about="n827fc46e0dba49168f2f2c49e3c17ff8b319">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>unknown value | Poseidon DEMO Dataset</title>");
+      } else {
+        document.write(
+          "<title>Index Page for Poseidon DEMO Dataset by the ArcheoNatural Community</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="../epsgdefs.js"></script>
+    <script src="../vowl_result.js"></script>
+    <script src="../poseidon_search.js"></script>
+    <script src="../poseidon_classtree.js"></script>
+    <script src="../proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=1;
+    var baseurl="http://archaeonatural.cloud/poseidon/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>ArchaeoNatural ResearchData</b
+        >&nbsp;|&nbsp;Poseidon DEMO Dataset&nbsp;|&nbsp;
+        <i>powered by archaeonatural.cloud (NFDI4Objects Task Area 3)</i>
+      </span>
+      <span class="header_pt2">
+        <a href="http://nfdi4objects.net" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/archaeonatural-cloud/unicorn-ontdoc-template-archaeonatural-cloud/main/icons/archaeonatural_icon.png"
+            style="height: 40px !important; margin-right: 10px"
+        /></a>
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/n4o-rse/unicorn-ontdoc-template-n4o-metadata/main/icons/n4o_icon.png" width="25" height="25"/>unknown value<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for Poseidon DEMO Dataset by the ArchaeoNatural Community</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">n827fc46e0dba49168f2f2c49e3c17ff8b319</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The unknown value</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<p class="comment"><b>Description:</b> comment:Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno version 2.1.3 within the Poseidon Community Archive</p><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://archaeonatural.cloud/ont/inCountry">in country <span style="color: #666;">(arno:inCountry)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://archaeonatural.cloud/ont/inCountry" property="http://archaeonatural.cloud/ont/inCountry" resource="http://archaeonatural.cloud/poseidon/Country_330f075f-c61e-5ce0-b021-fac2a57c8805" href="../Country_330f075f-c61e-5ce0-b021-fac2a57c8805/index.html">Pakistan <span style="color: #666;">(poseidon:Country_330f075f-c61e-5ce0-b021-fac2a57c8805)</span></a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><ul><li><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://www.w3.org/ns/prov#Entity" target="_blank" href="http://www.w3.org/ns/prov#Entity">PROV-O Entity <span style="color: #666;">(prov:Entity)</span></a> <a href="../nonns_Entity.html">[x]</a></span></li><li><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://archaeonatural.cloud/ont/Place" target="_blank" href="http://archaeonatural.cloud/ont/Place">Place <span style="color: #666;">(arno:Place)</span></a> <a href="../nonns_Place.html">[x]</a></span></li><li><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://archaeonatural.cloud/ont/Unknown" target="_blank" href="http://archaeonatural.cloud/ont/Unknown">Unknown Entity <span style="color: #666;">(arno:Unknown)</span></a> <a href="../nonns_Unknown.html">[x]</a></span></li></ul></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#comment">comment <span style="color: #666;">(rdfs:comment)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/2000/01/rdf-schema#comment" property="http://www.w3.org/2000/01/rdf-schema#comment" content="Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno version 2.1.3 within the Poseidon Community Archive" datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en"><details><summary style="list-style-type: none;">Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGene (...)</summary>tics/2012_PattersonGenetics.janno version 2.1.3 within the Poseidon Community Archive</details> <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>) (<a href="http://www.lexvo.org/page/iso639-1/en" target="_blank">iso6391:en</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#label">label <span style="color: #666;">(rdfs:label)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/2000/01/rdf-schema#label" property="http://www.w3.org/2000/01/rdf-schema#label" content="unknown value" datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">unknown value <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>) (<a href="http://www.lexvo.org/page/iso639-1/en" target="_blank">iso6391:en</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2004/02/skos/core#prefLabel">preferred label <span style="color: #666;">(skos:prefLabel)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/2004/02/skos/core#prefLabel" property="http://www.w3.org/2004/02/skos/core#prefLabel" content="unknown value" datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">unknown value <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>) (<a href="http://www.lexvo.org/page/iso639-1/en" target="_blank">iso6391:en</a>)</small></span></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://archaeonatural.cloud/ont/atPlace">at place <span style="color: #666;">(arno:atPlace)</span></a> </span> of</td><td class="wrapword"><span><a itemprop="http://archaeonatural.cloud/ont/atPlace" itemref="n827fc46e0dba49168f2f2c49e3c17ff8b318" property="http://archaeonatural.cloud/ont/atPlace"  about="n827fc46e0dba49168f2f2c49e3c17ff8b318" resource="n827fc46e0dba49168f2f2c49e3c17ff8b319" href="../n827fc46e0dba49168f2f2c49e3c17ff8b318/index.html">unknown value <span style="color: #666;">(poseidon:n827fc46e0dba49168f2f2c49e3c17ff8b318)</span></a></span></td></tr></tbody></table></div><h5>Metadata</h5><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://purl.org/dc/terms/creator">Creator <span style="color: #666;">(terms:creator)</span></a> </span></td><td class="wrapword"><ul><li><span><a itemprop="http://purl.org/dc/terms/creator" property="http://purl.org/dc/terms/creator" resource="http://orcid.org/0000-0002-3246-3531" target="_blank" href="http://orcid.org/0000-0002-3246-3531">Florian Thiery <span style="color: #666;">(orcid:0000-0002-3246-3531)</span></a> <a href="../nonns_0000-0002-3246-3531.html">[x]</a></span></li><li><span><a itemprop="http://purl.org/dc/terms/creator" property="http://purl.org/dc/terms/creator" resource="http://orcid.org/0009-0005-1140-3352" target="_blank" href="http://orcid.org/0009-0005-1140-3352">Mattis thor Straten <span style="color: #666;">(orcid:0009-0005-1140-3352)</span></a> <a href="../nonns_0009-0005-1140-3352.html">[x]</a></span></li></ul></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://purl.org/dc/terms/license">license <span style="color: #666;">(terms:license)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://purl.org/dc/terms/license" property="http://purl.org/dc/terms/license" resource="https://creativecommons.org/licenses/by/4.0/" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">4.0 <span style="color: #666;">(4.0)</span></a> <a href="../nonns_4.0.html">[x]</a></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://purl.org/dc/terms/rightsHolder">rightsHolder <span style="color: #666;">(terms:rightsHolder)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://purl.org/dc/terms/rightsHolder" property="http://purl.org/dc/terms/rightsHolder" resource="https://github.com/poseidon-framework/community-archive" target="_blank" href="https://github.com/poseidon-framework/community-archive">community-archive <span style="color: #666;">(community-archive)</span></a> <a href="../nonns_community-archive.html">[x]</a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://rdfs.org/ns/void#inDataset">inDataset <span style="color: #666;">(void:inDataset)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://rdfs.org/ns/void#inDataset" property="http://rdfs.org/ns/void#inDataset" resource="http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset" href="../Poseidon_DEMO_Dataset/index.html">Poseidon_DEMO_Dataset <span style="color: #666;">(poseidon:Poseidon_DEMO_Dataset)</span></a> <span style="font-weight:bold">[5049 <a href="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object" target="_blank">crm:E28_Conceptual_Object</a>]</span></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasAttributedTo">was attributed to <span style="color: #666;">(prov:wasAttributedTo)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/ns/prov#wasAttributedTo" property="http://www.w3.org/ns/prov#wasAttributedTo" resource="http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD" target="_blank" href="http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD">Poseidon_LOD.py <span style="color: #666;">(arno:SoftwareSourceCode_Poseidon_LOD)</span></a> <a href="../nonns_SoftwareSourceCode_Poseidon_LOD.html">[x]</a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from <span style="color: #666;">(prov:wasDerivedFrom)</span></a> </span></td><td class="wrapword"><ul><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" property="http://www.w3.org/ns/prov#wasDerivedFrom" resource="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno" target="_blank" href="https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/2012_PattersonGenetics.janno">2012_PattersonGenetics.janno <span style="color: #666;">(2012_PattersonGenetics.janno)</span></a> <a href="../nonns_2012_PattersonGenetics.janno.html">[x]</a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" property="http://www.w3.org/ns/prov#wasDerivedFrom" resource="https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv" target="_blank" href="https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/EnrichedPoseidonCommunityArchiveData.csv">EnrichedPoseidonCommunityArchiveData.csv <span style="color: #666;">(EnrichedPoseidonCommunityArchiveData.csv)</span></a> <a href="../nonns_EnrichedPoseidonCommunityArchiveData.csv.html">[x]</a></span></li><li><span><a itemprop="http://www.w3.org/ns/prov#wasDerivedFrom" property="http://www.w3.org/ns/prov#wasDerivedFrom" resource="https://github.com/poseidon-framework/community-archive" target="_blank" href="https://github.com/poseidon-framework/community-archive">community-archive <span style="color: #666;">(community-archive)</span></a> <a href="../nonns_community-archive.html">[x]</a></span></li></ul></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov#wasGeneratedBy">was generated by <span style="color: #666;">(prov:wasGeneratedBy)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/ns/prov#wasGeneratedBy" property="http://www.w3.org/ns/prov#wasGeneratedBy" resource="http://archaeonatural.cloud/poseidon/Activity_de61dcf4-d836-5b6c-97c9-78121f092382" href="../Activity_de61dcf4-d836-5b6c-97c9-78121f092382/index.html">Activity_de61dcf4-d836-5b6c-97c9-78121f092382 <span style="color: #666;">(poseidon:Activity_de61dcf4-d836-5b6c-97c9-78121f092382)</span></a></span></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;">
+    	<b>published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> by the ArchaeoNatural Community (2026)</b>
+    	<br>
+    	<i>Service responsible: CAU Kiel</i>
+    	&nbsp;| <a href="https://www.uni-kiel.de/de/impressum">Impressum / Legal Notice</a>
+       	&nbsp;| <a href="https://www.uni-kiel.de/de/datenschutz">Datenschutz / Privacy Policy</a>
+    </center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

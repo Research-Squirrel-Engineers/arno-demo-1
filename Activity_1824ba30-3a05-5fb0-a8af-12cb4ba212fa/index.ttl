@@ -5,7 +5,7 @@
 <http://archaeonatural.cloud/poseidon/Activity_1824ba30-3a05-5fb0-a8af-12cb4ba212fa> a <http://www.w3.org/ns/ldp#Resource>,
         prov:Activity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     prov:endedAtTime "2025-08-22T08:12:40.974521+00:00"^^xsd:dateTime ;
     prov:startedAtTime "2025-08-22T08:12:40.936217+00:00"^^xsd:dateTime ;
     prov:used <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv> ;

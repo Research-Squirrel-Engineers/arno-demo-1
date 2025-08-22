@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset_doi.org_10.7554_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: Poseidon_DEMO_Dataset - 10.7554"@en ;
+    void:linkPredicate <http://archaeonatural.cloud/ont/hasDOI> ;
+    void:objectsTarget <https://doi.org/10.7554/> ;
+    void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
+    void:triples 1 .
+

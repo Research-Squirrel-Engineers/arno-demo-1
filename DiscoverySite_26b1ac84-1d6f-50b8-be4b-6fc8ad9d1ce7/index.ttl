@@ -17,7 +17,7 @@
         <http://orcid.org/0009-0005-1140-3352> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     geo:hasGeometry <http://archaeonatural.cloud/poseidon/Geom_5ffd8ac6-6734-5eda-97ed-8f18c67486b3> ;
     rdfs:comment "Entry created from the textual information in dataset https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_KellerNatureCommunications/2012_KellerNatureCommunications.janno version 2.1.1 within the Poseidon Community Archive"@en ;
     skos:prefLabel "Longitude: 10.83, Latitude: 46.77" ;

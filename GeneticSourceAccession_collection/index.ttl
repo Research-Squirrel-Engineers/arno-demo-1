@@ -6,7 +6,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "GeneticSourceAccession Instances Collection"@en ;
-    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_DEMO_Dataset> ;
     rdfs:member <http://archaeonatural.cloud/poseidon/GeneticSourceAccession_4f4587fe-d2f9-55f8-a358-b8e47f28d4c6>,
         <http://archaeonatural.cloud/poseidon/GeneticSourceAccession_54533710-4ac9-5020-9c05-48a5ed384378> .
 
