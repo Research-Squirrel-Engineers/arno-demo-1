@@ -9,8 +9,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://archaeonatural.cloud/ont/> .
-@prefix ns2: <http://ldf.fi/void-ext#> .
-@prefix ns3: <https://periodo.github.io/edtf-ontology/edtfo.ttl#> .
+@prefix ns2: <https://periodo.github.io/edtf-ontology/edtfo.ttl#> .
+@prefix ns3: <http://ldf.fi/void-ext#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9931,7 +9931,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: hasEDTFDateTimeDescription"@en ;
-    void:property ns3:hasEDTFDateTimeDescription ;
+    void:property ns2:hasEDTFDateTimeDescription ;
     void:triples 2 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasEnd> a void:Dataset,
@@ -76575,7 +76575,7 @@
         <https://github.com/poseidon-framework/community-archive>,
         <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2010_RasmussenNature/2010_RasmussenNature.janno> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_699aae7d-ad80-5955-8322-0b2cd06b652d> ;
-    ns3:hasEDTFDateTimeDescription "-2220.0/-1650.0" .
+    ns2:hasEDTFDateTimeDescription "-2220.0/-1650.0" .
 
 <http://archaeonatural.cloud/poseidon/TimePeriod_2fe851ad-b6dd-5875-8e90-789c22c3590e> a ns1:TimePeriod,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -76613,7 +76613,7 @@
         <https://github.com/poseidon-framework/community-archive>,
         <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_KellerNatureCommunications/2012_KellerNatureCommunications.janno> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_c47ee47c-698b-5c88-bc49-0e8238ebab1a> ;
-    ns3:hasEDTFDateTimeDescription "-3484.0/-3104.0" .
+    ns2:hasEDTFDateTimeDescription "-3484.0/-3104.0" .
 
 <http://archaeonatural.cloud/poseidon/Activity_4e02d00e-4cc9-5803-b96a-a54730b348cb> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -114020,19 +114020,19 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Poseidon_Demo-Dataset"@en ;
-    ns2:averageLiteralLength 0 ;
-    ns2:averageObjectIRILength 55 ;
-    ns2:averagePropertyIRILength 43 ;
-    ns2:averageSubjectIRILength 77 ;
-    ns2:datatypes 0 ;
-    ns2:distinctBlankNodes 343 ;
-    ns2:distinctIRIReferences 17502 ;
-    ns2:distinctLiterals 0 ;
-    ns2:distinctRDFNodes 17845 ;
-    ns2:languages 0 ;
-    ns2:propertyClasses 1 ;
+    ns3:averageLiteralLength 0 ;
+    ns3:averageObjectIRILength 55 ;
+    ns3:averagePropertyIRILength 43 ;
+    ns3:averageSubjectIRILength 77 ;
+    ns3:datatypes 0 ;
+    ns3:distinctBlankNodes 343 ;
+    ns3:distinctIRIReferences 17502 ;
+    ns3:distinctLiterals 0 ;
+    ns3:distinctRDFNodes 17845 ;
+    ns3:languages 0 ;
+    ns3:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-09-02T13:01:47"^^xsd:dateTime ;
+    dcterms:modified "2025-09-02T17:08:48"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -114238,7 +114238,7 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_writtenBy> ;
     void:triples 94937 ;
     void:uriSpace "http://archaeonatural.cloud/poseidon/"^^xsd:string ;
-    void:vocabulary ns2:,
+    void:vocabulary ns3:,
         dcam:,
         dcmitype:,
         dc:,
