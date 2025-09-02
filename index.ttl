@@ -10124,7 +10124,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 4785 .
+    void:triples 4804 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_license> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -10149,6 +10149,14 @@
     rdfs:label "Property Partition: measuredYHaplogroup"@en ;
     void:property ns1:measuredYHaplogroup ;
     void:triples 2 .
+
+<http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_member> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 9102 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_name> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -10276,7 +10284,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 125 .
+    void:triples 128 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_subPropertyOf> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -10300,7 +10308,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 9945 .
+    void:triples 9964 .
 
 <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_used> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -114012,19 +114020,19 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Poseidon_Demo-Dataset"@en ;
-    ns2:averageLiteralLength 34 ;
-    ns2:averageObjectIRILength 60 ;
+    ns2:averageLiteralLength 0 ;
+    ns2:averageObjectIRILength 55 ;
     ns2:averagePropertyIRILength 43 ;
     ns2:averageSubjectIRILength 77 ;
-    ns2:datatypes 5 ;
+    ns2:datatypes 0 ;
     ns2:distinctBlankNodes 343 ;
-    ns2:distinctIRIReferences 17261 ;
-    ns2:distinctLiterals 5199 ;
-    ns2:distinctRDFNodes 22803 ;
-    ns2:languages 1 ;
+    ns2:distinctIRIReferences 17502 ;
+    ns2:distinctLiterals 0 ;
+    ns2:distinctRDFNodes 17845 ;
+    ns2:languages 0 ;
     ns2:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-08-26T10:10:26"^^xsd:dateTime ;
+    dcterms:modified "2025-09-02T11:11:44"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -114144,12 +114152,12 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_externalIdentifierType> ;
     void:classes 121 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
-    void:distinctObjects 11835 ;
+    void:distinctObjects 12075 ;
     void:distinctSubjects 5348 ;
     void:entities 5049 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 78 ;
+    void:properties 79 ;
     void:propertyPartition <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_actedOnBehalfOf>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_altLabel>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_asWKT>,
@@ -114201,6 +114209,7 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_license>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_measuredSNPCoverage>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_measuredYHaplogroup>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_member>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_name>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_observedTimePeriod>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_ofSourceTissue>,
