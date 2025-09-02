@@ -38,15 +38,15 @@
         </ows:OperationsMetadata>
         <wfs:FeatureTypeList>
                 <wfs:FeatureType>
-                    <wfs:Name>DiscoverySite_collection</wfs:Name>
-                    <wfs:Title>DiscoverySite_collection</wfs:Title>
-                    <wfs:Abstract>FeatureCollection DiscoverySite_collection</wfs:Abstract>
-                    <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:DefaultSRS></wfs:FeatureType>
-
-                <wfs:FeatureType>
                     <wfs:Name>Point_collection</wfs:Name>
                     <wfs:Title>Point_collection</wfs:Title>
                     <wfs:Abstract>FeatureCollection Point_collection</wfs:Abstract>
+                    <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:DefaultSRS></wfs:FeatureType>
+
+                <wfs:FeatureType>
+                    <wfs:Name>DiscoverySite_collection</wfs:Name>
+                    <wfs:Title>DiscoverySite_collection</wfs:Title>
+                    <wfs:Abstract>FeatureCollection DiscoverySite_collection</wfs:Abstract>
                     <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/4326</wfs:DefaultSRS></wfs:FeatureType>
 
                 <wfs:FeatureType>
@@ -86,9 +86,9 @@
                     <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/EPSG:4326</wfs:DefaultSRS></wfs:FeatureType>
 
                 <wfs:FeatureType>
-                    <wfs:Name>nonns_2012_PattersonGenetics.janno</wfs:Name>
-                    <wfs:Title>nonns_2012_PattersonGenetics.janno</wfs:Title>
-                    <wfs:Abstract>FeatureCollection nonns_2012_PattersonGenetics.janno</wfs:Abstract>
+                    <wfs:Name>nonns_2012_MeyerScience.janno</wfs:Name>
+                    <wfs:Title>nonns_2012_MeyerScience.janno</wfs:Title>
+                    <wfs:Abstract>FeatureCollection nonns_2012_MeyerScience.janno</wfs:Abstract>
                     <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/EPSG:4326</wfs:DefaultSRS></wfs:FeatureType>
 
                 <wfs:FeatureType>
@@ -98,9 +98,9 @@
                     <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/EPSG:4326</wfs:DefaultSRS></wfs:FeatureType>
 
                 <wfs:FeatureType>
-                    <wfs:Name>nonns_2012_MeyerScience.janno</wfs:Name>
-                    <wfs:Title>nonns_2012_MeyerScience.janno</wfs:Title>
-                    <wfs:Abstract>FeatureCollection nonns_2012_MeyerScience.janno</wfs:Abstract>
+                    <wfs:Name>nonns_2012_PattersonGenetics.janno</wfs:Name>
+                    <wfs:Title>nonns_2012_PattersonGenetics.janno</wfs:Title>
+                    <wfs:Abstract>FeatureCollection nonns_2012_PattersonGenetics.janno</wfs:Abstract>
                     <wfs:DefaultSRS>http://www.opengis.net/def/crs/EPSG/0/EPSG:4326</wfs:DefaultSRS></wfs:FeatureType>
 
                 <wfs:FeatureType>
