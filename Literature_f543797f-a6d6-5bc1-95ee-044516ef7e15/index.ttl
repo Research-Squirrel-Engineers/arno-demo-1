@@ -6,12 +6,13 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_f543797f-a6d6-5bc1-95ee-044516ef7e15> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "A minimally destructive protocol for DNA extraction from ancient teeth"@en,
         "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
-    ns1:hasDOI <https://doi.org/10.1101/gr.267534.120> ;
+    ns1:hasDOI <http://doi.org/10.1101/gr.267534.120> ;
     ns1:hasTitle "A minimally destructive protocol for DNA extraction from ancient teeth"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_21bbf5bd-b371-5eb1-96be-ef9925eea1be> ;
     ns1:publishedInYear [ ] ;
@@ -58,14 +59,14 @@
         <http://archaeonatural.cloud/poseidon/Person_fdfe59df-b92c-50e7-9a8f-47dc267e23e4> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "A minimally destructive protocol for DNA extraction from ancient teeth"@en,
         "Unknown Literature used for transitive information flow or to represent attribute information"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_f543797f-a6d6-5bc1-95ee-044516ef7e15> .
 

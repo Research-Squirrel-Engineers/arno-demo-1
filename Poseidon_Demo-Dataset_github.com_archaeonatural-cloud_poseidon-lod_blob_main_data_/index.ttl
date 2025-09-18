@@ -9,7 +9,7 @@
     rdfs:label "Linkset: Poseidon_Demo-Dataset - data"@en ;
     void:linkPredicate prov:used,
         prov:wasDerivedFrom ;
-    void:objectsTarget <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/> ;
+    void:objectsTarget <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     void:triples 265,
         4513 .

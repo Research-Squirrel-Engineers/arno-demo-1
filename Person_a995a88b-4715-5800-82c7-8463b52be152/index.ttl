@@ -8,18 +8,19 @@
 <http://archaeonatural.cloud/poseidon/Person_a995a88b-4715-5800-82c7-8463b52be152> a <http://archaeonatural.cloud/ont/Person>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
+        foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Jinam, Timothy A" ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Jinam, Timothy A" ;
     prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_1ebfd468-8f81-5fb3-968e-3fe3b5ce3d25> ;
     foaf:name "Jinam, Timothy A" .
 

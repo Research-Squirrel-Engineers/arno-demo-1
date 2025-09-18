@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -7,6 +8,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "TimePeriod Instances Collection"@en ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
-    rdfs:member <http://archaeonatural.cloud/poseidon/TimePeriod_0d4579af-2914-5ac7-8b5f-f354a7ff387f>,
+    ns1:hasMember <http://archaeonatural.cloud/poseidon/TimePeriod_0d4579af-2914-5ac7-8b5f-f354a7ff387f>,
         <http://archaeonatural.cloud/poseidon/TimePeriod_2fe851ad-b6dd-5875-8e90-789c22c3590e> .
 

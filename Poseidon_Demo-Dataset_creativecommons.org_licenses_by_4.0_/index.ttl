@@ -8,7 +8,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Linkset: Poseidon_Demo-Dataset - 4.0"@en ;
     void:linkPredicate dcterms:license ;
-    void:objectsTarget <https://creativecommons.org/licenses/by/4.0/> ;
+    void:objectsTarget <http://creativecommons.org/licenses/by/4.0/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     void:triples 4513 .
 

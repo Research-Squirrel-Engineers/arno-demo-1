@@ -1,0 +1,10 @@
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a time:Instant,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
+    time:inXSDgYear "2018"^^xsd:gYear .
+

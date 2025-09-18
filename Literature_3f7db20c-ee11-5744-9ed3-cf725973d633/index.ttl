@@ -6,11 +6,12 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_3f7db20c-ee11-5744-9ed3-cf725973d633> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Evidence for dynastic succession among early Celtic elites in Central Europe"@en ;
-    ns1:hasDOI <https://doi.org/10.1038/s41562-024-01888-7> ;
+    ns1:hasDOI <http://doi.org/10.1038/s41562-024-01888-7> ;
     ns1:hasTitle "Evidence for dynastic succession among early Celtic elites in Central Europe"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_62f954b7-d18f-57c8-8caa-4e5900bd42b9> ;
     ns1:publishedInYear [ ] ;
@@ -39,13 +40,13 @@
         <http://archaeonatural.cloud/poseidon/Person_fe0019d2-41c3-5ae7-9fe0-01f2f1c88a9a> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Evidence for dynastic succession among early Celtic elites in Central Europe"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_3f7db20c-ee11-5744-9ed3-cf725973d633> .
 

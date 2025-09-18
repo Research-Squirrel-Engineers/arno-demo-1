@@ -6,11 +6,12 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_d4328680-49c1-5604-ac78-b7b451a7ff24> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Reconstructing Prehistoric African Population Structure"@en ;
-    ns1:hasDOI <https://doi.org/10.1016/j.cell.2017.08.049> ;
+    ns1:hasDOI <http://doi.org/10.1016/j.cell.2017.08.049> ;
     ns1:hasTitle "Reconstructing Prehistoric African Population Structure"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_5d88daac-3d5a-5832-a354-bfbb530a2d81> ;
     ns1:publishedInYear [ ] ;
@@ -60,13 +61,13 @@
         <http://archaeonatural.cloud/poseidon/Person_fc44b7d9-f152-57a0-90e6-108f19b1bf44> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Reconstructing Prehistoric African Population Structure"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_d4328680-49c1-5604-ac78-b7b451a7ff24> .
 

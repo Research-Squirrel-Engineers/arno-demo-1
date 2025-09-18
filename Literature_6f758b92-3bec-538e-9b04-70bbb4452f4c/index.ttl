@@ -6,11 +6,12 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_6f758b92-3bec-538e-9b04-70bbb4452f4c> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
-    ns1:hasDOI <https://doi.org/10.1038/s41598-021-94932-9> ;
+    ns1:hasDOI <http://doi.org/10.1038/s41598-021-94932-9> ;
     ns1:hasTitle "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_a7f4815e-15b2-52d4-b9bb-047f1283c76d> ;
     ns1:publishedInYear [ ] ;
@@ -23,13 +24,13 @@
         <http://archaeonatural.cloud/poseidon/Person_f7d52b7e-2c67-526d-9551-d72ece1a7be7> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Reconstructing genetic histories and social organisation in Neolithic and Bronze Age Croatia"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_6f758b92-3bec-538e-9b04-70bbb4452f4c> .
 

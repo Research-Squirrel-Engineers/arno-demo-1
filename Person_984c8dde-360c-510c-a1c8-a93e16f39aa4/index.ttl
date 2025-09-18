@@ -9,19 +9,20 @@
 <http://archaeonatural.cloud/poseidon/Person_984c8dde-360c-510c-a1c8-a93e16f39aa4> a ns1:Person,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
+        foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Sureda, Pau" ;
     ns1:hasORCID <http://orcid.org/0000-0003-4366-6489> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Sureda, Pau" ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_7ee51eb6-41f9-51f3-9edb-1dede60514fb> ;
     foaf:name "Sureda, Pau" .
 

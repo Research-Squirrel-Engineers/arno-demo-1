@@ -9,19 +9,20 @@
 <http://archaeonatural.cloud/poseidon/Person_1964594a-629a-5790-8e47-48709c4e42be> a ns1:Person,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
+        foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Desbrosse-Degobertiere, Stéphanie" ;
     ns1:hasORCID <http://orcid.org/0000-0001-9185-5204> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Desbrosse-Degobertiere, Stéphanie" ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_fcc19efa-7690-5277-b47c-1e35af8c7a69> ;
     foaf:name "Desbrosse-Degobertiere, Stéphanie" .
 

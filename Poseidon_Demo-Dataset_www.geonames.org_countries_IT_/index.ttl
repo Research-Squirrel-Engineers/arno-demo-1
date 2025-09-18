@@ -8,7 +8,7 @@
     rdfs:label "Linkset: Poseidon_Demo-Dataset - IT"@en ;
     void:linkPredicate <http://archaeonatural.cloud/ont/closeMatch>,
         <http://archaeonatural.cloud/ont/hasExternalIdentifier> ;
-    void:objectsTarget <https://www.geonames.org/countries/IT/> ;
+    void:objectsTarget <http://www.geonames.org/countries/IT/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     void:triples 1 .
 

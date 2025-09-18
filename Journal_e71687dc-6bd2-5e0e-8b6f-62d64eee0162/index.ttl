@@ -5,19 +5,20 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Journal_e71687dc-6bd2-5e0e-8b6f-62d64eee0162> a <http://archaeonatural.cloud/ont/Journal>,
+        <http://purl.org/ontology/bibo/Journal>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "European Journal of Human Genetics"@en ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "European Journal of Human Genetics"@en ;
     prov:wasAttributedTo <http://archaeonatural.cloud/ont/SoftwareSourceCode_Poseidon_LOD> ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_9e2b03f8-acb3-5a65-8a79-4cf6272bc67f> .
 

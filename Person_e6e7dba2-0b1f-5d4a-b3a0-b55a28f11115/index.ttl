@@ -9,19 +9,20 @@
 <http://archaeonatural.cloud/poseidon/Person_e6e7dba2-0b1f-5d4a-b3a0-b55a28f11115> a ns1:Person,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
+        foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Fraser, Magdalena" ;
     ns1:hasORCID <http://orcid.org/0000-0003-4714-088X> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Fraser, Magdalena" ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_285dc3f2-ea2e-5c7d-bf60-832ac2cfb685>,
         <http://archaeonatural.cloud/poseidon/Activity_99c3d80a-14ab-5e7b-b983-60b948f4782c>,
         <http://archaeonatural.cloud/poseidon/Activity_9b48afe9-3b46-5933-9879-50ffc45c2196> ;

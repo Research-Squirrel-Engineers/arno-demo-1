@@ -6,11 +6,12 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_e6c78a78-44ce-5d42-8183-f49e1acacdcb> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Genome sequence of a 45,000-year-old modern human from western Siberia"@en ;
-    ns1:hasDOI <https://doi.org/10.1038/nature13810> ;
+    ns1:hasDOI <http://doi.org/10.1038/nature13810> ;
     ns1:hasTitle "Genome sequence of a 45,000-year-old modern human from western Siberia"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_68989e5e-d4cd-5525-8f6a-3f35e0d99df3> ;
     ns1:publishedInYear [ ] ;
@@ -44,13 +45,13 @@
         <http://archaeonatural.cloud/poseidon/Person_f0b344ca-fee9-5927-b18a-b87675fb3d47> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Genome sequence of a 45,000-year-old modern human from western Siberia"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_e6c78a78-44ce-5d42-8183-f49e1acacdcb> .
 

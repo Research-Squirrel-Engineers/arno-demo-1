@@ -9,19 +9,20 @@
 <http://archaeonatural.cloud/poseidon/Person_f4191565-ce29-50d2-b1da-dd0087b5fd54> a ns1:Person,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
+        foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Johannsen, Niels N." ;
     ns1:hasORCID <http://orcid.org/0000-0003-3550-2548> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "Johannsen, Niels N." ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_c27ab8e6-c9ae-51f2-953a-d9d4471f57e0>,
         <http://archaeonatural.cloud/poseidon/Activity_f32c408e-5f1d-533f-86df-cac142e18141> ;
     foaf:name "Johannsen, Niels N." .

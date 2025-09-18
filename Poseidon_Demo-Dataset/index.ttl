@@ -40,13 +40,13 @@
     ns1:averageSubjectIRILength 77 ;
     ns1:datatypes 0 ;
     ns1:distinctBlankNodes 343 ;
-    ns1:distinctIRIReferences 17502 ;
+    ns1:distinctIRIReferences 17314 ;
     ns1:distinctLiterals 0 ;
-    ns1:distinctRDFNodes 17845 ;
+    ns1:distinctRDFNodes 17657 ;
     ns1:languages 0 ;
     ns1:propertyClasses 1 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-09-02T17:45:07"^^xsd:dateTime ;
+    dcterms:modified "2025-09-18T12:38:15"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -164,14 +164,14 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_aDNASample>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_aDNASampleRelation>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_externalIdentifierType> ;
-    void:classes 121 ;
+    void:classes 122 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/arno-demo-1//index.ttl> ;
-    void:distinctObjects 12075 ;
-    void:distinctSubjects 5348 ;
-    void:entities 5049 ;
+    void:distinctObjects 11885 ;
+    void:distinctSubjects 5349 ;
+    void:entities 5050 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 79 ;
+    void:properties 80 ;
     void:propertyPartition <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_actedOnBehalfOf>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_altLabel>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_asWKT>,
@@ -205,6 +205,7 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasID>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasLabNumber>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasMedian>,
+        <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasMember>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasNote>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasORCID>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_hasRepresentativePoint>,
@@ -250,7 +251,7 @@
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasDerivedFrom>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_wasGeneratedBy>,
         <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset_writtenBy> ;
-    void:triples 94937 ;
+    void:triples 103461 ;
     void:uriSpace "http://archaeonatural.cloud/poseidon/"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,

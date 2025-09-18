@@ -9,7 +9,7 @@
     rdfs:label "Linkset: Poseidon_Demo-Dataset - 2012_PattersonGenetics"@en ;
     void:linkPredicate prov:used,
         prov:wasDerivedFrom ;
-    void:objectsTarget <https://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/> ;
+    void:objectsTarget <http://raw.githubusercontent.com/poseidon-framework/community-archive/master/2012_PattersonGenetics/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     void:triples 42,
         175 .

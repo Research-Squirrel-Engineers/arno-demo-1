@@ -10,7 +10,7 @@
     rdfs:label "Linkset: Poseidon_Demo-Dataset - poseidon-framework"@en ;
     void:linkPredicate dcterms:rightsHolder,
         prov:wasDerivedFrom ;
-    void:objectsTarget <https://github.com/poseidon-framework/> ;
+    void:objectsTarget <http://github.com/poseidon-framework/> ;
     void:subjectsTarget <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     void:triples 4513 .
 

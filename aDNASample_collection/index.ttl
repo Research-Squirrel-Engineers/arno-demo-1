@@ -1,3 +1,4 @@
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -7,7 +8,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "aDNASample Instances Collection"@en ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
-    rdfs:member <http://archaeonatural.cloud/poseidon/aDNASample_0126f036-5410-51e0-bb7a-bef93bc83078>,
+    ns1:hasMember <http://archaeonatural.cloud/poseidon/aDNASample_0126f036-5410-51e0-bb7a-bef93bc83078>,
         <http://archaeonatural.cloud/poseidon/aDNASample_020ae071-9cb5-5396-9972-9059db764506>,
         <http://archaeonatural.cloud/poseidon/aDNASample_0ee422ef-3f6a-5253-9b84-192aacbd9256>,
         <http://archaeonatural.cloud/poseidon/aDNASample_1263f23c-0540-5ffa-92de-142184d49f50>,

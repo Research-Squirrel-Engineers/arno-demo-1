@@ -6,11 +6,12 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://archaeonatural.cloud/poseidon/Literature_d9b6bab8-e364-5394-813e-5cb8a867488b> a ns1:Literature,
+        <http://purl.org/ontology/bibo/Document>,
         <http://www.w3.org/ns/ldp#Resource>,
         prov:Entity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "The genomic portrait of the Picene culture provides new insights into the Italic Iron Age and the legacy of the Roman Empire in Central Italy"@en ;
-    ns1:hasDOI <https://doi.org/10.1186/s13059-024-03430-4> ;
+    ns1:hasDOI <http://doi.org/10.1186/s13059-024-03430-4> ;
     ns1:hasTitle "The genomic portrait of the Picene culture provides new insights into the Italic Iron Age and the legacy of the Roman Empire in Central Italy"@en ;
     ns1:inJournal <http://archaeonatural.cloud/poseidon/Journal_b5539677-422e-5340-a4c7-38e236f34c88> ;
     ns1:publishedInYear [ ] ;
@@ -38,13 +39,13 @@
         <http://archaeonatural.cloud/poseidon/Person_f5664b49-0c83-5cf0-9235-82f753948fae> ;
     dcterms:creator <http://orcid.org/0000-0002-3246-3531>,
         <http://orcid.org/0009-0005-1140-3352> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rightsHolder <https://github.com/poseidon-framework/community-archive> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rightsHolder <http://github.com/poseidon-framework/community-archive> ;
     void:inDataset <http://archaeonatural.cloud/poseidon/Poseidon_Demo-Dataset> ;
     rdfs:comment "Entry created from the information obtained using the CrossRef API"@en ;
     skos:prefLabel "The genomic portrait of the Picene culture provides new insights into the Italic Iron Age and the legacy of the Roman Empire in Central Italy"@en ;
     prov:wasAttributedTo ns1:SoftwareSourceCode_Poseidon_LOD ;
-    prov:wasDerivedFrom <https://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
-        <https://github.com/poseidon-framework/community-archive> ;
+    prov:wasDerivedFrom <http://github.com/archaeonatural-cloud/poseidon-lod/blob/main/data/PoseidonBib.csv>,
+        <http://github.com/poseidon-framework/community-archive> ;
     prov:wasGeneratedBy <http://archaeonatural.cloud/poseidon/Activity_d9b6bab8-e364-5394-813e-5cb8a867488b> .
 
